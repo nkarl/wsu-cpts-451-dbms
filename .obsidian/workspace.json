@@ -80,31 +80,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ed056e6abae18a6",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "be0dfd8e4deb854a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "TO-DO.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "abe571e75d2c4635",
             "type": "leaf",
             "state": {
@@ -136,13 +111,29 @@
                 "file": "TO-DO.md"
               }
             }
+          },
+          {
+            "id": "fe45fcdc36d9f13f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0751d0829efbe1fe",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e9a46bfbfb2d908",
+  "active": "1936b24819d10f6b",
   "lastOpenFiles": [
     "TO-DO.md"
   ]

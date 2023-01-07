@@ -9,7 +9,7 @@
 - [ ] ER Concepts: [[Week-1-CptS451_2_ERModel.pdf]]
 - [ ] DBMS Chap. 1-2
 
-   
+
 ## Week 2
 ---
 > [!info]
@@ -54,11 +54,11 @@
 - [ ] Textbook (Database Management Systems) -- Chapters 4.1, 4.2
 
 **Watch**:
--  [ ] Relational Algebra
+- [ ] Relational Algebra
 
 **Lesson Slides:**
--   [Week-4 - Relational Algebra](https://wsu.instructure.com/courses/1623110/files/95846176/preview "Week 4 - Relational Algebra")[  
-    ](https://wsu.instructure.com/courses/1623110/files/95846203/preview "Relational Model")
+- [Week-4 - Relational Algebra](https://wsu.instructure.com/courses/1623110/files/95846176/preview "Week 4 - Relational Algebra")
+- [Relational Model Preview](https://wsu.instructure.com/courses/1623110/files/95846203/preview "Relational Model")
 
 **Assignments:**
 - [ ]   Homework 3-- Relational Algebra

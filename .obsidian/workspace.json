@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9e9a46bfbfb2d908",
+            "id": "bcd5749c74d46d98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO-DO.md",
+                "file": "Course Schedule.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "Course Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "Course Schedule.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "Course Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -164,8 +164,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1936b24819d10f6b",
+  "active": "bcd5749c74d46d98",
   "lastOpenFiles": [
-    "TO-DO.md"
+    "TO-DO.md",
+    "Course Schedule.md"
   ]
 }

@@ -4,8 +4,8 @@
 > Learn about the conceptual database design and the database design issues involving the Entity Relationship (ER) Model.  Realize why the ER model is used to create an initial design.
 
 **Reading & Watching**
-- [ ] Syllabus: [[week-1-CptS451_0_CourseDetails.pdf]]
-- [ ] Overview: [[week-1-CptS451_1_IntroductiontoDB.pdf]]
+- [x] Syllabus: [[week-1-CptS451_0_CourseDetails.pdf]]
+- [x] Overview: [[week-1-CptS451_1_IntroductiontoDB.pdf]]
 - [ ] ER Concepts: [[week-1-CptS451_2_ERModel.pdf]]
 - [ ] DBMS Chap. 1-2
 

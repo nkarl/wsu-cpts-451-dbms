@@ -10,24 +10,48 @@
           {
             "id": "50dfc3dddb8a294d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Course Schedule.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
             "id": "6c0b71b259760fcb",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "TO-DO.md",
                 "mode": "source",
                 "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "e534b4f1defcd020",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "week-1/week-1-CptS451_2_ERModel.pdf"
+              }
+            }
+          },
+          {
+            "id": "63b8005a8f106f55",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf"
               }
             }
           }
@@ -83,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 224.5
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -180,9 +204,13 @@
   },
   "active": "6c0b71b259760fcb",
   "lastOpenFiles": [
-    "Course Schedule.md",
+    "week-1/week-1-CptS451_2_ERModel.pdf",
     "TO-DO.md",
-    "Untitled mindmap.md",
-    "week-1/week-1-CptS451_2_ERModel.pdf"
+    "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",
+    "week-1/week-1-CptS451_0_CourseDetails.pdf",
+    "Course Schedule.md",
+    "books/Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom - Database Systems. The Complete Book 2nd ed. (2014, Pearson) - libgen.li.pdf",
+    "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf",
+    "Untitled mindmap.md"
   ]
 }

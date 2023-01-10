@@ -12,7 +12,7 @@
 **Watch:**
 -   Introduction
 -   Overview of Database Systems
--   ER Conceptual Data Model 
+-   ER Conceptual Data Model
 
 **Review Concepts: ER Models**
 - [ ] Entity & Entity Set

@@ -3,11 +3,51 @@
 > [!info]
 > Learn about the conceptual database design and the database design issues involving the Entity Relationship (ER) Model.  Realize why the ER model is used to create an initial design.
 
-**Reading & Watching**
+**Reading & Watching:**
 - [x] Syllabus: [[week-1-CptS451_0_CourseDetails.pdf]]
 - [x] Overview: [[week-1-CptS451_1_IntroductiontoDB.pdf]]
-- [ ] ER Concepts: [[week-1-CptS451_2_ERModel.pdf]]
-- [ ] DBMS Chap. 1-2
+- [x] ER Concepts: [[week-1-CptS451_2_ERModel.pdf]]
+- [x] DBMS Chap. 1-2
+
+**Review Concepts: ER Models**
+- [ ] Entity & Entity Set
+	- [ ] attributes
+- [ ] Relationship & Relationship Set
+	- [ ] binary, ternary, n-ary
+	- [ ] roles
+- [ ] Constraints
+	- [ ] *Key* constraints (multiplicity)
+		- [ ] **one**-to-many
+		- [ ] many-to-**one**
+		- [ ] many-to-many
+	- [ ] *Participation* constraints
+		- [x] Partial: B to A
+		- [ ] Total: A to B
+		 ```mermaid
+		 graph LR
+			subgraph A
+				a1
+				a2
+				a3
+				a4
+				a5
+			end
+			subgraph B
+				b1
+				b2
+				b3
+				b4
+				b5
+			end
+			a1 --> b1
+			a2 --> b1
+			a3 --> b2
+			a4 --> b3
+			a5 --> b3
+		```
+- [ ] Weak Entity Sets
+	- [ ] Owner
+	- [ ] Partial key
 
 
 ## Week 2
@@ -15,11 +55,11 @@
 > [!info]
 > Learn the principles behind relational data organization: tables, keys, and integrity constraints. Learn about how data is represented in relational model and how integrity constraints can be expressed and enforced in the relational model to ensure data consistency and accuracy.
 
-**Readings**
+**Readings:**
 - [ ] DBMS Chap. 3
 - [ ] SLIDES: [[Week-2-CptS451_3_RelationalModel.pdf]]
 
-**Watch**
+**Watch:**
 - [ ] ER Model - Examples
 - [ ] Relational Model: Intro
 - [ ] Relational Model: Integrity Constraints over Relations
@@ -33,10 +73,10 @@
 > [!info]
 > Learn about how we convert an ER diagram into a relational schema. Start learning how to create and modify relational database schemas and how to enforce integrity constraints on those using SQL.
 
-**Readings**
+**Readings:**
 - [ ] DBMS Chap. 3
  
-**Watch**
+**Watch:**
 - [ ]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]
 - [ ]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
 - [ ] Project Overview

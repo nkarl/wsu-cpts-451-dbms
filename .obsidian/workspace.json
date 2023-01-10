@@ -22,17 +22,15 @@
             }
           },
           {
-            "id": "6c0b71b259760fcb",
+            "id": "539804bac7ee7f30",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "TO-DO.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -42,16 +40,6 @@
               "type": "pdf",
               "state": {
                 "file": "week-1/week-1-CptS451_2_ERModel.pdf"
-              }
-            }
-          },
-          {
-            "id": "63b8005a8f106f55",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf"
               }
             }
           }
@@ -184,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -202,13 +190,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c0b71b259760fcb",
+  "active": "539804bac7ee7f30",
   "lastOpenFiles": [
-    "week-1/week-1-CptS451_2_ERModel.pdf",
+    "Course Schedule.md",
     "TO-DO.md",
+    "week-1/week-1-CptS451_2_ERModel.pdf",
     "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",
     "week-1/week-1-CptS451_0_CourseDetails.pdf",
-    "Course Schedule.md",
     "books/Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom - Database Systems. The Complete Book 2nd ed. (2014, Pearson) - libgen.li.pdf",
     "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf",
     "Untitled mindmap.md"

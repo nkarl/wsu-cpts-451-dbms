@@ -74,6 +74,7 @@ Thus we need to follow a *database design process*. (Slide 4/53)
 ---
 The basic ER model cannot express subtle differences and in turn causes a loss of information.
 
+#### The Problem
 For example, we have have the following *entity sets* and *relationship*:
 - $E^1$: **Projects**
 - $E^2$: **Departments**
@@ -97,6 +98,7 @@ sponsors --- monitors{Monitors ?}
 
 Now, *a sponsoring department **might** assign an employee to monitor the sponsorship*, intuitively implying a new relationship set Monitors that associates an entity in Sponsors with an entity in Employees.
 
+#### Approach #1
 However, we have previously defined that *relationships associate two or more entities*. With the basic ER model, we can only add another entity set Employees.
 
 ```mermaid
@@ -107,11 +109,23 @@ sponsors --- Employees
 
 This is incorrect. It does not capture the correct information about the relationship. This reads as *each sponsorship **must** have one monitoring employee*, which is not what we are looking for.
 
+#### Approach #2
+Since that doesn't work, another approach is to fix Projects and Departments with another ternary relationship.
+
+```mermaid
+graph LR
+Projects --- sponsors{Sponsors} --- Departments
+Projects --- monitors{Monitors} --- Departments
+monitors --- Employees
+```
+
+Unfortunately, this produces a redundancy, i.e. a new table with duplicated information for projects and departments.
+
+#### Aggregation extends ER Model
 Then, how do we correctly differentiate between **might** and **must**?
 
 From this, we have seen that we have run into the limits of the basic ER model. We have no choice but to extend it in order to reflect the correct information.
 
-#### Aggregation extends ER Model
 We use **aggregation** to indicate *the participation (total or partial)* of some relationship set in another relationship set.
 
 ```mermaid
@@ -119,3 +133,18 @@ graph LR
 Projects --- sponsors{Sponsors} --- Departments
 sponsors --- monitors{Monitors} --- Employees
 ```
+
+
+## Pitfalls
+---
+### 1. Entity vs. Attribute (Slides 46-47)
+Should "dependent" be an attribute of Employees or an entity (connected to Employees by a relationship)?
+
+- If we have several dependents per employee, "dependent" must be an entity (*since attributes cannot be set-valued*).
+- If "dependent" has its own attributes, it must be modeled as an entity (*since attribute values are atomic*).
+
+### 2.  Subclass Relationship (Slides 48-50)
+
+### 2. Entity vs. Relationship
+
+### 3. Binary vs. Ternary

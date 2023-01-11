@@ -46,7 +46,7 @@
             }
           },
           {
-            "id": "e534b4f1defcd020",
+            "id": "770dbb2152d56148",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -203,10 +203,10 @@
   },
   "active": "bce23474b66c7270",
   "lastOpenFiles": [
-    "TO-DO.md",
-    "week-1/ER Models for Relational DB.md",
-    "Course Schedule.md",
     "week-1/week-1-CptS451_2_ERModel.pdf",
+    "week-1/ER Models for Relational DB.md",
+    "TO-DO.md",
+    "Course Schedule.md",
     "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",
     "week-1/week-1-CptS451_0_CourseDetails.pdf",
     "books/Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom - Database Systems. The Complete Book 2nd ed. (2014, Pearson) - libgen.li.pdf",

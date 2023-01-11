@@ -87,13 +87,13 @@ $$
 $$
 ```mermaid
 graph LR
-Projects --- sponsors{Sponsors} --- Departments
+Projects --- sponsored{Sponsored} --- Departments
 ```
 
 ```mermaid
 graph LR
-Projects --- sponsors{Sponsors} --- Departments
-sponsors --- monitors{Monitors ?}
+Projects --- sponsored{Sponsored} --- Departments
+sponsored --- monitored{Monitored ?}
 ```
 
 Now, *a sponsoring department **might** assign an employee to monitor the sponsorship*, intuitively implying a new relationship set Monitors that associates an entity in Sponsors with an entity in Employees.
@@ -103,8 +103,8 @@ However, we have previously defined that *relationships associate two or more en
 
 ```mermaid
 graph LR
-Projects --- sponsors{Sponsors Monitors} --- Departments
-sponsors --- Employees
+Projects --- sponsored{Sponsored Monitored} --- Departments
+sponsored --- Employees
 ```
 
 This is incorrect. It does not capture the correct information about the relationship. This reads as *each sponsorship **must** have one monitoring employee*, which is not what we are looking for.
@@ -119,12 +119,12 @@ Projects --- monitors{Monitors} --- Departments
 monitors --- Employees
 ```
 
-Unfortunately, this produces a redundancy, i.e. a new table with duplicated information for projects and departments.
+Unfortunately, this produces a redundancy, i.e. a duplicate information for projects and departments just to identify those employees assigned for this monitoring task.
 
 #### Aggregation extends ER Model
 Then, how do we correctly differentiate between **might** and **must**?
 
-From this, we have seen that we have run into the limits of the basic ER model. We have no choice but to extend it in order to reflect the correct information.
+We see that we have run into the limits of the basic ER model. We have no choice but to extend it in order to reflect the correct information.
 
 We use **aggregation** to indicate *the participation (total or partial)* of some relationship set in another relationship set.
 

@@ -10,24 +10,26 @@
 - [x] DBMS Chap. 1-2
 
 **Watch:**
--   Introduction
--   Overview of Database Systems
--   ER Conceptual Data Model
+- [x]  Introduction
+- [x]  Overview of Database Systems
+- [ ]  ER Conceptual Data Model
+	- [x] Part #1: Fundamentals of ER Models
+	- [ ]  Part #2: Extending ER Models
 
 **Review Concepts: ER Models**
-- [ ] Entity & Entity Set
-	- [ ] attributes
-- [ ] Relationship & Relationship Set
-	- [ ] binary, ternary, n-ary
-	- [ ] roles
-- [ ] Constraints
-	- [ ] *Key* constraints (multiplicity)
-		- [ ] **one**-to-many
-		- [ ] many-to-**one**
-		- [ ] many-to-many
-	- [ ] *Participation* constraints
+- [x] Entity & Entity Set
+	- [x] attributes
+- [x] Relationship & Relationship Set
+	- [x] binary, ternary, n-ary
+	- [x] roles
+- [x] Constraints
+	- [x] *Key* constraints (multiplicity)
+		- [x] **one**-to-many
+		- [x] many-to-**one**
+		- [x] many-to-many
+	- [x] *Participation* constraints
 		- [x] Partial: B to A
-		- [ ] Total: A to B
+		- [x] Total: A to B
 		 ```mermaid
 		 graph LR
 			subgraph A
@@ -50,9 +52,9 @@
 			a4 --> b3
 			a5 --> b3
 		```
-- [ ] Weak Entity Sets
-	- [ ] Owner
-	- [ ] Partial key
+- [x] Weak Entity Sets
+	- [x] Owner
+	- [x] Partial key
 
 
 ## Week 2

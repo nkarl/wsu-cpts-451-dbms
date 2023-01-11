@@ -66,5 +66,5 @@ Thus we need to follow a *database design process*. (Slide 4/53)
 		CityName can be duplicate
 		key for CityName = StateName + CityName
 	```
-
  
+- a weak entity can be owner of another weak entity

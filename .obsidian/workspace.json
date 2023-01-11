@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-1/ER Models for Relational DB.md",
+                "file": "TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-1/ER Models for Relational DB.md"
+                "file": "TO-DO.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-1/ER Models for Relational DB.md",
+                "file": "TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,10 +201,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bce23474b66c7270",
+  "active": "539804bac7ee7f30",
   "lastOpenFiles": [
-    "Course Schedule.md",
     "week-1/ER Models for Relational DB.md",
+    "Course Schedule.md",
     "week-1/week-1-CptS451_2_ERModel.pdf",
     "TO-DO.md",
     "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",

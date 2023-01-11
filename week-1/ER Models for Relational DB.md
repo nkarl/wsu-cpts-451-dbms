@@ -34,8 +34,37 @@ Thus we need to follow a *database design process*. (Slide 4/53)
 #### 1. Key
 - one to one
 - one to many
+	- ***relationship attributes*** **can be moved to the many side**.
+	```mermaid
+	graph TB
+		employee --- m{manages} --- since
+		departments --> m
+    ```
+	```mermaid
+	graph TD
+		employee --- m{manages}
+		since --- departments --> m
+    ```
 - many to many
 
 #### 2. Participation
 - partial
 - total
+
+### Weak Entity Sets
+- entity sets that *do not have enough attributes to form a key* are called **weak entity sets**.
+- complete dependent on the primary key of another **owner** entity for unique identification.
+- owner set and weak entity set's *relationship set* must be:
+	- *one-to-many* (single owner, many weak entities)
+	- weak entities have *total participation*
+- **partial key**
+	- may be used to distinguish between weak entities related to the same owner
+	```
+	key of weak entities = key of owner set + partial key
+	Example:
+		StateName is unique
+		CityName can be duplicate
+		key for CityName = StateName + CityName
+	```
+
+ 

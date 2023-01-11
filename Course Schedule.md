@@ -2,7 +2,7 @@
 | ------------------ | ------------------------------------------------------ | ---------------------------------- | ------------------- |
 | 1                  | Intro                                                  |                                    |                     |
 |                    | Overview of Database Systems                           |                                    |                     |
-|                    | ER Conceptual Data Model                               |                                    |                     |
+|                    | [[ER Models | ER Conceptual Data Model]]                               |                                    |                     |
 | 2                  | ER Models - Examples                                   |                                    | 01/26               |
 |                    | Relational Model: Intro                                |                                    |                     |
 |                    | Relational Model: Integrity Constraints over Relations | HW1 - ER Models                    |                     |

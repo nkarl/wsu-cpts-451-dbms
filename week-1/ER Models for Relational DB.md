@@ -68,3 +68,54 @@ Thus we need to follow a *database design process*. (Slide 4/53)
 	```
  
 - a weak entity can be owner of another weak entity
+
+
+## Limitations
+---
+The basic ER model cannot express subtle differences and in turn causes a loss of information.
+
+For example, we have have the following *entity sets* and *relationship*:
+- $E^1$: **Projects**
+- $E^2$: **Departments**
+- $R$: each project $e^1_i\in E^1$ is sponsored by one or more department $\{e^2_j\dots e^2_k\}\in E^2$
+$$
+\begin{align}
+&E^1\quad \boldsymbol{R}\quad E^2\cr
+&\forall e^1 \in E^1, e^1 \textbf{ is sponsored by } \{\textbf{C}^n_k : E^2\}\cr
+\end{align}
+$$
+```mermaid
+graph LR
+Projects --- sponsors{Sponsors} --- Departments
+```
+
+```mermaid
+graph LR
+Projects --- sponsors{Sponsors} --- Departments
+sponsors --- monitors{Monitors ?}
+```
+
+Now, *a sponsoring department **might** assign an employee to monitor the sponsorship*, intuitively implying a new relationship set Monitors that associates an entity in Sponsors with an entity in Employees.
+
+However, we have previously defined that *relationships associate two or more entities*. With the basic ER model, we can only add another entity set Employees.
+
+```mermaid
+graph LR
+Projects --- sponsors{Sponsors Monitors} --- Departments
+sponsors --- Employees
+```
+
+This is incorrect. It does not capture the correct information about the relationship. This reads as *each sponsorship **must** have one monitoring employee*, which is not what we are looking for.
+
+Then, how do we correctly differentiate between **might** and **must**?
+
+From this, we have seen that we have run into the limits of the basic ER model. We have no choice but to extend it in order to reflect the correct information.
+
+#### Aggregation extends ER Model
+We use **aggregation** to indicate *the participation (total or partial)* of some relationship set in another relationship set.
+
+```mermaid
+graph LR
+Projects --- sponsors{Sponsors} --- Departments
+sponsors --- monitors{Monitors} --- Employees
+```

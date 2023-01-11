@@ -34,6 +34,16 @@
             }
           },
           {
+            "id": "cfc88ca255eb5fca",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
+          },
+          {
             "id": "e534b4f1defcd020",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1,
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -179,7 +189,18 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "539804bac7ee7f30",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cfc88ca255eb5fca",
   "lastOpenFiles": [
     "Course Schedule.md",
     "TO-DO.md",

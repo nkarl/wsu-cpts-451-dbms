@@ -12,11 +12,12 @@
 **Watch:**
 - [x]  Introduction
 - [x]  Overview of Database Systems
-- [ ]  ER Conceptual Data Model
+- [x]  ER Conceptual Data Model
 	- [x] Part #1: Fundamentals of ER Models
-	- [ ]  Part #2: Extending ER Models
+	- [x]  Part #2: Extending ER Models
 
 **Review Concepts: ER Models**
+- [x] [[ER Model for Relational DB#6 steps of database design| 6 steps to database design]]
 - [x] Entity & Entity Set
 	- [x] attributes
 - [x] Relationship & Relationship Set
@@ -60,11 +61,11 @@
 ## Week 2
 ---
 > [!info]
-> Learn the principles behind relational data organization: tables, keys, and integrity constraints. Learn about how data is represented in relational model and how integrity constraints can be expressed and enforced in the relational model to ensure data consistency and accuracy.
+> Learn *the principles behind relational data organization: tables, keys, and integrity constraints*. Learn about how data is represented in relational model and how *integrity constraints can be expressed and enforced* in the relational model to ensure data *consistency and accuracy*.
 
 **Readings:**
 - [ ] DBMS Chap. 3
-- [ ] SLIDES: [[Week-2-CptS451_3_RelationalModel.pdf]]
+- [ ] Relational Model & DDL: [[Week-2-CptS451_3_RelationalModel.pdf]]
 
 **Watch:**
 - [ ] ER Model - Examples
@@ -95,7 +96,7 @@
 ## Week 4
 ---
 > [!info]
-> Learn about the formal query language Relational Algebra which is the foundation for relational query languages like SQL. Learn the relational algebra operations and how they are combined to write complex queries.
+> *Learn about the formal query language Relational Algebra* which is the foundation for relational query languages like SQL. Learn the relational algebra operations and how they are combined to write complex queries.
 
 **Readings:**
 - [ ] Textbook (Database Management Systems) -- Chapters 4.1, 4.2

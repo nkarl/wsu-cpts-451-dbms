@@ -45,7 +45,7 @@ Example: relation: Employee
 > [!summary] 
 > - SQL is a declarative language.
 > 	- **Say “what to do”** rather than “how to do it.”
-> 	- Avoid a lot of data-manipulation details needed in procedural languages like C++ or Java.
+> 	- *Avoid a lot of data-manipulation details needed in procedural languages* like C++ or Java.
 > - Database management system figures out “best” way to execute query.
 > 	- Called “query optimization.”
 

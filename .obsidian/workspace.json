@@ -46,8 +46,7 @@
             }
           }
         ],
-        "currentTab": 2,
-        "stacked": true
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,13 +192,13 @@
   },
   "active": "c8ef4797a3ddfcb6",
   "lastOpenFiles": [
-    "TO-DO.md",
+    "week-2/week-2-CptS451_3_RelationalModel.pdf",
     "week-2/Relational Model.md",
+    "TO-DO.md",
+    "Course Schedule.md",
     "week-1/ER Model for Relational DB.md",
     "week-1/week-1-CptS451_2_ERModel.pdf",
     "week-1/week-1-CptS451_0_CourseDetails.pdf",
-    "week-2/week-2-CptS451_3_RelationalModel.pdf",
-    "Course Schedule.md",
     "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",
     "books/Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom - Database Systems. The Complete Book 2nd ed. (2014, Pearson) - libgen.li.pdf",
     "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf"

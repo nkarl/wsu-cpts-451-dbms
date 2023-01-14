@@ -25,6 +25,7 @@ Example: relation: Employee
 | ----------- | --------------- | ---------- |
 | 111-11-1111 | John Yates      | 80,000     |
 | 222-22-2222 | Vasiliy Bunakov | 40,000     |
+
 ### Integrity Constraints over Relations
 1. Domain
 2. Key

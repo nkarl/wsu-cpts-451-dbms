@@ -34,19 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "9262b4d91b444d6c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
+                "file": "Course Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf"
+                "file": "Course Schedule.md"
               }
             }
           },
@@ -161,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
+                "file": "Course Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,11 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a74168999c6127c",
+  "active": "8da6c37db29b4e3f",
   "lastOpenFiles": [
+    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
     "Course Schedule.md",
     "TO-DO.md",
-    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
     "week-3/Homework2 - ER2Relational.pdf",
     "week-2/week-2-CptS451_3_RelationalModel.pdf",
     "week-1/week-1-CptS451_2_ERModel.pdf",

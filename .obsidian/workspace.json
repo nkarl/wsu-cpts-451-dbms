@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "50dfc3dddb8a294d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course Schedule.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "539804bac7ee7f30",
             "type": "leaf",
             "pinned": true,
@@ -36,29 +22,21 @@
             }
           },
           {
-            "id": "c8ef4797a3ddfcb6",
+            "id": "8da6c37db29b4e3f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO-DO.md",
+                "file": "Course Schedule.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "70d56b818a96a817",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "week-2/week-2-CptS451_3_RelationalModel.pdf"
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 317.5
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -124,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "Course Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "Course Schedule.md"
               }
             }
           },
@@ -173,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "Course Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,17 +180,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8ef4797a3ddfcb6",
+  "active": "8da6c37db29b4e3f",
   "lastOpenFiles": [
-    "Course Schedule.md",
-    "week-1/ER Model for Relational DB.md",
-    "week-2/week-2-CptS451_3_RelationalModel.pdf",
     "TO-DO.md",
-    "week-2/Relational Model.md",
+    "Course Schedule.md",
+    "cpts-451-project/CptS451Online_ProjectDesc.pdf",
+    "week-3/Homework2 - ER2Relational.pdf",
+    "week-2/week-2-CptS451_3_RelationalModel.pdf",
     "week-1/week-1-CptS451_2_ERModel.pdf",
-    "week-1/week-1-CptS451_0_CourseDetails.pdf",
     "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",
-    "books/Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom - Database Systems. The Complete Book 2nd ed. (2014, Pearson) - libgen.li.pdf",
-    "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf"
+    "week-1/ER Model for Relational DB.md",
+    "week-2/Relational Model.md",
+    "week-1/week-1-CptS451_0_CourseDetails.pdf"
   ]
 }

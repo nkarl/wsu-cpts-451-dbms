@@ -34,9 +34,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "9262b4d91b444d6c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course Schedule.md"
+                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf"
               }
             }
           },
@@ -151,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,11 +190,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8da6c37db29b4e3f",
+  "active": "9a74168999c6127c",
   "lastOpenFiles": [
-    "TO-DO.md",
     "Course Schedule.md",
-    "cpts-451-project/CptS451Online_ProjectDesc.pdf",
+    "TO-DO.md",
+    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
     "week-3/Homework2 - ER2Relational.pdf",
     "week-2/week-2-CptS451_3_RelationalModel.pdf",
     "week-1/week-1-CptS451_2_ERModel.pdf",

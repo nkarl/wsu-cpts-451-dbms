@@ -1,8 +1,9 @@
+
 | Week               | Video Lectures                                         | Assignments                        | Due                 |
 | ------------------ | ------------------------------------------------------ | ---------------------------------- | ------------------- |
 | 1                  | Intro                                                  |                                    |                     |
 |                    | Overview of Database Systems                           |                                    |                     |
-|                    | [[ER Models | ER Conceptual Data Model]]                               |                                    |                     |
+|                    | [[ER Model for Relational DB]]                               |                                    |                     |
 | 2                  | ER Models - Examples                                   |                                    | 01/26               |
 |                    | Relational Model: Intro                                |                                    |                     |
 |                    | Relational Model: Integrity Constraints over Relations | HW1 - ER Models                    |                     |

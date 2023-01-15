@@ -68,8 +68,8 @@
 - [ ] Relational Model & DDL: [[Week-2-CptS451_3_RelationalModel.pdf]]
 
 **Watch:**
-- [ ] ER Model - Examples
-- [ ] Relational Model: Intro
+- [x] ER Model - Examples
+- [x] Relational Model: Intro
 - [ ] Relational Model: Integrity Constraints over Relations
 
 **Assignments:**

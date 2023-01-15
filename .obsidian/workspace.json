@@ -41,9 +41,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week-2/Relational Model.md",
+                "file": "TO-DO.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "70d56b818a96a817",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "week-2/week-2-CptS451_3_RelationalModel.pdf"
               }
             }
           }
@@ -114,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-2/Relational Model.md",
+                "file": "TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-2/Relational Model.md"
+                "file": "TO-DO.md"
               }
             }
           },
@@ -163,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-2/Relational Model.md",
+                "file": "TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,11 +204,11 @@
   },
   "active": "c8ef4797a3ddfcb6",
   "lastOpenFiles": [
-    "week-2/week-2-CptS451_3_RelationalModel.pdf",
-    "week-2/Relational Model.md",
-    "TO-DO.md",
     "Course Schedule.md",
     "week-1/ER Model for Relational DB.md",
+    "week-2/week-2-CptS451_3_RelationalModel.pdf",
+    "TO-DO.md",
+    "week-2/Relational Model.md",
     "week-1/week-1-CptS451_2_ERModel.pdf",
     "week-1/week-1-CptS451_0_CourseDetails.pdf",
     "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",

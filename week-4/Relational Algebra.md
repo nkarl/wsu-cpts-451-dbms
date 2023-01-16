@@ -51,14 +51,48 @@ Relation must have the same schema.
 > 2. Duplicate occurences of the same attributes.
 
 #### Cartesian Products
-- Products $\boldsymbol{\times}$
+> [!info] Cartesian Product $\times$
+> $$\text{R}\times\text{S}$$
+> Pairs each tuple **r** in **R** with each tuple **s** in **S**.
+> - Schema of result is the attributes of R and then S, *in order*.
+> - If attributes *A* exists both in R and S then use `R.A` and `S.A`.
 
 #### Joins
-- Joins $\boldsymbol{\bowtie}$
-	- Join
-	- Theta-Join
-	- Equi-Join
-	- Natural-Join
+> [!info] Join $\bowtie$
+> $$\text{R}\bowtie_{C}\text{S} = \sigma_C(\text{R}\times\text{S})$$
+
+##### Theta-Join
+
+$$\DeclareMathOperator*{\ThetaJoin}{ThetaJoin}R\ThetaJoin_{R.A>S.C}S$$
+$$\DeclareMathOperator*{\ThetaJoin}{ThetaJoin}R\ThetaJoin_{R.A>S.C, R.B\neq S.D}S$$
+##### Equi-Join
+- Equi-Join: **C** only uses the equality operator
+$$\DeclareMathOperator*{\EquiJoin}{EquiJoin}R\EquiJoin_{R.B=S.D}S$$
+ ##### Natural-Join
+- Connects two relations by:
+	- equating attributes of the same name (equi-join), and
+	- projecting out one copy of each of equated attributes.
+- We have relations **R** and **S**,
+	- Let *L* be the union of their attributes
+	- Let $A_1\dots A_k$ be their common attributes
+ 
+$$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\NaturalJoin_{R.A_1=S.A_1,\cdots R.A_k=S.A_k}S)$$
+`Emp(name, dept)`
+| Dept    | Name |
+| ------- | ---- |
+| Physics | Jack |
+| EECS    | Tom  |
+`Contact(name, addr)`
+| Name | Addr    |
+| ---- | ------- |
+| Jack | Pullman |
+| Tom  | Moscow  |
+| Mary | Colfax  |
+`Emp` $\bowtie$ `Contact`
+| Dept    | Name | Addr    |
+| ------- | ---- | ------- |
+| Physics | Jack | Pullman |
+| EECS    | Tom  | Moscow  |
 
 #### Renaming
 - **Renaming** of *relations* and *attributes* $\boldsymbol{\rho}$

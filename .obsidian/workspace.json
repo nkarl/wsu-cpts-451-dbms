@@ -34,9 +34,33 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "42231cec8c7f9d3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-2/Relational Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22757ee49806ad16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-4/Relational Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "week-4/Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course Schedule.md"
+                "file": "week-4/Relational Algebra.md"
               }
             }
           },
@@ -151,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "week-4/Relational Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,17 +205,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8da6c37db29b4e3f",
+  "active": "22757ee49806ad16",
   "lastOpenFiles": [
-    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf",
+    "week-2/Relational Model.md",
+    "week-4/Relational Algebra.md",
+    "week-4/week-4-CptS451_5_RelationalAlgebra.pdf",
+    "week-4/Homework3-RelationalAlgebra.pdf",
+    "week-4/HW3Solution.pdf",
+    "week-3/Week-3-CptS451_4_ER2Relational.pdf",
+    "week-2/week-2-CptS451_3_RelationalModel.pdf",
     "Course Schedule.md",
     "TO-DO.md",
-    "week-3/Homework2 - ER2Relational.pdf",
-    "week-2/week-2-CptS451_3_RelationalModel.pdf",
-    "week-1/week-1-CptS451_2_ERModel.pdf",
-    "week-1/week-1-CptS451_1_IntroductiontoDB.pdf",
-    "week-1/ER Model for Relational DB.md",
-    "week-2/Relational Model.md",
-    "week-1/week-1-CptS451_0_CourseDetails.pdf"
+    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf"
   ]
 }

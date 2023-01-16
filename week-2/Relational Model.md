@@ -33,10 +33,19 @@ Example: relation: Employee
 4. Foreign Key
 
 #### 1. Domain Constraints
+> [!info]
+> The range of values an attribute is allowed to have.
 
 #### 2. Key Constraints
+> [!info]
+> - There are usually multiple keys, called **candidate keys**
+> - All attributes always form a key
+> - A **minimal key** is an atomic key (i.e. it has no proper subset)
 
 #### 3. Entity Identity Constraints
+> [!info]
+> - Some fields are too important to have a NULL value.
+> - A primary key cannot contain a NULL value.
 
 #### 4. Foreign Key Constraints
 

@@ -128,7 +128,7 @@
 ## Week 5
 ---
 > [!info]
-> Learn how search queries are expressed in SQL. Learn about SQL’s set, grouping, aggregation, set, and sorting operators.
+> Learn how search queries are expressed in SQL. Learn about SQL’s set, grouping, aggregation, and sorting operators.
 
 **Readings:**
 -   Textbook (Database Management Systems) -- Chapter 5
@@ -264,7 +264,7 @@
 
 **Readings:**
 -   Textbook (Database Management Systems) --  Chapters 8, 9.5, 9.7, 20
-	- [[Storage & Indexing|Chapter 8: Storage and Indexing Overview]]
+	- [[Storage & Indexing#I. Chapter 8, Storage & Indexing Overview|Chapter 8: Storage and Indexing Overview]]
 		- [x] 8.1: cost of I/O
 		- 8.2 **File organizations & Indexing** (as a speedup method)
 			- [ ] 8.2.1 Clustered Indexes

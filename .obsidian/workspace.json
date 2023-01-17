@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week-12/Storage & Indexing I.md",
+                "file": "week-12/Storage & Indexing.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-12/Storage & Indexing I.md",
+                "file": "week-12/Storage & Indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-12/Storage & Indexing I.md"
+                "file": "week-12/Storage & Indexing.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-12/Storage & Indexing I.md",
+                "file": "week-12/Storage & Indexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
   "active": "53a189c1192c1e93",
   "lastOpenFiles": [
     "TO-DO.md",
-    "week-12/Storage & Indexing I.md",
+    "week-12/Storage & Indexing.md",
     "Course Schedule.md",
     "week-4/Relational Algebra.md",
     "week-2/Relational Model.md",

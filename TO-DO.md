@@ -264,7 +264,7 @@
 
 **Readings:**
 -   Textbook (Database Management Systems) --  Chapters 8, 9.5, 9.7, 20
-	- [[Storage & Indexing I|Chapter 8: Storage and Indexing Overview]]
+	- [[Storage & Indexing|Chapter 8: Storage and Indexing Overview]]
 		- [x] 8.1: cost of I/O
 		- 8.2 **File organizations & Indexing** (as a speedup method)
 			- [ ] 8.2.1 Clustered Indexes

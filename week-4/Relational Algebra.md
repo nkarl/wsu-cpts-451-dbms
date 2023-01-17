@@ -111,13 +111,46 @@ $$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\Natu
 
 ## III. Building Complex Operations
 ---
-### Precedence
+### Notation Styles for Complex Expressions
+1. Arithmetic style
+2. Sequences of assignments statements
+3. Expression trees
+
+#### 1. Arithmetic
+$$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\NaturalJoin_{R.A_1=S.A_1,\cdots R.A_k=S.A_k}S)$$
+
+$$
+R\cap S = R - (R - S)
+$$
+
+##### Precedence
 1. () parenthesis
 2. \[$\sigma$, $\Pi$, \rho\]
 3. \[$\times$, $\bowtie$\]
 4. \[$\cap$\]
 5. \[$\cup$, $-$\]
 
+#### 2. Sequence
+$$
+\Pi_{balance} \left(\sigma_{custsmm=ssn}(account \times (\sigma_{name=tom}customer))\right)
+$$
+where,
+$$
+\begin{align}
+R_1(ssn, name, city) &:= \sigma_{name=tom}(customer)\cr
+R_2(ssn, name, city, custssn, balance) &:=\sigma_{custssn=ssn}(account\times R_1)\cr
+Result(balance) &:=\Pi_{balance}(R_2)
+\end{align}
+$$
+
+#### 3. Expression Tree
+```mermaid
+graph TD
+	PJ[PROJECT balance] --- EJ[EQUI-JOIN custSSN=SSN]
+	EJ --- account
+	EJ --- SELECT[SELECT name='Tom']
+	SELECT --- customer
+```
 
 ## IV. Limitations
 ---

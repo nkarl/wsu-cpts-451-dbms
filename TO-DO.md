@@ -64,8 +64,13 @@
 > Learn *the principles behind relational data organization: tables, keys, and integrity constraints*. Learn about how data is represented in relational model and how *integrity constraints can be expressed and enforced* in the relational model to ensure data *consistency and accuracy*.
 
 **Readings:**
-- [ ] DBMS Chap. 3
-- [ ] Relational Model & DDL: [[Week-2-CptS451_3_RelationalModel.pdf]]
+- DBMS Chap. 3
+	- [x] *Integrity Constraints* over relations
+		- [x] Domain
+		- [x] Key
+		- [x] Entity identity (no NULL values)
+		- [ ] Foreign key
+- [x] Relational Model & DDL: [[Week-2-CptS451_3_RelationalModel.pdf]]
 
 **Watch:**
 - [x] ER Model - Examples
@@ -94,7 +99,7 @@
 		- [ ] 3.5.7 Translating ER diagrams with *aggregation*
  
 **Watch:**
-- [ ]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]
+- [x]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]
 - [ ]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
 - [ ] Project Overview
  

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week-12/Database Management Systems.md",
+                "file": "week-12/Storage & Indexing I.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-12/Storage & Indexing I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "week-12/Storage & Indexing I.md"
               }
             }
           },
@@ -186,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-12/Storage & Indexing I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,10 +217,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "539804bac7ee7f30",
+  "active": "53a189c1192c1e93",
   "lastOpenFiles": [
-    "week-12/Database Management Systems.md",
     "TO-DO.md",
+    "week-12/Storage & Indexing I.md",
     "Course Schedule.md",
     "week-4/Relational Algebra.md",
     "week-2/Relational Model.md",

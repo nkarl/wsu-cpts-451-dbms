@@ -83,6 +83,15 @@
 
 **Readings:**
 - [ ] DBMS Chap. 3
+	- [ ] 3.5 Translating ER to Relational
+		- [x] 3.5.1 *Entity sets to tables*
+		- *Relationship sets to tables*
+			- [ ] 3.5.2 **without constraints**
+			- [ ] 3.5.3 with **key** constraints
+			- [ ] 3.5.4 with **participation** constraints
+		- [ ] 3.5.5 Translating weak entity sets
+		- [ ] 3.5.6 Translating class hierarchies
+		- [ ] 3.5.7 Translating ER diagrams with *aggregation*
  
 **Watch:**
 - [ ]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]

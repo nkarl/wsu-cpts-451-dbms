@@ -27,6 +27,9 @@ Example: relation: Employee
 | 222-22-2222 | Vasiliy Bunakov | 40,000     |
 
 ### Integrity Constraints over Relations
+> [!info]
+> Integrity constraints allow database designers to semantically speficy the conditions on a database schema, which implement the rules for the valid data that can be stored in the databse. 
+
 1. Domain
 2. Key
 3. Entity Identity
@@ -45,10 +48,12 @@ Example: relation: Employee
 #### 3. Entity Identity Constraints
 > [!info]
 > - Some fields are too important to have a NULL value.
-> - A primary key cannot contain a NULL value.
+> - A primary key *disallows a NULL value*.
 
 #### 4. Foreign Key Constraints
-
+> [!info]
+> - inclusion dependencies
+> - specified between two relations to maintain correspondence between their respective tuples
 
 ## II. SQL
 ---

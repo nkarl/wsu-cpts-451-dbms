@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "53a189c1192c1e93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-12/Database Management Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8da6c37db29b4e3f",
             "type": "leaf",
             "pinned": true,
@@ -59,7 +71,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-12/Database Management Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "week-12/Database Management Systems.md"
               }
             }
           },
@@ -175,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-12/Database Management Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,17 +217,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "539804bac7ee7f30",
+  "active": "53a189c1192c1e93",
   "lastOpenFiles": [
+    "TO-DO.md",
+    "week-12/Database Management Systems.md",
+    "Course Schedule.md",
     "week-4/Relational Algebra.md",
     "week-2/Relational Model.md",
-    "Course Schedule.md",
-    "TO-DO.md",
     "week-4/week-4-CptS451_5_RelationalAlgebra.pdf",
     "week-4/Homework3-RelationalAlgebra.pdf",
     "week-4/HW3Solution.pdf",
     "week-3/Week-3-CptS451_4_ER2Relational.pdf",
-    "week-2/week-2-CptS451_3_RelationalModel.pdf",
-    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf"
+    "week-2/week-2-CptS451_3_RelationalModel.pdf"
   ]
 }

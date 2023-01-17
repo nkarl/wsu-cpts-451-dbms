@@ -264,6 +264,22 @@
 
 **Readings:**
 -   Textbook (Database Management Systems) --  Chapters 8, 9.5, 9.7, 20
+	- [[Database Management Systems|Chapter 8: Storage and Indexing Overview]]
+		- [x] 8.1: cost of I/O
+		- 8.2 **File organizations & Indexing** (as a speedup method)
+			- [ ] 8.2.1 Clustered Indexes
+			- [ ] 8.2.2 Primary & Secondary Indexes
+		- 8.3 Index data structures
+			- [ ] Hash-based
+			- [ ] Tree-based
+		- [ ] 8.4 Comparisons of file organization models
+			- [ ] 8.4.1 Cost Model
+			- [ ] 8.4.2 Heap files
+			- [ ] 8.4.3 Sorted files
+			- [ ] 8.4.4 Clustered files
+			- [ ] 8.4.5 Heap files with unclustered tree index
+			- [ ] 8.4.6 Heap files with unclustered hash index
+			- [ ] 8.4.7 I/O cost comparison
 
 **Watch:**
 -   Week 12 -  Storage and Indexing  - Intro

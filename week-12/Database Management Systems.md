@@ -1,29 +1,38 @@
 ## I. Chapter 8, Storage & Indexing Overview
 ---
 - [x] 8.1: cost of I/O
+
 - 8.2 **File organizations & Indexing** (as a speedup method)
 	- [ ] 8.2.1 Clustered Indexes
 	- [ ] 8.2.2 Primary & Secondary Indexes
+ 
 - 8.3 Index data structures
 	- [ ] Hash-based
 	- [ ] Tree-based
-- [ ] 8.4 Comparisons of file organization models
-	- Randomly ordered (heap file)
-	- sorted based on some attributes `<age, sal>`
-	- clustered B+ tree with search key `<age, sal>`
-	- Heap file with unclustered B+ tree index on `<age, sal>`
-	- Heap file with unclustered hash index on `<age, sal>`
-	- [ ] 8.4.1 Cost Model
-		- Scan
-		- Search with Equality Selection
-		- Search with Range Selection
-		- Insert a Record
-		- Delete a Record
-	- [ ] 8.4.2 Heap files
-	- [ ] 8.4.3 Sorted files
-	- [ ] 8.4.4 Clustered files
-	- [ ] 8.4.5 Heap files with unclustered tree index
-	- [ ] 8.4.6 Heap files with unclustered hash index
+
+### Comparing file organizations
+- Randomly ordered (heap file)
+- sorted based on some attributes `<age, salary>`
+- clustered B+ tree with search key `<age, salary>`
+- Heap file with unclustered B+ tree index on `<age, salary>`
+- Heap file with unclustered hash index on `<age, salary>`
+
+#### Cost Model
+- Scan
+- Search with Equality Selection
+- Search with Range Selection
+- Insert a Record
+- Delete a Record
+ 
+#### Heap files
+
+#### Sorted files
+
+#### Clustered files
+
+#### Heap files with unclustered tree index
+
+#### Heap files with unclustered hash index
 	
 #### I/O cost comparison
 | File Type                  | Scan        | Equality Search   | Range Search                       | Insert            | Delete    |

@@ -70,7 +70,7 @@
 **Watch:**
 - [x] ER Model - Examples
 - [x] Relational Model: Intro
-- [ ] Relational Model: Integrity Constraints over Relations
+- [x] Relational Model: Integrity Constraints over Relations
 
 **Assignments:**
 - [ ] HOMEWORK #1: ER Model
@@ -105,7 +105,7 @@
 - [ ] Relational Algebra
 
 **Lesson Slides:**
-- [Week-4 - Relational Algebra](https://wsu.instructure.com/courses/1623110/files/95846176/preview "Week 4 - Relational Algebra")
+- [x] [Week-4 - Relational Algebra](https://wsu.instructure.com/courses/1623110/files/95846176/preview "Week 4 - Relational Algebra")
 
 **Assignments:**
 - [ ]   Homework 3-- Relational Algebra

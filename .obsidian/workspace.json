@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "42231cec8c7f9d3a",
+            "id": "349a427ce6948377",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "22757ee49806ad16",
+            "id": "3fd92c7dd7b0c1ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -206,17 +206,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22757ee49806ad16",
+  "active": "3fd92c7dd7b0c1ee",
   "lastOpenFiles": [
     "week-2/Relational Model.md",
+    "Course Schedule.md",
     "week-4/Relational Algebra.md",
+    "TO-DO.md",
     "week-4/week-4-CptS451_5_RelationalAlgebra.pdf",
     "week-4/Homework3-RelationalAlgebra.pdf",
     "week-4/HW3Solution.pdf",
     "week-3/Week-3-CptS451_4_ER2Relational.pdf",
     "week-2/week-2-CptS451_3_RelationalModel.pdf",
-    "Course Schedule.md",
-    "TO-DO.md",
     "cpts-451-project-docs/milestone 1/CptS451Online_ProjectDesc.pdf"
   ]
 }

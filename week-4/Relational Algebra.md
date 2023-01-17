@@ -18,7 +18,6 @@ More formally,
 
 ## II. Operations
 ---
-
 ### A. Core Relational Algebra
 - [[#Set Operations]]
 - [[#Selection]]
@@ -31,7 +30,7 @@ More formally,
 Relation must have the same schema.
 - Union $\boldsymbol{\cup}$
 - intersection $\boldsymbol{\cap}$
-- difference $\boldsymbol{\setminus}$
+- difference $\boldsymbol{-}$
 
 #### Selection
 > [!info] Selection
@@ -109,7 +108,18 @@ $$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\Natu
 		- Right Outer-Join
 
 
-## III. Limitations
+
+## III. Building Complex Operations
+---
+### Precedence
+1. () parenthesis
+2. \[$\sigma$, $\Pi$, \rho\]
+3. \[$\times$, $\bowtie$\]
+4. \[$\cap$\]
+5. \[$\cup$, $-$\]
+
+
+## IV. Limitations
 ---
 - Some queries cannot be represented
 	- Recursive queries

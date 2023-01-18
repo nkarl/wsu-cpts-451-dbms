@@ -69,16 +69,13 @@
 		- [x] Domain
 		- [x] Key
 		- [x] Entity identity (no NULL values)
-		- [ ] Foreign key
+		- [x] Foreign key
 - [x] Relational Model & DDL: [[Week-2-CptS451_3_RelationalModel.pdf]]
 
 **Watch:**
 - [x] ER Model - Examples
 - [x] Relational Model: Intro
 - [x] Relational Model: Integrity Constraints over Relations
-
-**Assignments:**
-- [ ] HOMEWORK #1: ER Model
 
 
 ## Week 3
@@ -87,12 +84,13 @@
 > Learn about how we convert an ER diagram into a relational schema. Start learning how to create and modify relational database schemas and how to enforce integrity constraints on those using SQL.
 
 **Readings:**
-- [ ] DBMS Chap. 3
-	- [ ] 3.5 Translating ER to Relational
+- DBMS Chap. 3
+	- 3.5 Translating ER to Relational
 		- [x] 3.5.1 *Entity sets to tables*
 		- *Relationship sets to tables*
-			- [ ] 3.5.2 **without constraints**
-			- [ ] 3.5.3 with **key** constraints
+			- [x] 3.5.2 **without constraints**
+			- [x] 3.5.3 with **key** constraints
+				- *note:* need to reread the foreign key constraint example on page 78
 			- [ ] 3.5.4 with **participation** constraints
 		- [ ] 3.5.5 Translating weak entity sets
 		- [ ] 3.5.6 Translating class hierarchies
@@ -104,7 +102,7 @@
 - [ ] Project Overview
  
 **Assignments:**
-- [ ] HOMEWORK #2: Relational Model & ER2 Relational Translation
+- [ ] HOMEWORK #1: ER Model
 
 
 ## Week 4
@@ -113,16 +111,17 @@
 > *Learn about the formal query language Relational Algebra* which is the foundation for relational query languages like SQL. Learn the relational algebra operations and how they are combined to write complex queries.
 
 **Readings:**
-- [ ] Textbook (Database Management Systems) -- Chapters 4.1, 4.2
+- Textbook (Database Management Systems) -- Chapters 4.1, 4.2
+	- [ ] Relational Algebra
 
 **Watch**:
 - [ ] Relational Algebra
 
 **Lesson Slides:**
-- [x] [Week-4 - Relational Algebra](https://wsu.instructure.com/courses/1623110/files/95846176/preview "Week 4 - Relational Algebra")
+- [x] [[week-4-CptS451_5_RelationalAlgebra.pdf|Relational Algebra]]
 
 **Assignments:**
-- [ ]   Homework 3-- Relational Algebra
+- [ ] HOMEWORK #2: Relational Model & ER2 Relational Translation
 
 
 ## Week 5
@@ -141,7 +140,7 @@
 - [[Week-5-CptS451_6_SQL_part1.pdf | Week-5 - SQL part I]]
 
 **Assignments:**
--   Project Milestone 1
+- [ ]   Homework 3-- Relational Algebra
 
 
 ## Week 6
@@ -157,6 +156,9 @@
 -   SQL: Query Language (II)
 -   SQL Exercises
 -   Midterm Review
+
+**Assignments:**
+-   Project Milestone 1
 
 **Assignments:**
 -   [Sample Midterm](https://wsu.instructure.com/courses/1623110/files/95846167/preview)  (Please go over the sample midterm questions before you watch the "Sample Midterm Discussion" video.)

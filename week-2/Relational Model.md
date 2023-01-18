@@ -30,11 +30,6 @@ Example: relation: Employee
 > [!info]
 > Integrity constraints allow database designers to semantically speficy the conditions on a database schema, which implement the rules for the valid data that can be stored in the databse. 
 
-1. Domain
-2. Key
-3. Entity Identity
-4. Foreign Key
-
 #### 1. Domain Constraints
 > [!info]
 > The range of values an attribute is allowed to have.
@@ -51,11 +46,10 @@ Example: relation: Employee
 > - A primary key *disallows a NULL value*.
 
 #### 4. Foreign Key Constraints
-> [!info]
-> - inclusion dependencies (generalization of the foreign key constraints)
-> - specified between two relations to maintain correspondence between their respective tuples
+- inclusion dependencies (generalization of the foreign key constraints)
+- specified between two relations to maintain correspondence between their respective tuples
 
-> [!info] Definition
+> [!summary] Definition
 > Relation schemas: **R** and **S**
 > **R** has a primary key **K** (a set of attributes)
 > **S** has a *foreign key* **FK** (a set of attributes) if:

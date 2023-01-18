@@ -94,7 +94,7 @@
 			- [ ] 3.5.4 with **participation constraints**
 		- [ ] 3.5.5 Translating weak entity sets
 		- [ ] 3.5.6 Translating class hierarchies
-		- [ ] 3.5.7 Translating ER diagrams with *aggregation*
+		- [ ] 3.5.7 Translating ER diagrams *with aggregation*
  
 **Watch:**
 - [x]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]

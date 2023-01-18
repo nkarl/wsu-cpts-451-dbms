@@ -77,6 +77,25 @@ Example: relation: Employee
 > - Database management system figures out “best” way to execute query.
 > 	- Called “query optimization.”
 
+- ****Data definition Language (DDL)***
+	- allows users to *create the relations and constraints*.
+- ****Data Manipulation Language (DML)***
+	- Query Language
+		- declarative
+			- *you specify what you want and not how to retrieve*
+		- easy to learn and program
+	- Updates
+		- insert
+		- delete
+		- update tables
+- Other commands
+	- View definition language
+		- commands to define rules
+		- updates through views generally not supported
+	- *Transaction Control*
+		- *commands to specify beginning and end of transactions*.
+
+### Implementation
 > [!warning] Circular Reference on Foreign-Key Constraints
 > - [[week-2-CptS451_3_RelationalModel.pdf|page 39]]
 >
@@ -98,23 +117,3 @@ CREATE TABLE emp
 	ON UPDATE CASCADE 
 );
 ```
-
-- ****Data definition Language (DDL)***
-	- allows users to *create the relations and constraints*.
-- ****Data Manipulation Language (DML)***
-	- Query Language
-		- declarative
-			- *you specify what you want and not how to retrieve*
-		- easy to learn and program
-	- Updates
-		- insert
-		- delete
-		- update tables
-- Other commands
-	- View definition language
-		- commands to define rules
-		- updates through views generally not supported
-	- *Transaction Control*
-		- *commands to specify beginning and end of transactions*.
-
-### Implementation

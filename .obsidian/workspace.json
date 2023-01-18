@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "89db6e97cec22274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-2/Relational Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8da6c37db29b4e3f",
             "type": "leaf",
             "pinned": true,
@@ -59,7 +71,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -125,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-2/Relational Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "week-2/Relational Model.md"
               }
             }
           },
@@ -174,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-2/Relational Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,17 +218,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "539804bac7ee7f30",
+  "active": "349a427ce6948377",
   "lastOpenFiles": [
-    "week-2/Relational Model.md",
     "Course Schedule.md",
+    "week-2/Relational Model.md",
     "TO-DO.md",
     "week-4/Relational Algebra.md",
+    "week-3/SQL.md",
     "week-12/Storage & Indexing.md",
     "week-4/week-4-CptS451_5_RelationalAlgebra.pdf",
     "week-4/Homework3-RelationalAlgebra.pdf",
     "week-4/HW3Solution.pdf",
-    "week-3/Week-3-CptS451_4_ER2Relational.pdf",
-    "week-2/week-2-CptS451_3_RelationalModel.pdf"
+    "week-3/Week-3-CptS451_4_ER2Relational.pdf"
   ]
 }

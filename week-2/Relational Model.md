@@ -77,6 +77,26 @@ Example: relation: Employee
 > - Database management system figures out “best” way to execute query.
 > 	- Called “query optimization.”
 
+> [!warning] Circular Reference on Foreign-Key Constraints
+> - [[week-2-CptS451_3_RelationalModel.pdf|page 39]]
+>
+> It's important to be aware of circular references. Circular reference is best avoided, because it complicates the INSERT and UPDATE operations. For example, we can only insert a new tuple into a table (either referencing or referenced) *if the tuple with value already **exists** its counterpart table*. Otherwise, we have to set the inserted value to NULL and update it after.
+
+#### Choosing a Policy for Foreign-Key Constraints
+Add `ON [DELETE, UPDATE] [CASCADE, SET NULL, NO ACTION]`
+
+```sql
+CREATE TABLE emp
+(
+	ssn INT,
+	name VARCHAR(20),
+	dno INT,
+	FOREIGN KEY dno REFERENCES dept(dept#)
+	ON DELETE SET NULL
+	ON UPDATE CASCADE 
+);
+```
+
 - ****Data definition Language (DDL)***
 	- allows users to *create the relations and constraints*.
 - ****Data Manipulation Language (DML)***

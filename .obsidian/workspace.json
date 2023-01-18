@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -207,11 +206,11 @@
   },
   "active": "539804bac7ee7f30",
   "lastOpenFiles": [
-    "week-4/Relational Algebra.md",
-    "TO-DO.md",
     "week-2/Relational Model.md",
-    "week-12/Storage & Indexing.md",
     "Course Schedule.md",
+    "TO-DO.md",
+    "week-4/Relational Algebra.md",
+    "week-12/Storage & Indexing.md",
     "week-4/week-4-CptS451_5_RelationalAlgebra.pdf",
     "week-4/Homework3-RelationalAlgebra.pdf",
     "week-4/HW3Solution.pdf",

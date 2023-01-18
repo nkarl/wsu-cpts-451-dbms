@@ -89,9 +89,9 @@
 		- [x] 3.5.1 *Entity sets to tables*
 		- *Relationship sets to tables*
 			- [x] 3.5.2 **without constraints**
-			- [x] 3.5.3 with **key** constraints
+			- [x] 3.5.3 with **key constraints**
 				- *note:* need to reread the foreign key constraint example on page 78
-			- [ ] 3.5.4 with **participation** constraints
+			- [ ] 3.5.4 with **participation constraints**
 		- [ ] 3.5.5 Translating weak entity sets
 		- [ ] 3.5.6 Translating class hierarchies
 		- [ ] 3.5.7 Translating ER diagrams with *aggregation*

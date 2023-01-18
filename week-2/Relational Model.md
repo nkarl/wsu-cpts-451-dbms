@@ -52,7 +52,7 @@ Example: relation: Employee
 
 #### 4. Foreign Key Constraints
 > [!info]
-> - inclusion dependencies
+> - inclusion dependencies (generalization of the foreign key constraints)
 > - specified between two relations to maintain correspondence between their respective tuples
 
 > [!info] Definition
@@ -65,6 +65,13 @@ Example: relation: Employee
 > > 	- **FK** is NULL
 >
 > **FK** is a foreign key that refers to the primary key **K** of **R**
+
+##### Inclusion Dependencies
+- Generalization of foreign key constraints
+	- Inclusion dependency $S[Y_1\dots Y_n]\subseteq R[X_1\dots X_n]$ means *values in S refer to values in R*.
+	- **Foreign key is an inclusion dependency**,
+		- in which $\{X_1\dots X_n\}$ is *the primary key* of R.
+
 
 ## II. SQL
 ---

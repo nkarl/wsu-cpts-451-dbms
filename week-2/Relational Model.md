@@ -55,6 +55,17 @@ Example: relation: Employee
 > - inclusion dependencies
 > - specified between two relations to maintain correspondence between their respective tuples
 
+> [!info] Definition
+> Relation schemas: **R** and **S**
+> **R** has a primary key **K** (a set of attributes)
+> **S** has a *foreign key* **FK** (a set of attributes) if:
+> > 1. **FK** and **K** have the same domains
+> > 2. values for **FK** in each tuple **s** in **S** either:
+> > 	- occur as values of **K** of a tuple in **r** of **R**, or
+> > 	- **FK** is NULL
+>
+> **FK** is a foreign key that refers to the primary key **K** of **R**
+
 ## II. SQL
 ---
 ### Definition

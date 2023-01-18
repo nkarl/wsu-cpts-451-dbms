@@ -85,6 +85,8 @@ Example: relation: Employee
 #### Choosing a Policy for Foreign-Key Constraints
 Add `ON [DELETE, UPDATE] [CASCADE, SET NULL, NO ACTION]`
 
+*The default policy is* `REJECT`.
+
 ```sql
 CREATE TABLE emp
 (

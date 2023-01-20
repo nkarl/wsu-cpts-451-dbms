@@ -100,7 +100,7 @@
 - [x]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]
 - [ ]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
 - [ ] Project Overview
- 
+
 **Assignments:**
 - [ ] HOMEWORK #1: ER Model
 

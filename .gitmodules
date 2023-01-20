@@ -1,6 +1,0 @@
-[submodule "project.app"]
-	path = project.app
-	url = https://github.com/nkarl/wsu.cpts451.project.webapp
-[submodule "cpts-451-project"]
-	path = cpts-451-project
-	url = https://github.com/nkarl/wsu.cpts451.project.webapp

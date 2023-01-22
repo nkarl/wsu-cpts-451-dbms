@@ -98,8 +98,8 @@
  
 **Watch:**
 - [x]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]
-- [ ]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
-- [ ] Project Overview
+- [x]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
+- [x] Project Overview
 
 **Assignments:**
 - [ ] HOMEWORK #1: ER Model
@@ -159,6 +159,16 @@
 
 **Assignments:**
 -   Project Milestone 1
+	- [x] Set up Dockerized PostgreSQL database, `DB: myself`
+	- [x] Import data into `myself`
+	- [x] Set up `Server API`
+		- [x] Successfully send test response to client
+		- [x] Successfully make query request to database
+		- [x] Successfully make query request to database and send data back to client as reponse
+	- [ ] Set up `Client App`
+		- [ ] Set up React app
+		- [ ] Create page compoments
+		- [ ] Adjust the layout with CSS to match requirements
 
 **Assignments:**
 -   [Sample Midterm](https://wsu.instructure.com/courses/1623110/files/95846167/preview)  (Please go over the sample midterm questions before you watch the "Sample Midterm Discussion" video.)

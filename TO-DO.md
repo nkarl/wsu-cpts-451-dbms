@@ -159,8 +159,9 @@
 
 **Assignments:**
 -   Project Milestone 1
-	- [x] Set up Dockerized PostgreSQL database, `DB: myself`
-	- [x] Import data into `myself`
+	- [x] Set up Dockerized PostgreSQL database
+		- [x] Set up Docker container for database
+		- [x] Import data into database
 	- [x] Set up `Server API`
 		- [x] Successfully send test response to client
 		- [x] Successfully make query request to database

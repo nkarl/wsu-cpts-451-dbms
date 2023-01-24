@@ -138,6 +138,15 @@
 
 **Readings:**
 -   Textbook (Database Management Systems) -- Chapter 5
+	- [ ] 5.2 Form of a basic SQL query
+	- [ ] 5.3 Set operators
+	- [ ] 5.4 Nested queries
+	- [ ] 5.5 Aggregation
+	- [ ] 5.6 NULL value
+	- [ ] 5.7 complex integrity constraints
+	- [ ] **active database**
+		- [ ] *active database*
+		- [ ] *triggers*
 
 **Watch:**
 -   SQL: Query Language (I)

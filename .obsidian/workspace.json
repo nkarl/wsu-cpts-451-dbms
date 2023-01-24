@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-5/SQL.md",
+                "file": "TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-5/SQL.md"
+                "file": "TO-DO.md"
               }
             }
           },
@@ -175,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-5/SQL.md",
+                "file": "TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,17 +203,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8680c64bb1df473",
+  "active": "539804bac7ee7f30",
   "lastOpenFiles": [
-    "week-4/Relational Algebra.md",
     "Course Schedule.md",
-    "week-2/Relational Model.md",
+    "week-4/Relational Algebra.md",
     "TO-DO.md",
+    "week-5/SQL.md",
+    "week-2/Relational Model.md",
     "cpts-451-project-docs/CptS451Online_ProjectDesc.pdf",
     "cpts-451-project-docs/milestone 1/CptS451Online_ProjectMilestone1.pdf",
     "cpts-451-project/README.md",
     "week-3/SQL.md",
-    "week-12/Storage & Indexing.md",
-    "week-4/week-4-CptS451_5_RelationalAlgebra.pdf"
+    "week-12/Storage & Indexing.md"
   ]
 }

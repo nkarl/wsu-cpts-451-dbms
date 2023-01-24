@@ -115,7 +115,14 @@
 	- [ ] Relational Algebra
 
 **Watch**:
-- [ ] Relational Algebra
+- Relational Algebra
+	- [x] Basic Operations
+		- Set
+		- Selection
+		- Projection
+		- Cartesian Product
+		- Joins
+	- [ ] Extended Operations
 
 **Lesson Slides:**
 - [x] [[week-4-CptS451_5_RelationalAlgebra.pdf|Relational Algebra]]

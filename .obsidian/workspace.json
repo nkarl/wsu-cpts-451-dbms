@@ -46,9 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c8680c64bb1df473",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-5/SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-4/Relational Algebra.md",
+                "file": "week-5/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-4/Relational Algebra.md"
+                "file": "week-5/SQL.md"
               }
             }
           },
@@ -163,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-4/Relational Algebra.md",
+                "file": "week-5/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,10 +204,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17a9947aabb75ee1",
+  "active": "c8680c64bb1df473",
   "lastOpenFiles": [
-    "Course Schedule.md",
     "week-4/Relational Algebra.md",
+    "Course Schedule.md",
     "week-2/Relational Model.md",
     "TO-DO.md",
     "cpts-451-project-docs/CptS451Online_ProjectDesc.pdf",

@@ -120,7 +120,6 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 - Outer-Joins
 
 
-
 ## III. Building Complex Operations
 ---
 ### Notation Styles for Complex Expressions
@@ -137,7 +136,7 @@ $$
 
 ##### Precedence
 1. () parenthesis
-2. \[$\sigma$, $\Pi$, \rho\]
+2. \[$\sigma$, $\Pi$, $\rho$\]
 3. \[$\times$, $\bowtie$\]
 4. \[$\cap$\]
 5. \[$\cup$, $-$\]

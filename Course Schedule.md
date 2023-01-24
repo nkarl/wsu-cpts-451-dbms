@@ -3,15 +3,15 @@
 | ------------------ | ------------------------------------------------------ | ---------------------------------- | ------------------- |
 | 1                  | Intro                                                  |                                    |                     |
 |                    | Overview of Database Systems                           |                                    |                     |
-|                    | [[ER Model for Relational DB]]                               |                                    |                     |
-| 2                  | ER Models - Examples                                   |                                    | 01/26               |
+|                    | [[ER Model for Relational DB]]                         |                                    |                     |
+| 2                  | ER Models - Examples                                   | HW1 - ER Models                    | 01/26               |
 |                    | Relational Model: Intro                                |                                    |                     |
-|                    | Relational Model: Integrity Constraints over Relations | HW1 - ER Models                    |                     |
-| 3                  | Relational Model: Intro to SQL                         |                                    | 02/02               |
-|                    | ER to Relational Translation                           |                                    |                     |
-|                    | Project Overview                                       | HW2 - ER to Relational Translation |                     |
-| 4                  | Relational Algebra: SQL                                |                                    |                     |
-|                    | PostgreSQL Intro                                       | HW3 - Relational Algebra           | 02/09               |
+|                    | Relational Model: Integrity Constraints over Relations |                                    |                     |
+| 3                  | Relational Model: Intro to SQL                         |                                    |                     |
+|                    | ER to Relational Translation                           | HW2 - ER to Relational Translation | 02/02               |
+|                    | Project Overview                                       |                                    |                     |
+| 4                  | Relational Algebra: SQL                                | HW3 - Relational Algebra           | 02/09               | 
+|                    | PostgreSQL Intro                                       |                                    |                     |
 | 5                  | SQL: Query Language I                                  |                                    |                     |
 |                    | PostgreSQL Intro                                       | Milestone #1                       | 02/16               |
 | 6                  | SQL: Query Language II                                 |                                    |                     |
@@ -29,6 +29,6 @@
 | 13                 | Storage & Indexing (II)                                |                                    |                     |
 | 14                 |                                                        | HW6 - Storage & Indexing           | 04/20               |
 | 15                 | Final Review                                           | Milestone #3                       | 04/27               |
-|                    |                                                        | **PROJECT DEMO**                 | *to be scheduled*   | 
+|                    |                                                        | **PROJECT DEMO**                   | *to be scheduled*   |
 | 16                 |                                                        | ***FINAL***                        | ***05/01 - 05/05*** |
 |                    |                                                        |                                    |                     |

@@ -99,10 +99,10 @@ Example: relation: Employee
 > [!warning] Circular Reference on Foreign-Key Constraints
 > - [[week-2-CptS451_3_RelationalModel.pdf|page 39]]
 >
-> It's important to be aware of circular references. Circular reference is best avoided, because it complicates the INSERT and UPDATE operations. For example, we can only insert a new tuple into a table (either referencing or referenced) *if the tuple with value already **exists** its counterpart table*. Otherwise, we have to set the inserted value to NULL and update it after.
+> **It's important to be aware of circular references**. Circular reference is best to avoid, because it complicates the INSERT and UPDATE operations. For example, we can only insert a new tuple into a table (either referencing or referenced) *if the tuple with value already **exists** its counterpart table*. Otherwise, we have to set the inserted value to NULL and update it after.
 
 #### Choosing a Policy for Foreign-Key Constraints
-Add `ON [DELETE, UPDATE] [CASCADE, SET NULL, NO ACTION]`
+Write the statement `ON [DELETE, UPDATE] [CASCADE, SET NULL, NO ACTION, REJECT]` to the end of the CREATE statement.
 
 *The default policy is* `REJECT`.
 

@@ -47,7 +47,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-2/Relational Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "week-2/Relational Model.md"
               }
             }
           },
@@ -162,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-2/Relational Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,13 +193,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "539804bac7ee7f30",
+  "active": "17a9947aabb75ee1",
   "lastOpenFiles": [
-    "week-2/Relational Model.md",
+    "TO-DO.md",
     "Course Schedule.md",
+    "week-2/Relational Model.md",
     "cpts-451-project-docs/CptS451Online_ProjectDesc.pdf",
     "cpts-451-project-docs/milestone 1/CptS451Online_ProjectMilestone1.pdf",
-    "TO-DO.md",
     "cpts-451-project/README.md",
     "week-4/Relational Algebra.md",
     "week-3/SQL.md",

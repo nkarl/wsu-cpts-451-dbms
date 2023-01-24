@@ -97,6 +97,9 @@ $$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\Natu
 - **Renaming** of *relations* and *attributes* $\boldsymbol{\rho}$
 
 ### EXTENDED Relational Algebra
+- [[#Outer-Joins]]
+- [[#Grouping / Aggregation]]
+
 #### Outer-Joins
 - Outer-Join
 - Full Outer-Join

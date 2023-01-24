@@ -39,16 +39,16 @@ More formally,
 
 #### Projection
 > [!info] Project
-> $$\underbrace{\Pi}_{A_1\dots A_k}(\text{R})$$
+> $$\prod_{A_1\dots A_k}(\text{R})$$
 > Picks columns of attributes $[A_1, \dots A_k]$ of R, *and eliminates duplicate rows, if any*.
 
 ##### Extended Projection
 > [!info] Extended Projection
-> $$\underbrace{\Pi}_{[A_1\text{, }B:=(A_2 + A_3)]}(\text{R})$$
+> $$\prod_{[A_1\text{, }B:=(A_2 + A_3)]}(\text{R})$$
 > The attribute list may contain arbitrary expression involving attributes:
 > 1. Arithmetic operations on attributes, e.g. $A_1 + A_2 \rightarrow B$
 > 2. Duplicate occurences of the same attributes.
->    $$\underbrace{\Pi}_{A_1, A_1, (A_2 + A_3),\dots}$$
+>    $$\prod_{\text{$A_1$, $A_1$, $(A_2 + A_3)$,...}}$$
 
 #### Cartesian Products
 > [!info] Cartesian Product $\times$
@@ -135,7 +135,7 @@ $$
 R\cap S = R - (R - S)
 $$
 
-##### Precedence
+##### Operator Precedence
 1. () parenthesis
 2. \[$\sigma$, $\Pi$, $\rho$\]
 3. \[$\times$, $\bowtie$\]
@@ -144,7 +144,7 @@ $$
 
 #### 2. Sequence
 $$
-\underbrace{\Pi}_{balance} \left(\underbrace{\sigma}_{custSSN=SSN}(account \times (\underbrace{\sigma}_{name=Tom}customer))\right)
+\prod_{balance} \left[\underbrace{\sigma}_{custSSN=SSN}\left(account \times \underbrace{\sigma}_{name=Tom}(customer)\right)\right]
 $$
 where,
 $$

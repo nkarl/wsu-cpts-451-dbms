@@ -18,7 +18,7 @@ More formally,
 
 ## II. Operations
 ---
-### A. Core Relational Algebra
+### BASIC Relational Algebra
 - [[#Set Operations]]
 - [[#Selection]]
 - [[#Projection]]
@@ -96,16 +96,18 @@ $$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\Natu
 #### Renaming
 - **Renaming** of *relations* and *attributes* $\boldsymbol{\rho}$
 
-### B. Extended Relational Algebra
-- **Extended**
-	- Duplicate Elimination $\boldsymbol{\delta}$
-	- Sorting $\boldsymbol{\tau}$
-	- Grouping and Aggregation $\boldsymbol{\gamma}$
-	- Outer-Joins
-		- Outer-Join
-		- Full Outer-Join
-		- Left Outer-Join
-		- Right Outer-Join
+### EXTENDED Relational Algebra
+#### Outer-Joins
+- Outer-Join
+- Full Outer-Join
+- Left Outer-Join
+- Right Outer-Join
+
+#### Grouping / Aggregation
+- Duplicate Elimination $\boldsymbol{\delta}$
+- Sorting $\boldsymbol{\tau}$
+- Grouping and Aggregation $\boldsymbol{\gamma}$
+- Outer-Joins
 
 
 

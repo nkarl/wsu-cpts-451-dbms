@@ -125,7 +125,7 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{\textbf{FROM }R.A_1=S.A
 3. Expression trees
 
 #### 1. Arithmetic
-$$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\NaturalJoin_{R.A_1=S.A_1,\cdots R.A_k=S.A_k}S)$$
+$$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{\textbf{FROM }R.A_1=S.A_1 \quad\textbf{TO }R.A_k=S.A_k}S)$$
 
 $$
 R\cap S = R - (R - S)
@@ -140,14 +140,14 @@ $$
 
 #### 2. Sequence
 $$
-\Pi_{balance} \left(\sigma_{custsmm=ssn}(account \times (\sigma_{name=tom}customer))\right)
+\underbrace{\Pi}_{balance} \left(\underbrace{\sigma}_{custsmm=ssn}(account \times (\underbrace{\sigma}_{name=Tom}customer))\right)
 $$
 where,
 $$
 \begin{align}
-R_1(ssn, name, city) &:= \sigma_{name=tom}(customer)\cr
-R_2(ssn, name, city, custssn, balance) &:=\sigma_{custssn=ssn}(account\times R_1)\cr
-Result(balance) &:=\Pi_{balance}(R_2)
+\underbrace{R_1}_{(ssn, name, city)} &:= \underbrace{\sigma}_{name=Tom}(customer)\cr
+\underbrace{R_2}_{(ssn, name, city, custssn, balance)} &:=\underbrace{\sigma}_{custssn=ssn}(account\times R_1)\cr
+\underbrace{Result}_{(balance)} &:=\underbrace{\Pi}_{balance}(R_2)
 \end{align}
 $$
 

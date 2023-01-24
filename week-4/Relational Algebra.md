@@ -27,24 +27,24 @@ More formally,
 - [[#Renaming]]
 
 #### Set Operations
-Relation must have the same schema.
+*Relation must have* **the same schema**.
 - Union $\boldsymbol{\cup}$
 - intersection $\boldsymbol{\cap}$
 - difference $\boldsymbol{-}$
 
 #### Selection
 > [!info] Selection
-> $$\sigma_{Condition}(\text{R})$$
-> Return tuples in R that satisfies a condition C.
+> $$\underbrace{\sigma}_{Condition}(\text{R})$$
+> Return tuples in R *that satisfies some condition C*.
 
 #### Projection
 > [!info] Project
-> $$\Pi_{A_1\dots A_k}(\text{R})$$
+> $$\underbrace{\Pi}_{A_1\dots A_k}(\text{R})$$
 > Picks columns of attributes $[A_1, \dots A_k]$ of R.
 
 ##### Extended Projection
 > [!info] Extended Projection
-> $$\Pi_{A_1, A_2 + A_3 \rightarrow B}(\text{R})$$
+> $$\underbrace{\Pi}_{A_1, A_2 + A_3 \rightarrow B}(\text{R})$$
 > The attribute list may contain arbitrary expression involving attributes:
 > 1. Arithmetic operations on attributes, e.g. $A_1 + A_2 \rightarrow B$
 > 2. Duplicate occurences of the same attributes.
@@ -75,18 +75,21 @@ $$R\underbrace{\bowtie}_{R.B=S.D}S$$
 	- Let *L* be the union of their attributes
 	- Let $A_1\dots A_k$ be their common attributes
  
-$$R\bowtie S = \Pi_L(R\underbrace{\bowtie}_{\textbf{FROM }R.A_1=S.A_1 \quad\textbf{TO }R.A_k=S.A_k}S)$$
+$$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{\textbf{FROM }R.A_1=S.A_1 \quad\textbf{TO }R.A_k=S.A_k}S)$$
+
 `Emp(name, dept)`
 | Dept    | Name |
 | ------- | ---- |
 | Physics | Jack |
 | EECS    | Tom  |
+
 `Contact(name, addr)`
 | Name | Addr    |
 | ---- | ------- |
 | Jack | Pullman |
 | Tom  | Moscow  |
 | Mary | Colfax  |
+
 `Emp` $\bowtie$ `Contact`
 | Dept    | Name | Addr    |
 | ------- | ---- | ------- |

@@ -63,6 +63,7 @@ More formally,
 > Take the product $R\times S$, and then apply $\sigma_C$ (conditional projection) to the result.
 
 ##### Theta-Join (non-equal)
+- *Can have one or more conditions*.
 
 $$R\underbrace{\bowtie}_{R.A>S.C}S$$
 $$R\underbrace{\bowtie}_{R.A>S.C\quad\textbf{AND}\quad R.B\neq S.D}S$$
@@ -143,13 +144,13 @@ $$
 
 #### 2. Sequence
 $$
-\underbrace{\Pi}_{balance} \left(\underbrace{\sigma}_{custsmm=ssn}(account \times (\underbrace{\sigma}_{name=Tom}customer))\right)
+\underbrace{\Pi}_{balance} \left(\underbrace{\sigma}_{custSSN=SSN}(account \times (\underbrace{\sigma}_{name=Tom}customer))\right)
 $$
 where,
 $$
 \begin{align}
-\underbrace{R_1}_{(ssn, name, city)} &:= \underbrace{\sigma}_{name=Tom}(customer)\cr
-\underbrace{R_2}_{(ssn, name, city, custssn, balance)} &:=\underbrace{\sigma}_{custssn=ssn}(account\times R_1)\cr
+\underbrace{R_1}_{(SSN, name, city)} &:= \underbrace{\sigma}_{name=Tom}(customer)\cr
+\underbrace{R_2}_{(SSN, name, city, custSSN, balance)} &:=\underbrace{\sigma}_{custSSN=SSN}(account\times R_1)\cr
 \underbrace{Result}_{(balance)} &:=\underbrace{\Pi}_{balance}(R_2)
 \end{align}
 $$

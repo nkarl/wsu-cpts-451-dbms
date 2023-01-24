@@ -40,11 +40,11 @@ More formally,
 #### Projection
 > [!info] Project
 > $$\underbrace{\Pi}_{A_1\dots A_k}(\text{R})$$
-> Picks columns of attributes $[A_1, \dots A_k]$ of R.
+> Picks columns of attributes $[A_1, \dots A_k]$ of R, *and eliminates duplicate rows, if any*.
 
 ##### Extended Projection
 > [!info] Extended Projection
-> $$\underbrace{\Pi}_{A_1, A_2 + A_3 \rightarrow B}(\text{R})$$
+> $$\underbrace{\Pi}_{[A_1\text{, }B:=(A_2 + A_3)]}(\text{R})$$
 > The attribute list may contain arbitrary expression involving attributes:
 > 1. Arithmetic operations on attributes, e.g. $A_1 + A_2 \rightarrow B$
 > 2. Duplicate occurences of the same attributes.
@@ -75,7 +75,7 @@ $$R\underbrace{\bowtie}_{R.B=S.D}S$$
 	- Let *L* be the union of their attributes
 	- Let $A_1\dots A_k$ be their common attributes
  
-$$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{\textbf{FROM }R.A_1=S.A_1 \quad\textbf{TO }R.A_k=S.A_k}S)$$
+$$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{... }(R.A_k=S.A_k)}S)$$
 
 `Emp(name, dept)`
 | Dept    | Name |

@@ -58,15 +58,15 @@ Relation must have the same schema.
 
 #### Joins
 > [!info] Join $\bowtie$
-> $$\text{R}\bowtie_{C}\text{S} = \sigma_C(\text{R}\times\text{S})$$
+> $$\text{R}\underbrace{\bowtie}_{Condition}\text{S} = \sigma_C(\text{R}\times\text{S})$$
 
 ##### Theta-Join
 
-$$\DeclareMathOperator*{\ThetaJoin}{ThetaJoin}R\ThetaJoin_{R.A>S.C}S$$
-$$\DeclareMathOperator*{\ThetaJoin}{ThetaJoin}R\ThetaJoin_{R.A>S.C, R.B\neq S.D}S$$
+$$R\underbrace{\bowtie}_{R.A>S.C}S$$
+$$R\underbrace{\bowtie}_{\text{R.A>S.C and R.B$\neq$ S.D}}S$$
 ##### Equi-Join
 - Equi-Join: **C** only uses the equality operator
-$$\DeclareMathOperator*{\EquiJoin}{EquiJoin}R\EquiJoin_{R.B=S.D}S$$
+$$R\underbrace{\bowtie}_{R.B=S.D}S$$
  ##### Natural-Join
 - Connects two relations by:
 	- equating attributes of the same name (equi-join), and
@@ -75,7 +75,7 @@ $$\DeclareMathOperator*{\EquiJoin}{EquiJoin}R\EquiJoin_{R.B=S.D}S$$
 	- Let *L* be the union of their attributes
 	- Let $A_1\dots A_k$ be their common attributes
  
-$$\DeclareMathOperator*{\NaturalJoin}{NaturalJoin}R\NaturalJoin S = \Pi_L(R\NaturalJoin_{R.A_1=S.A_1,\cdots R.A_k=S.A_k}S)$$
+$$R\bowtie S = \Pi_L(R\underbrace{\bowtie}_{\textbf{FROM }R.A_1=S.A_1 \quad\textbf{TO }R.A_k=S.A_k}S)$$
 `Emp(name, dept)`
 | Dept    | Name |
 | ------- | ---- |

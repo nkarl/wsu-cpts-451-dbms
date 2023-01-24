@@ -48,6 +48,7 @@ More formally,
 > The attribute list may contain arbitrary expression involving attributes:
 > 1. Arithmetic operations on attributes, e.g. $A_1 + A_2 \rightarrow B$
 > 2. Duplicate occurences of the same attributes.
+>    $$\underbrace{\Pi}_{A_1, A_1, (A_2 + A_3),\dots}$$
 
 #### Cartesian Products
 > [!info] Cartesian Product $\times$

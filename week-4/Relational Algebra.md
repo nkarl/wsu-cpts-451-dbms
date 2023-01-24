@@ -59,15 +59,18 @@ More formally,
 
 #### Joins
 > [!info] Join $\bowtie$
-> $$\text{R}\underbrace{\bowtie}_{Condition}\text{S} = \sigma_C(\text{R}\times\text{S})$$
+> $$\text{R}\underbrace{\bowtie}_{Condition}\text{S} = \underbrace{\sigma}_C(\text{R}\times\text{S})$$
+> Take the product $R\times S$, and then apply $\sigma_C$ (conditional projection) to the result.
 
-##### Theta-Join
+##### Theta-Join (non-equal)
 
 $$R\underbrace{\bowtie}_{R.A>S.C}S$$
-$$R\underbrace{\bowtie}_{\text{R.A>S.C and R.B$\neq$ S.D}}S$$
+$$R\underbrace{\bowtie}_{R.A>S.C\quad\textbf{AND}\quad R.B\neq S.D}S$$
+
 ##### Equi-Join
 - Equi-Join: **C** only uses the equality operator
 $$R\underbrace{\bowtie}_{R.B=S.D}S$$
+
  ##### Natural-Join
 - Connects two relations by:
 	- equating attributes of the same name (equi-join), and
@@ -126,7 +129,7 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 3. Expression trees
 
 #### 1. Arithmetic
-$$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{\textbf{FROM }R.A_1=S.A_1 \quad\textbf{TO }R.A_k=S.A_k}S)$$
+$$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{... }(R.A_k=S.A_k)}S)$$
 
 $$
 R\cap S = R - (R - S)

@@ -57,6 +57,29 @@ More formally,
 > - Schema of result is the attributes of R and then S, *in order*.
 > - If attributes *A* exists both in R and S then use `R.A` and `S.A`.
 
+`Emp(name, dept)`
+| Name | Dept    |
+| ---- | ------- |
+| Jack | physics |
+| Tom  | EECS    | 
+
+`Contact(name, addr)`
+| Name | Addr    |
+| ---- | ------- |
+| Jack | Pullman |
+| Tom  | Moscow  |
+| Mary | Colfax  |
+
+`Emp` $\times$ `Contact`
+| Emp.Name | Dept    | Contact.Name | Addr    |
+| -------- | ------- | ------------ | ------- |
+| Jack     | physics | Jack         | Pullman |
+| Jack     | physics | Tom          | Mostcow |
+| Jack     | physics | Mary         | Colfax  |
+| Tom      | EECS    | Jack         | Pullman |
+| Tom      | EECS    | Tom          | Moscow  |
+| Tom      | EECS    | Mary         | Colfax  |
+
 #### Joins
 > [!info] Join $\bowtie$
 > $$\text{R}\underbrace{\bowtie}_{Condition}\text{S} = \underbrace{\sigma}_C(\text{R}\times\text{S})$$

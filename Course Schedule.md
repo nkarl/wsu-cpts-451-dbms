@@ -5,12 +5,12 @@
 |                    | Overview of Database Systems                           |                                    |                     |
 |                    | [[ER Model for Relational DB]]                         |                                    |                     |
 | 2                  | ER Models - Examples                                   | HW1 - ER Models                    | 01/26               |
-|                    | Relational Model: Intro                                |                                    |                     |
+|                    | [[Relational Model\|Relational Model: Intro]]                                |                                    |                     |
 |                    | Relational Model: Integrity Constraints over Relations |                                    |                     |
 | 3                  | Relational Model: Intro to SQL                         |                                    |                     |
 |                    | ER to Relational Translation                           | HW2 - ER to Relational Translation | 02/02               |
 |                    | Project Overview                                       |                                    |                     |
-| 4                  | Relational Algebra: SQL                                | HW3 - Relational Algebra           | 02/09               | 
+| 4                  | [[Relational Algebra\|Relational Algebra: SQL]]                                | HW3 - Relational Algebra           | 02/09               | 
 |                    | PostgreSQL Intro                                       |                                    |                     |
 | 5                  | SQL: Query Language I                                  |                                    |                     |
 |                    | PostgreSQL Intro                                       | Milestone #1                       | 02/16               |

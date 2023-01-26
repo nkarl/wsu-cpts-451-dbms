@@ -98,7 +98,7 @@
  
 **Watch:**
 - [x]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]
-- [x]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
+- [ ]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
 - [x] Project Overview
 
 **Assignments:**

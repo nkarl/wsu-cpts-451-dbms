@@ -34,18 +34,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "17a9947aabb75ee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-4/Relational Algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "week-1/CptS451_HW1_CharlesNguyen.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course Schedule.md"
+                "file": "week-1/CptS451_HW1_CharlesNguyen.pdf"
               }
             }
           },
@@ -163,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "week-1/CptS451_HW1_CharlesNguyen.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,17 +180,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8da6c37db29b4e3f",
+  "active": "9a74168999c6127c",
   "lastOpenFiles": [
-    "TO-DO.md",
-    "week-4/Relational Algebra.md",
-    "week-1/HW1Solution.pdf",
-    "week-1/Homework1 – ER Model.pdf",
-    "week-5/SQL.md",
+    "week-1/HW1_ER.png",
     "Course Schedule.md",
-    "week-2/Relational Model.md",
-    "cpts-451-project-docs/CptS451Online_ProjectDesc.pdf",
-    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectMilestone1.pdf",
-    "cpts-451-project/README.md"
+    "week-3/HW1_ER.jpg",
+    "week-1/HW1.md",
+    "week-1/HW1Solution.pdf",
+    "week-4/Relational Algebra.md",
+    "TO-DO.md",
+    "week-1/Homework1 – ER Model.pdf",
+    "week-5/SQL.md"
   ]
 }

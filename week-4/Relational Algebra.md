@@ -123,7 +123,12 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 | Tom  | Moscow  |
 | Mary | Colfax  |
 
-**Intermediate Step: Cartesian Product**
+>
+>**Intermediate Step: Cartesian Product**, then
+> *SELECT* * *WHERE R.Name = S.Name*
+> *COMBINE* R.Name WITH S.Name
+>
+
 | Dept    | Name | Name | Name Addr |
 | ------- | ---- | ---- | --------- |
 | Physics | *Jack* | *Jack* | Pullman   |
@@ -132,6 +137,7 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 | EECS    | Tom  | Jack | Pullman   |
 | EECS    | *Tom*  | *Tom*  | Moscow    |
 | EECS    | Tom  | Mary | Colfax    | 
+
 
 `Emp` $\bowtie$ `Contact`
 | Dept    | Name | Addr    |

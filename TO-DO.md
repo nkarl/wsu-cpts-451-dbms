@@ -131,27 +131,8 @@
 		- Joins
 	- [x] Examples for Relational Algebra expressions
 	- [x] Extended Operations: *use Bag semantics*
-		- [x] Duplicate-Elimination $\delta$ (page 41)
-			- very straight-forward, it drops duplicate tuples if we don't need them.
-		- [x] Sorting $\tau$ (page 42)
-			- sorts the projection lexically on the list of attributes
-			- for example, given a list $L = \{A_1, A_2, \dots A_2\}$, sort on $A_1$ first, then $A_2$, and so on. 
-		- [x] **Grouping & Aggregation** $\boldsymbol{\gamma}$
-			- *Aggregation:* applies to an attribute; calculates value for entire column
-				- COUNT
-				- SUM
-				- MAX
-				- MIN
-				- AVG
-			- *Grouping:* allows tuples in a relation *to be considered as groups, and aggregate only within such groups* (page 44)
-			- *Grouping & Aggregation* $\gamma$ together as a function (page 45)
-				- $\gamma_{L, \theta(A)}(R)$
-					- `do group` R according to attribute list $L$
-					- Within each group, `do aggregate` (one of the five aggregation functions) $\theta(A)$
-					- Result includes:
-						1.  grouping attributes, and
-						2. their group's aggregations
-						3. **one tuple per group**
+		- [x] [[Relational Algebra#Grouping / Aggregation|Grouping & Aggregation]]
+		- [x] [[Relational Algebra#Outer-Joins|Outer Joins]]
 
 **Lesson Slides:**
 - [x] [[week-4-CptS451_5_RelationalAlgebra.pdf|Relational Algebra]]

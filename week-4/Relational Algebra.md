@@ -27,10 +27,13 @@ More formally,
 - [[#Renaming]]
 
 #### Set Operations
-*Relation must have* **the same schema**.
 - Union $\boldsymbol{\cup}$
 - intersection $\boldsymbol{\cap}$
 - difference $\boldsymbol{-}$
+
+>
+>*Relation must have* **the same schema**. For example, we have relations $S$ and $R$. Applying any set operations on these two relations must enforce the requirement that both $S$ and $R$ maintain the same schema.
+>
 
 #### Selection
 > [!info] Selection

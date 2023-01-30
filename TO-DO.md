@@ -99,8 +99,8 @@
 			- weak entity sets have
 				- key constraint
 				- total participation
-		- [ ] 3.5.6 Translating class hierarchies
-		- [ ] 3.5.7 Translating ER diagrams *with aggregation*
+		- [x] 3.5.6 Translating class hierarchies
+		- [x] 3.5.7 Translating ER diagrams *with aggregation*
  
 **Watch:**
 - [x]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]

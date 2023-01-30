@@ -136,7 +136,7 @@
 		- [x] Sorting $\tau$ (page 42)
 			- sorts the projection lexically on the list of attributes
 			- for example, given a list $L = \{A_1, A_2, \dots A_2\}$, sort on $A_1$ first, then $A_2$, and so on. 
-		- [ ] **Grouping & Aggregation** $\boldsymbol{\gamma}$
+		- [x] **Grouping & Aggregation** $\boldsymbol{\gamma}$
 			- *Aggregation:* applies to an attribute; calculates value for entire column
 				- COUNT
 				- SUM
@@ -150,7 +150,8 @@
 					- Within each group, `do aggregate` (one of the five aggregation functions) $\theta(A)$
 					- Result includes:
 						1.  grouping attributes, and
-						2. their group's aggregations.
+						2. their group's aggregations
+						3. **one tuple per group**
 
 **Lesson Slides:**
 - [x] [[week-4-CptS451_5_RelationalAlgebra.pdf|Relational Algebra]]

@@ -150,20 +150,22 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 - **Renaming** of *relations* and *attributes* $\boldsymbol{\rho}$
 
 ### EXTENDED Relational Algebra
-- [[#Outer-Joins]]
 - [[#Grouping / Aggregation]]
-
-#### Outer-Joins
-- Outer-Join
-- Full Outer-Join
-- Left Outer-Join
-- Right Outer-Join
+- [[#Outer-Joins]]
 
 #### Grouping / Aggregation
 - Duplicate Elimination $\boldsymbol{\delta}$
 - Sorting $\boldsymbol{\tau}$
 - Grouping and Aggregation $\boldsymbol{\gamma}$
 - Outer-Joins
+
+#### Outer-Joins
+The basic JOIN is fundamentally an **inner JOIN**. The limitation is that *tuples exclusive to either relation will not be matched (and therefore not included in the result)*. These tuples are referred to as *dangling tuples*. (page 47)
+
+Depending on which direction of including the dangling tuples we can have:
+- Full Outer-Join: *both sides of the dangling tuples*
+- Left Outer-Join: only the *left* dangling tuples
+- Right Outer-Join: only the *right* dangling tuples
 
 
 ## III. Building Complex Operations

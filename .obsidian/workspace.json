@@ -47,7 +47,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-4/Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "week-4/Relational Algebra.md"
               }
             }
           },
@@ -162,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-4/Relational Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,10 +192,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "539804bac7ee7f30",
+  "active": "81efce0d0f2c5467",
   "lastOpenFiles": [
-    "week-4/Relational Algebra.md",
     "TO-DO.md",
+    "week-4/Relational Algebra.md",
     "Course Schedule.md",
     "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf",
     "week-1/HW1_ER.png",

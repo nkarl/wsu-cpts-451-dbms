@@ -98,11 +98,11 @@
  
 **Watch:**
 - [x]  Relational Model: Introduction to SQL [[week-2-CptS451_3_RelationalModel.pdf]]
-- [ ]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
+- [x]  ER to Relational Translation [[Week-3-CptS451_4_ER2Relational.pdf]]
 - [x] Project Overview
 
 **Assignments:**
-- [ ] HOMEWORK #1: ER Model
+- [x] HOMEWORK #1: ER Model
 
 
 ## Week 4
@@ -110,6 +110,12 @@
 > [!info]
 > *Learn about the formal query language Relational Algebra* which is the foundation for relational query languages like SQL. Learn the relational algebra operations and how they are combined to write complex queries.
 
+#### Reflection
+Due to the various unplanned events last week and my personal failing to uphold my planned schedule, I have fallen behind on my own milestones. I have forgotten a lot of *information regarding Entity-Relationship (ER) model* and *how to map natural language (English) into an ER diagram*. One part of this forgetful problem is the complexity of the information and its timing of acquisition (first-time). Let's unpack that.
+
+The abstract view is quite simple and straightforward. However, the implementation is tricky and can quickly gain in complexity.
+
+#### Tasks
 **Readings:**
 - Textbook (Database Management Systems) -- Chapters 4.1, 4.2
 	- [ ] Relational Algebra

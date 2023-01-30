@@ -101,9 +101,9 @@ $$R\underbrace{\bowtie}_{R.A>S.C\quad\textbf{AND}\quad R.B\neq S.D}S$$
 $$R\underbrace{\bowtie}_{R.B=S.D}S$$
 
  ##### Natural-Join
-- Connects two relations by:
-	- equating attributes of the same name (equi-join), and
-	- projecting out one copy of each of equated attributes.
+- **Connects two relations** by:
+	- *equating attributes of the same name* (equi-join), and
+	- *projecting out one copy of each* of equated attributes.
 - We have relations **R** and **S**,
 	- Let *L* be the union of their attributes
 	- Let $A_1\dots A_k$ be their common attributes
@@ -122,6 +122,16 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 | Jack | Pullman |
 | Tom  | Moscow  |
 | Mary | Colfax  |
+
+**Intermediate Step: Cartesian Product**
+| Dept    | Name | Name | Name Addr |
+| ------- | ---- | ---- | --------- |
+| Physics | *Jack* | *Jack* | Pullman   |
+| Physics | Jack | Tom  | Moscow    |
+| Physics | Jack | Mary | Colfax    |
+| EECS    | Tom  | Jack | Pullman   |
+| EECS    | *Tom*  | *Tom*  | Moscow    |
+| EECS    | Tom  | Mary | Colfax    | 
 
 `Emp` $\bowtie$ `Contact`
 | Dept    | Name | Addr    |

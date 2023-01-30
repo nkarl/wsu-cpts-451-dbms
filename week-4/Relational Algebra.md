@@ -167,6 +167,8 @@ Depending on which direction of including the dangling tuples we can have:
 - Left Outer-Join: only the *left* dangling tuples
 - Right Outer-Join: only the *right* dangling tuples
 
+*Note:* **Dangling tuples are padded with NULL values.**
+
 
 ## III. Building Complex Operations
 ---

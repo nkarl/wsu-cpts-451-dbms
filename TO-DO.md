@@ -186,23 +186,22 @@ This goes back to the *forgetting curve* of memory retention rate. By taking a s
 -   Midterm Review
 
 **Assignments:**
--   Project Milestone 1
-	- Schema
-		- ER diagram
-	- Application
-		- [x] Set up Dockerized PostgreSQL database
-			- [x] Set up Docker container for database
-			- [x] Import data into database
-		- [x] Set up `Server API`
-			- [x] Successfully send test response to client
-			- [x] Successfully make query request to database
-			- [x] Successfully make query request to database and send data back to client as reponse
-		- [ ] Set up `Client App`
-			- [ ] Set up React app
-			- [ ] Create page compoments
-			- [ ] Adjust the layout with CSS to match requirements
+> [!important] Project Milestone 1
+>- Schema
+>	- [ ] ER diagram
+>- Application
+>	- [x] Set up Dockerized PostgreSQL database
+>		- [x] Set up Docker container for database
+>		- [x] Import data into database
+>	- [x] Set up `Server API`
+>		- [x] Successfully send test response to client
+>		- [x] Successfully make query request to database
+>		- [x] Successfully make query request to database and send data back to client as reponse
+>	- [ ] Set up `Client App`
+>		- [ ] Set up React app
+>		- [ ] Create page compoments
+>		- [ ] Adjust the layout with CSS to match requirements
 
-**Assignments:**
 -   [Sample Midterm](https://wsu.instructure.com/courses/1623110/files/95846167/preview)  (Please go over the sample midterm questions before you watch the "Sample Midterm Discussion" video.)
 
 **Lesson Slides:**

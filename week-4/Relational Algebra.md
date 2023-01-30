@@ -18,7 +18,7 @@ More formally,
 
 ## II. Operations
 ---
-### BASIC Relational Algebra
+### BASIC Relational Algebra (Set Semantics)
 - [[#Set Operations]]
 - [[#Selection]]
 - [[#Projection]]
@@ -149,15 +149,31 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 #### Renaming
 - **Renaming** of *relations* and *attributes* $\boldsymbol{\rho}$
 
-### EXTENDED Relational Algebra
+### EXTENDED Relational Algebra (Bag Semantics)
 - [[#Grouping / Aggregation]]
 - [[#Outer-Joins]]
 
 #### Grouping / Aggregation
-- Duplicate Elimination $\boldsymbol{\delta}$
-- Sorting $\boldsymbol{\tau}$
-- Grouping and Aggregation $\boldsymbol{\gamma}$
-- Outer-Joins
+- Duplicate-Elimination $\delta$ (page 41)
+- Sorting $\tau$ (page 42)
+	- sorts the projection lexically on the list of attributes
+	- for example, given a list $L = \{A_1, A_2, \dots A_2\}$, sort on $A_1$ first, then $A_2$, and so on. 
+- **Grouping & Aggregation** $\boldsymbol{\gamma}$
+	- *Aggregation:* applies to an attribute; calculates value for entire column
+		- COUNT
+		- SUM
+		- MAX
+		- MIN
+		- AVG
+	- *Grouping:* allows tuples in a relation *to be considered as groups, and aggregate only within such groups* (page 44)
+	- *Grouping & Aggregation* $\gamma$ together as a function (page 45)
+		- $\gamma_{L, \theta(A)}(R)$
+			- `do group` R according to attribute list $L$
+			- Within each group, `do aggregate` (one of the five aggregation functions) $\theta(A)$
+			- Result includes:
+				1.  grouping attributes, and
+				2. their group's aggregations
+				3. **one tuple per group**
 
 #### Outer-Joins
 The basic JOIN is fundamentally an **inner JOIN**. The limitation is that *tuples exclusive to either relation will not be matched (and therefore not included in the result)*. These tuples are referred to as *dangling tuples*. (page 47)

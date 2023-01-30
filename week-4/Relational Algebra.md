@@ -85,6 +85,8 @@ More formally,
 
 #### Joins
 > [!info] Join $\bowtie$
+> Strictly speaking, JOIN is an extension of the Cartesian product. It is *Cartesian product composed with one or more conditions*.
+> 
 > $$\text{R}\underbrace{\bowtie}_{Condition}\text{S} = \underbrace{\sigma}_C(\text{R}\times\text{S})$$
 > Take the product $R\times S$, and then apply $\sigma_C$ (conditional projection) to the result.
 

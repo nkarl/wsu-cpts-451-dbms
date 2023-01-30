@@ -113,7 +113,9 @@
 #### Reflection
 Due to the various unplanned events last week and my personal failing to uphold my planned schedule, I have fallen behind on my own milestones. I have forgotten a lot of *information regarding Entity-Relationship (ER) model* and *how to map natural language (English) into an ER diagram*. One part of this forgetful problem is the complexity of the information and its timing of acquisition (first-time). Let's unpack that.
 
-The abstract view is quite simple and straightforward. However, the implementation is tricky and can quickly gain in complexity. The most recent homework has shown that. Mapping from English to an ER diagram is a complex and arduous task. It is also easy to misinterpret the English keywords, or even miss them completely.
+The abstract view is quite simple and straightforward. However, the implementation is tricky and can quickly gain in complexity. The most recent homework has shown that. Mapping from English to an ER diagram is a complex and arduous task. It is also easy to misinterpret the English keywords, or even miss them completely. *That's the first problem*. **What is the solution for this problem?**
+
+*The second problem is in regards to acquisition timing*. Due to the large influx of new information, my brain became flooded. It took time to wait for the information map to normalize. Next, it took time for the brain to traverse the map and recognize peaks of interest, i.e. high-priority information. **How can I reorganize my study process to speed up this process?**
 
 #### Tasks
 **Readings:**

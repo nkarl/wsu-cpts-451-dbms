@@ -116,17 +116,6 @@
 > [!info]
 > *Learn about the formal query language Relational Algebra* which is the foundation for relational query languages like SQL. Learn the relational algebra operations and how they are combined to write complex queries.
 
-#### Reflection
-Due to the various unplanned events last week and my personal failing to uphold my planned schedule, I have fallen behind on my own milestones. I have forgotten a lot of *information regarding Entity-Relationship (ER) model* and *how to map natural language (English) into an ER diagram*. One part of this forgetful problem is the complexity of the information and its timing of acquisition (first-time). Let's unpack that.
-
-The abstract view is quite simple and straightforward. However, the implementation is tricky and can quickly gain in complexity. The most recent homework has shown that. Mapping from English to an ER diagram is a complex and arduous task. It is also easy to misinterpret the English keywords, or even miss them completely. *That's the first problem*. **What is the solution for this problem?**
-
-*The second problem is in regards to acquisition timing*. Due to the large influx of new information, my brain became flooded. It took time to wait for the information map to normalize. Next, it took time for the brain to traverse the map and recognize peaks of interest, i.e. high-priority information. **How can I reorganize my study process to speed up this process?**
-
-The answer to both is *reviewing.* The reviewing task needs to be deeply integrated into my study system. It's imperative to review after each new reading. It is extremely inefficient to spend hours reading and just let information disintegrate due to lack of reinforcement. So far, what I have done is doing a passive review. That is waiting for the important information to peak and focus on those. However, this passive approach is slow and can be optimized for much more information gain.
-
-This goes back to the *forgetting curve* of memory retention rate. By taking a short amount of time to review and pick out one or two most important pieces of information, I immediately reinforce their peaks on the information map. This in turn shortens the amount of time required to recall and zero in on them on the next study session.
-
 #### Tasks
 **Readings:**
 - Textbook (Database Management Systems) -- Chapters 4.1, 4.2
@@ -134,14 +123,34 @@ This goes back to the *forgetting curve* of memory retention rate. By taking a s
 
 **Watch**:
 - Relational Algebra
-	- [x] Basic Operations
+	- [x] Basic Operations: *use Set semantics*
 		- Set
 		- Selection
 		- Projection
 		- Cartesian Product
 		- Joins
 	- [x] Examples for Relational Algebra expressions
-	- [ ] Extended Operations
+	- [x] Extended Operations: *use Bag semantics*
+		- [x] Duplicate-Elimination $\delta$ (page 41)
+			- very straight-forward, it drops duplicate tuples if we don't need them.
+		- [x] Sorting $\tau$ (page 42)
+			- sorts the projection lexically on the list of attributes
+			- for example, given a list $L = \{A_1, A_2, \dots A_2\}$, sort on $A_1$ first, then $A_2$, and so on. 
+		- [ ] **Grouping & Aggregation** $\boldsymbol{\gamma}$
+			- *Aggregation:* applies to an attribute; calculates value for entire column
+				- COUNT
+				- SUM
+				- MAX
+				- MIN
+				- AVG
+			- *Grouping:* allows tuples in a relation *to be considered as groups, and aggregate only within such groups* (page 44)
+			- *Grouping & Aggregation* $\gamma$ together as a function (page 45)
+				- $\gamma_{L, \theta(A)}(R)$
+					- `do group` R according to attribute list $L$
+					- Within each group, `do aggregate` (one of the five aggregation functions) $\theta(A)$
+					- Result includes:
+						1.  grouping attributes, and
+						2. their group's aggregations.
 
 **Lesson Slides:**
 - [x] [[week-4-CptS451_5_RelationalAlgebra.pdf|Relational Algebra]]

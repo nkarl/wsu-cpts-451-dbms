@@ -130,7 +130,7 @@ This goes back to the *forgetting curve* of memory retention rate. By taking a s
 #### Tasks
 **Readings:**
 - Textbook (Database Management Systems) -- Chapters 4.1, 4.2
-	- [ ] Relational Algebra
+	- [x] Relational Algebra
 
 **Watch**:
 - Relational Algebra
@@ -140,6 +140,7 @@ This goes back to the *forgetting curve* of memory retention rate. By taking a s
 		- Projection
 		- Cartesian Product
 		- Joins
+	- [x] Examples for Relational Algebra expressions
 	- [ ] Extended Operations
 
 **Lesson Slides:**

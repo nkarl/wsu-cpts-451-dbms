@@ -124,11 +124,7 @@
 **Watch**:
 - Relational Algebra
 	- [x] Basic Operations: *use Set semantics*
-		- Set
-		- Selection
-		- Projection
-		- Cartesian Product
-		- Joins
+		- Set, Selection, Projection, Cartesian Product, Joins
 	- [x] Examples for Relational Algebra expressions
 	- [x] Extended Operations: *use Bag semantics*
 		- [x] [[Relational Algebra#Grouping / Aggregation|Grouping & Aggregation]]

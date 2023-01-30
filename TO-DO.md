@@ -113,7 +113,7 @@
 #### Reflection
 Due to the various unplanned events last week and my personal failing to uphold my planned schedule, I have fallen behind on my own milestones. I have forgotten a lot of *information regarding Entity-Relationship (ER) model* and *how to map natural language (English) into an ER diagram*. One part of this forgetful problem is the complexity of the information and its timing of acquisition (first-time). Let's unpack that.
 
-The abstract view is quite simple and straightforward. However, the implementation is tricky and can quickly gain in complexity.
+The abstract view is quite simple and straightforward. However, the implementation is tricky and can quickly gain in complexity. The most recent homework has shown that. Mapping from English to an ER diagram is a complex and arduous task. It is also easy to misinterpret the English keywords, or even miss them completely.
 
 #### Tasks
 **Readings:**

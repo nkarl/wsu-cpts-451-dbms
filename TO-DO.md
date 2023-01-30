@@ -117,6 +117,10 @@ The abstract view is quite simple and straightforward. However, the implementati
 
 *The second problem is in regards to acquisition timing*. Due to the large influx of new information, my brain became flooded. It took time to wait for the information map to normalize. Next, it took time for the brain to traverse the map and recognize peaks of interest, i.e. high-priority information. **How can I reorganize my study process to speed up this process?**
 
+The answer to both is *reviewing.* The reviewing task needs to be deeply integrated into my study system. It's imperative to review after each new reading. It is extremely inefficient to spend hours reading and just let information disintegrate due to lack of reinforcement. So far, what I have done is doing a passive review. That is waiting for the important information to peak and focus on those. However, this passive approach is slow and can be optimized for much more information gain.
+
+This goes back to the *forgetting curve* of memory retention rate. By taking a short amount of time to review and pick out one or two most important pieces of information, I immediately reinforce their peaks on the information map. This in turn shortens the amount of time required to recall and zero in on them on the next study session.
+
 #### Tasks
 **Readings:**
 - Textbook (Database Management Systems) -- Chapters 4.1, 4.2

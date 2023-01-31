@@ -144,8 +144,8 @@
 
 **Readings:**
 -   Textbook (Database Management Systems) -- Chapter 5
-	- [ ] 5.2 Form of a basic SQL query
-	- [ ] 5.3 Set operators
+	- [x] 5.2 Form of a basic SQL query
+	- [ ] 5.3 Set operators: UNION, INTERSECT, EXCEPT
 	- [ ] 5.4 Nested queries
 	- [ ] 5.5 Aggregation
 	- [ ] 5.6 NULL value
@@ -155,8 +155,8 @@
 		- [ ] *triggers*
 
 **Watch:**
--   SQL: Query Language (I)
--   PostgreSQL Introduction
+-   [ ] SQL: Query Language (I)
+-   [ ] PostgreSQL Introduction
 
 **Lesson Slides:**
 - [[Week-5-CptS451_6_SQL_part1.pdf | Week-5 - SQL part I]]
@@ -175,9 +175,12 @@
 -   Textbook (Database Management Systems) -- Chapter 5
 
 **Watch:**
--   SQL: Query Language (II)
--   SQL Exercises
--   Midterm Review
+-   [ ] SQL: Query Language (II)
+-   [ ] SQL Exercises
+-   [ ] Midterm Review
+
+**Lesson Slides:**
+-   [[Week-6-CptS451_6_SQL_part2.pdf | Week-6 - SQL part II]]
 
 **Assignments:**
 > [!important] Project Milestone 1
@@ -197,9 +200,6 @@
 >		- [ ] Adjust the layout with CSS to match requirements
 
 -   [Sample Midterm](https://wsu.instructure.com/courses/1623110/files/95846167/preview)  (Please go over the sample midterm questions before you watch the "Sample Midterm Discussion" video.)
-
-**Lesson Slides:**
--   [[Week-6-CptS451_6_SQL_part2.pdf | Week-6 - SQL part II]]
 
 
 ## Week 7

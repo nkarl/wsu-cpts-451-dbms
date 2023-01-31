@@ -146,9 +146,9 @@
 -   Textbook (Database Management Systems) -- Chapter 5
 	- [x] 5.2 Form of a basic SQL query
 	- [x] 5.3 Set operators: UNION, INTERSECT, EXCEPT
-	- [x] 5.4 Nested queries
+	- [ ] 5.4 Nested queries
 	- [ ] 5.5 Aggregation
-	- [ ] 5.6 NULL value
+	- [x] 5.6 NULL value
 	- [ ] 5.7 complex integrity constraints
 	- [ ] **active database**
 		- [ ] *active database*
@@ -179,6 +179,8 @@
 
 **Watch:**
 -   [ ] SQL: Query Language (II)
+	- [ ] Nested queries
+	- [ ] Triggers
 -   [ ] SQL Exercises
 -   [ ] Midterm Review
 

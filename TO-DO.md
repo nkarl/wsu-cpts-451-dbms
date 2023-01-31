@@ -189,9 +189,11 @@
 
 **Assignments:**
 > [!important] Project Milestone 1
->- Schema
+>- **Schema**
 >	- [ ] ER diagram
->- Application
+>	- [ ] DDL statements
+>		- CREATE TABLE and such
+>- **Application source code**
 >	- [x] Set up Dockerized PostgreSQL database
 >		- [x] Set up Docker container for database
 >		- [x] Import data into database

@@ -5,8 +5,9 @@
 - [[#II. Data Manipulation Language|DML: Data Manipulation Language]]
 - [[#III. Triggers & Advanced Integrity Constraints|Triggers and Advanced Integrity Constraints]]
 
-## I. The Basic Query Syntax SELECT
+## I. The Basic Query Syntax
 ---
+### SELECT
 
 ```sql
 SELECT [DISTINCT: optional] `select-list`
@@ -28,7 +29,7 @@ WHERE                       `qualification`
 - `DISTINCT` keyword is optional
 	- a constraint that the computed table should not contain duplicate rows
 
-### Examples
+#### Examples
 
 We have the following table definitions (relations):
 - Sailors(sid: `integer`, sname: `string`, rating: `integer`, age: `real`)
@@ -71,7 +72,7 @@ We have the following table definitions (relations):
 | 103 | Clipper   | green |
 | 104 | Marine    | red   |
 
-#### Q1: Find the names of sailors who have reserved boat number 103
+##### Q1: Find the names of sailors who have reserved boat number 103
 
 - Sailors
 	- name: `sname`
@@ -89,6 +90,13 @@ Order of operations:
 1. apply a **JOIN** (without condition): *Sailors $\bowtie$ Reserves*
 2. apply conditions: `S.sid = R.sid AND R.bid = 103`
 3. select only the `sname` column
+
+### Set Operations
+- UNION
+- INTERSECT
+- EXCEPT
+
+### Aggregation & Grouping
 
 
 ## II. Data Manipulation Language

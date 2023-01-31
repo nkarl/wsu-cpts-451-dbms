@@ -58,33 +58,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b480f357c687618e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-4/Relational Algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43d850cf49dd7395",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-5/SQL Most Common Queries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-5/SQL Fundamentals.md",
+                "file": "TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-5/SQL Fundamentals.md"
+                "file": "TO-DO.md"
               }
             }
           },
@@ -199,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-5/SQL Fundamentals.md",
+                "file": "TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,14 +203,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2fbd27268f69819",
+  "active": "539804bac7ee7f30",
   "lastOpenFiles": [
-    "week-6/SQL Nested Queries.md",
-    "week-5/SQL Fundamentals.md",
-    "week-4/Relational Algebra.md",
-    "TO-DO.md",
     "Course Schedule.md",
+    "week-5/SQL Fundamentals.md",
+    "TO-DO.md",
     "week-5/SQL Most Common Queries.md",
+    "week-4/Relational Algebra.md",
+    "week-6/SQL Nested Queries.md",
     "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf",
     "week-1/HW1_ER.png",
     "week-3/HW1_ER.jpg",

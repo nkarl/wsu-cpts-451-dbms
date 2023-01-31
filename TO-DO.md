@@ -156,7 +156,9 @@
 
 **Watch:**
 -   [x] SQL: Query Language (I)
-	- [ ] **Rewatch query examples a few times to really grasp their practical use**
+	- **Rewatch & Review**
+		- [ ] query examples to really grasp their practical use
+		- [ ] set operations (*write them down*, both the supported and unsupported expressions!)
 -   [ ] PostgreSQL Introduction
 
 **Lesson Slides:**

@@ -16,8 +16,8 @@
 - `DISTINCT` keyword is optional
 	- a constraint such that *the computed table should not contain duplicate rows*
 
-### SELECT
 
+### SELECT
 ```sql
 SELECT [DISTINCT: optional] `select-list`
 FROM                        `from-list`
@@ -37,7 +37,6 @@ WHERE                       `qualification`
 			- an arithmetic or string expression
 
 #### Examples
-
 We have the following table definitions (relations):
 - Sailors(sid: `integer`, sname: `string`, rating: `integer`, age: `real`)
 - Boats(bid: `integer`, bname: `string`, color: `string`)
@@ -80,7 +79,6 @@ We have the following table definitions (relations):
 | 104 | Marine    | red   |
 
 ##### Q1: Find the names of sailors who have reserved boat number 103
-
 - Sailors
 	- name: `sname`
 - Reserves
@@ -98,7 +96,17 @@ Order of operations:
 2. apply conditions, and thus **JOIN**: `S.sid = R.sid AND R.bid = 103`
 3. **select** (Projection) only the `sname` column
 
-### UNION, INTERSECT & EXCEPT
+
+### UNION INTERSECT EXCEPT
+> [!info]
+> Uses *set semantics*, i.e. no duplicate rows.
+
+##### UNION
+
+##### INTERSECT
+
+##### EXCEPT
+
 
 ### Aggregation & Grouping
 

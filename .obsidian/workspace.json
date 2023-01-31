@@ -48,6 +48,18 @@
             }
           },
           {
+            "id": "b480f357c687618e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-4/Relational Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "43d850cf49dd7395",
             "type": "leaf",
             "state": {
@@ -206,11 +218,11 @@
   },
   "active": "d37a5f4cdcacaf4e",
   "lastOpenFiles": [
+    "week-4/Relational Algebra.md",
+    "week-5/SQL Fundamentals.md",
     "TO-DO.md",
     "Course Schedule.md",
-    "week-5/SQL Fundamentals.md",
     "week-5/SQL Most Common Queries.md",
-    "week-4/Relational Algebra.md",
     "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf",
     "week-1/HW1_ER.png",
     "week-3/HW1_ER.jpg",

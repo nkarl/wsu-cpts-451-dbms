@@ -145,7 +145,7 @@
 **Readings:**
 -   Textbook (Database Management Systems) -- Chapter 5
 	- [x] 5.2 Form of a basic SQL query
-	- [ ] 5.3 Set operators: UNION, INTERSECT, EXCEPT
+	- [x] 5.3 Set operators: UNION, INTERSECT, EXCEPT
 	- [ ] 5.4 Nested queries
 	- [ ] 5.5 Aggregation
 	- [ ] 5.6 NULL value
@@ -155,7 +155,7 @@
 		- [ ] *triggers*
 
 **Watch:**
--   [ ] SQL: Query Language (I)
+-   [x] SQL: Query Language (I)
 -   [ ] PostgreSQL Introduction
 
 **Lesson Slides:**

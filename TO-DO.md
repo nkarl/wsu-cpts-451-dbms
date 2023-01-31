@@ -146,7 +146,7 @@
 -   Textbook (Database Management Systems) -- Chapter 5
 	- [x] 5.2 Form of a basic SQL query
 	- [x] 5.3 Set operators: UNION, INTERSECT, EXCEPT
-	- [ ] 5.4 Nested queries
+	- [x] 5.4 Nested queries
 	- [ ] 5.5 Aggregation
 	- [ ] 5.6 NULL value
 	- [ ] 5.7 complex integrity constraints
@@ -156,6 +156,7 @@
 
 **Watch:**
 -   [x] SQL: Query Language (I)
+	- [ ] **Rewatch query examples a few times to really grasp their practical use**
 -   [ ] PostgreSQL Introduction
 
 **Lesson Slides:**

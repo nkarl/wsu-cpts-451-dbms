@@ -1,7 +1,7 @@
 ## 0. Composition
 ---
 > [!info]
-> SQL uses *bag semantics*.
+> SQL uses *bag semantics*, i.e. SELECT queries do no remove duplicate rows.
 
 - DDL: Data Definition Language (CREATE, ALTER, DROP TABLE)
 - [[#I. The Basic Query Syntax|SQL: Sequel Query Language]]
@@ -10,6 +10,12 @@
 
 ## I. The Basic Query Syntax
 ---
+### Trivia
+- *String matching* is possible with `LIKE` and an string expression containing the *one-or-more-char wildcard* `%` and/or the *single-char wildcard* `_`
+- Watch out for NULL conditions
+- `DISTINCT` keyword is optional
+	- a constraint such that *the computed table should not contain duplicate rows*
+
 ### SELECT
 
 ```sql
@@ -29,8 +35,6 @@ WHERE                       `qualification`
 			- a column name, or
 			- a constant, or
 			- an arithmetic or string expression
-- `DISTINCT` keyword is optional
-	- a constraint that the computed table should not contain duplicate rows
 
 #### Examples
 

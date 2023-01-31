@@ -1,5 +1,8 @@
 ## 0. Composition
 ---
+> [!info]
+> SQL uses *bag semantics*.
+
 - DDL: Data Definition Language (CREATE, ALTER, DROP TABLE)
 - [[#I. The Basic Query Syntax|SQL: Sequel Query Language]]
 - [[#II. Data Manipulation Language|DML: Data Manipulation Language]]
@@ -87,9 +90,9 @@ WHERE  S.sid = R.sid AND R.bid = 103
 ```
 
 Order of operations:
-1. apply a **JOIN** (without condition): *Sailors $\bowtie$ Reserves*
-2. apply conditions: `S.sid = R.sid AND R.bid = 103`
-3. select only the `sname` column
+1. apply a **Cartesian product**: *Sailors $\times$ Reserves*
+2. apply conditions, and thus **JOIN**: `S.sid = R.sid AND R.bid = 103`
+3. **select** (Projection) only the `sname` column
 
 ### UNION, INTERSECT & EXCEPT
 

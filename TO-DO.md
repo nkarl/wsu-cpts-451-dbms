@@ -135,7 +135,7 @@
 
 **Assignments:**
 - [ ] HOMEWORK #2: Relational Model & ER2 Relational Translation
-
+- [ ] MDN Svelte Tutorial
 
 ## Week 5
 ---

@@ -91,10 +91,7 @@ Order of operations:
 2. apply conditions: `S.sid = R.sid AND R.bid = 103`
 3. select only the `sname` column
 
-### Set Operations
-- UNION
-- INTERSECT
-- EXCEPT
+### UNION, INTERSECT & EXCEPT
 
 ### Aggregation & Grouping
 

@@ -1,9 +1,9 @@
 ## 0. Composition
 ---
-- DDL: Data Definition Language
+- DDL: Data Definition Language (CREATE, ALTER, DROP TABLE)
 - [[#I. The Basic Query Syntax|SQL: Sequel Query Language]]
-- DML: Data Manipulation Language
-- Triggers and Advanced Integrity Constraints
+- [[#II. Data Manipulation Language|DML: Data Manipulation Language]]
+- [[#III. Triggers & Advanced Integrity Constraints|Triggers and Advanced Integrity Constraints]]
 
 ## I. The Basic Query Syntax SELECT
 ---

@@ -216,6 +216,14 @@ WHERE    Emp.dno=Dept.dno
 GROUP BY Emp.dno, dname;
 ```
 
+#### HAVING
+```sql
+HAVING AGGREGATE_FUNC(col_name) operator_value
+```
+
+- used along with GROUP BY to select some groups
+	- can't define conditions on aggregate results in the WHERE clause
+- predicate in the HAVING clause applied *after* the formation of groups
 
 ## II. Data Manipulation Language
 ---

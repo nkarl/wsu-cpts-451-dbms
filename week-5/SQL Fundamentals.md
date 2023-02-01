@@ -107,7 +107,7 @@ Order of operations:
 
 ##### EXCEPT
 
-##### Important cases
+##### Important Cases
 ###### R intersects (S unions T)
 $$R\cap (S\cup T)$$
 

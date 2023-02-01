@@ -47,8 +47,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-5/SQL Fundamentals.md",
+                "file": "TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-5/SQL Fundamentals.md"
+                "file": "TO-DO.md"
               }
             }
           },
@@ -163,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-5/SQL Fundamentals.md",
+                "file": "TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,10 +191,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d37a5f4cdcacaf4e",
+  "active": "539804bac7ee7f30",
   "lastOpenFiles": [
-    "TO-DO.md",
     "week-5/SQL Fundamentals.md",
+    "TO-DO.md",
     "Course Schedule.md",
     "week-5/SQL Most Common Queries.md",
     "week-4/Relational Algebra.md",

@@ -35,6 +35,7 @@ WHERE                       `qualification`
 			- a column name, or
 			- a constant, or
 			- an arithmetic or string expression
+				- string can be compared lexicographically
 
 > [!note] the **AS** keyword
 > - Sometimes, we want to rename an attribute or relation/table, when the attribute name is not descriptive.
@@ -53,8 +54,8 @@ WHERE                       `qualification`
 > 	- Week5-L1 26:20
 > ```sql
 > SELECT *
-> FROM Emp AS E1, Dept AS D, Emp AS E2
-> WHERE E1.dno = D.dno AND D.mgr=E2.ename;
+> FROM   Emp AS E1, Dept AS D, Emp AS E2
+> WHERE  E1.dno = D.dno AND D.mgr=E2.ename;
 > ```
 
 #### Examples

@@ -1,3 +1,0 @@
-- Also called *subqueries*.
-- Embedded inside an *outer* query.
-- Similar to function calls in programming languages.

@@ -1,3 +1,5 @@
+#nested #subqueries #duplicates #join
+
 ## I. Subqueries
 ---
 - Also called *subqueries*.
@@ -25,3 +27,17 @@ WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 
 ## II. JOIN
 ---
+> [!important]
+>
+> There are two way to JOIN:
+> - JOINs are *implicit* using SELECT-FROM-WHERE
+> - *explicit* via *join expressions*
+
+```sql
+--syntax
+SELECT (column_list)
+FROM   table_name
+	[INNER | {LEFT | RIGHT | FULL} OUTER] JOIN table_name
+	ON <condition>
+WHERE . . .
+```

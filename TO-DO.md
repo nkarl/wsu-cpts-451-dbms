@@ -181,10 +181,8 @@
 
 **Watch:**
 -   [ ] SQL: Query Language (II)
-	- [ ] Nested queries
-	- [ ] Triggers
--   [ ] SQL Exercises
--   [ ] Midterm Review
+	- [x] Nested queries
+	- [ ] Nested Queries Examples
 
 **Lesson Slides:**
 -   [[Week-6-CptS451_6_SQL_part2.pdf | Week-6 - SQL part II]]

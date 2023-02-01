@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week-6/SQL Nested and Complex Queries.md",
+                "file": "week-6/Nested and JOIN Queries.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-6/SQL Nested and Complex Queries.md",
+                "file": "week-6/Nested and JOIN Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-6/SQL Nested and Complex Queries.md"
+                "file": "week-6/Nested and JOIN Queries.md"
               }
             }
           },
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-6/SQL Nested and Complex Queries.md",
+                "file": "week-6/Nested and JOIN Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
   "active": "02cad9c5b96f4286",
   "lastOpenFiles": [
     "TO-DO.md",
-    "week-6/SQL Nested and Complex Queries.md",
+    "week-6/Nested and JOIN Queries.md",
     "Course Schedule.md",
     "week-5/SQL Fundamentals.md",
     "week-5/SQL Most Common Queries.md",

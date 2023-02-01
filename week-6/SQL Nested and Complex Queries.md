@@ -5,8 +5,21 @@
 - Similar to function calls in programming languages.
 - The keyword `IN` allows selecting an attribute from subqueries.
 
+Let's say, *we are looking for the employees that work for the same department as Jack.* The following expressions are equivalent:
+
 ```sql
-SELECT
+SELECT E1.ename, E1.dno
+FROM   Emp as E1
+WHERE  E1.dno IN
+	(SELECT E2.dno
+	 FROM   Emp E2
+	 WHERE  E2.ename='Jack');
+```
+
+```sql
+SELECT E2.ename, E2.dno
+FROM   Emp AS E1, Emp AS E2
+WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 ```
 
 

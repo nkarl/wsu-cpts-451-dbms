@@ -1,4 +1,4 @@
-## 0. Composition
+## I. Composition
 ---
 > [!info]
 > SQL uses *bag semantics*, i.e. SELECT queries do no remove duplicate rows.
@@ -8,7 +8,7 @@
 - [[#II. Data Manipulation Language|DML: Data Manipulation Language]]
 - [[#III. Triggers & Advanced Integrity Constraints|Triggers and Advanced Integrity Constraints]]
 
-## I. The Basic Query Syntax
+## II. The Basic Query Syntax
 ---
 ### Trivia
 - *String matching* is possible with `LIKE` and an string expression containing the *one-or-more-char wildcard* `%` and/or the *single-char wildcard* `_`
@@ -119,13 +119,15 @@ Order of operations:
 3. **select** (Projection) only the `sname` column
 
 
-### UNION INTERSECT EXCEPT
+## III. UNION INTERSECT EXCEPT
+---
 > [!info]
 > Uses *set semantics*, i.e. no duplicate rows.
 
-##### UNION
+### UNION
 
-##### INTERSECT
+
+### INTERSECT
 - postgres
 ```sql
 (SELECT ename FROM Emp, Dept
@@ -144,11 +146,13 @@ WHERE           E1.dno=888
 			AND E1.ssn=E2.ssn;
 ```
 
-##### EXCEPT
+
+### EXCEPT
 - standard SQL is not possible without sub-queries
 
-##### Special Cases
-###### R intersects (S unions T)
+
+### Special Cases
+#### R intersects (S unions T)
 $$R\cap (S\cup T)$$
 
 - postgres is straightforward
@@ -176,7 +180,8 @@ WHERE R.A=S.A OR R.A=T.A;
 ```
 
 
-### Aggregation & Grouping
+## IV. Aggregation & Grouping
+---
 #### Aggregation
 - MIN, MAX, SUM, COUNT, AVG
 - output relation with a single attribute with a single row
@@ -233,14 +238,3 @@ WHERE    Emp.dno=Dept.dno
 GROUP BY dname
 HAVING   COUNT(ssn)>2;
 ```
-
-
-## II. Data Manipulation Language
----
-- INSERT
-- DELETE
-- UPDATE
-
-
-## III. Triggers & Advanced Integrity Constraints
----

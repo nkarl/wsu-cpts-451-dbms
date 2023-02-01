@@ -218,12 +218,22 @@ GROUP BY Emp.dno, dname;
 
 #### HAVING
 ```sql
+-- syntax
 HAVING AGGREGATE_FUNC(col_name) operator_value
 ```
 
 - used along with GROUP BY to select some groups
 	- can't define conditions on aggregate results in the WHERE clause
 - predicate in the HAVING clause applied *after* the formation of groups
+
+```sql
+SELECT   dname, SUM(sal), COUNT(ssn)
+FROM     Emp, Dept
+WHERE    Emp.dno=Dept.dno
+GROUP BY dname
+HAVING   COUNT(ssn)>2;
+```
+
 
 ## II. Data Manipulation Language
 ---

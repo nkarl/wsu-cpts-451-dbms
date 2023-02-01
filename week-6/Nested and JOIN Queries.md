@@ -24,6 +24,13 @@ FROM   Emp AS E1, Emp AS E2
 WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 ```
 
+### Applied Cases
+#### nested in FROM
+
+#### to aggregate in multiple stages
+
+#### joining subqueries
+
 
 ## II. JOIN
 ---
@@ -31,6 +38,7 @@ WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 >
 > There are two way to JOIN:
 > - JOINs are *implicit* using SELECT-FROM-WHERE
+> 	- tables are theta-joined by the WHERE conditions
 > - *explicit* via *join expressions*
 
 ```sql

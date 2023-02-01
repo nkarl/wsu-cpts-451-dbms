@@ -1,4 +1,4 @@
-#relation-algebra
+#relation-algebra #join #natural-join #dangling-tuples
 
 ## I. Definition
 ---
@@ -85,7 +85,7 @@ More formally,
 
 #### Joins
 > [!info] Join $\bowtie$
-> Strictly speaking, JOIN is an extension of the Cartesian product. It is *Cartesian product composed with one or more conditions*.
+> Strictly speaking, #join is an extension of the Cartesian product. It is *Cartesian product composed with one or more conditions*.
 > 
 > $$\text{R}\underbrace{\bowtie}_{Condition}\text{S} = \underbrace{\sigma}_C(\text{R}\times\text{S})$$
 > Take the product $R\times S$, and then apply $\sigma_C$ (conditional projection) to the result.
@@ -176,7 +176,7 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 				3. **one tuple per group**
 
 #### Outer-Joins
-The basic JOIN is fundamentally an **inner JOIN**. The limitation is that *tuples exclusive to either relation will not be matched (and therefore not included in the result)*. These tuples are referred to as *dangling tuples*. (page 47)
+The basic JOIN is fundamentally an **inner JOIN**. The limitation is that *tuples exclusive to either relation will not be matched (and therefore not included in the result)*. These tuples are referred to as #dangling-tuples. (page 47)
 
 Depending on which direction of including the dangling tuples we can have:
 - Full Outer-Join: *both sides of the dangling tuples*

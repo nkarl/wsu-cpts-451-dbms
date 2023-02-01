@@ -46,9 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6f5c5bca9129def1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-4/Relational Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#dangling",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-6/Nested and JOIN Queries.md",
+                "file": "week-4/Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-6/Nested and JOIN Queries.md"
+                "file": "week-4/Relational Algebra.md"
               }
             }
           },
@@ -163,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-6/Nested and JOIN Queries.md",
+                "file": "week-4/Relational Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,10 +205,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02cad9c5b96f4286",
+  "active": "def41c4accdc8dbd",
   "lastOpenFiles": [
-    "week-4/Relational Algebra.md",
     "week-6/Nested and JOIN Queries.md",
+    "week-4/Relational Algebra.md",
     "TO-DO.md",
     "Course Schedule.md",
     "week-5/SQL Fundamentals.md",

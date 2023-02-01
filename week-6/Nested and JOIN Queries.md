@@ -34,6 +34,8 @@ WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 
 ## II. JOIN
 ---
+- **Week6-L1 (1:10:00)**
+
 > [!important]
 >
 > There are two way to JOIN:

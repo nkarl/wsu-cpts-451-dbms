@@ -171,12 +171,16 @@ UNION
 - or, in standard SQL
 ```sql
 SELECT R.A
-FROM R, S, T -- produces an empty projection if one table is empty
+FROM R, S, T -- produces an empty projection if one table (such as T) is empty
 WHERE R.A=S.A OR R.A=T.A;
 ```
 
 
 ### Aggregation & Grouping
+#### Aggregation
+- MIN, MAX, SUM, COUNT, AVG
+
+#### Grouping
 
 
 ## II. Data Manipulation Language

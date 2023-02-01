@@ -179,9 +179,42 @@ WHERE R.A=S.A OR R.A=T.A;
 ### Aggregation & Grouping
 #### Aggregation
 - MIN, MAX, SUM, COUNT, AVG
+- output relation with a single attribute with a single row
+```sql
+SELECT MIN(sal), MAX(sal), AVG(sal)
+FROM   Emp, Dept
+WHERE  Emp.dno=Dept.dno AND Dept.dname='Marketing';
+```
 
-#### Grouping
+- *Except for* COUNT, all other aggregations apply to a single attribute
+	- COUNT can be used on more than one attribute, even `*`
+```sql
+SELECT COUNT(*) FROM Emp;
+```
+ 
+```sql
+SELECT COUNT(ename) FROM Emp;
+```
 
+#### GROUP BY
+> [!important] 
+> SELECTed attributes *must also appear in GROUP BY attributes*. Usually, it's worth to remember that the attribute must exist in the table for that attribute to be SELECTed.
+
+Either
+```sql
+SELECT   Dept.dno, dname, SUM(sal), COUNT(*)
+FROM     Emp, Dept
+WHERE    Emp.dno=Dept.dno
+GROUP BY Dept.dno;
+```
+
+or
+```sql
+SELECT   Emp.dno, dname, SUM(sal), COUNT(*)
+FROM     Emp, Dept
+WHERE    Emp.dno=Dept.dno
+GROUP BY Emp.dno, dname;
+```
 
 ## II. Data Manipulation Language
 ---

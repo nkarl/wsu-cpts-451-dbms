@@ -182,6 +182,7 @@
 **Watch:**
 -   [ ] SQL: Query Language (II)
 	- [x] Nested queries
+		- [ ] **Rewatch** at slow speed
 	- [ ] Nested Queries Examples
 
 **Lesson Slides:**

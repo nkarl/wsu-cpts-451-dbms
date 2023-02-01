@@ -46,21 +46,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6f5c5bca9129def1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-4/Relational Algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-4/Relational Algebra.md",
+                "file": "TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-4/Relational Algebra.md"
+                "file": "TO-DO.md"
               }
             }
           },
@@ -176,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-4/Relational Algebra.md",
+                "file": "TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +192,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "def41c4accdc8dbd",
+  "active": "539804bac7ee7f30",
   "lastOpenFiles": [
     "week-6/Nested and JOIN Queries.md",
     "week-4/Relational Algebra.md",

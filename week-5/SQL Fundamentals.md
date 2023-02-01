@@ -126,7 +126,6 @@ Order of operations:
 ##### UNION
 
 ##### INTERSECT
-
 - postgres
 ```sql
 (SELECT ename FROM Emp, Dept
@@ -146,8 +145,9 @@ WHERE           E1.dno=888
 ```
 
 ##### EXCEPT
+- standard SQL is not possible without sub-queries
 
-##### Important Cases
+##### Special Cases
 ###### R intersects (S unions T)
 $$R\cap (S\cup T)$$
 

@@ -160,7 +160,7 @@
 - **Rewatch & Review**
 	- [x] SELECT query examples
 		- to really grasp their practical use
-	- [ ] Set Operations
+	- [x] Set Operations
 		- (*write them down*, both the supported and unsupported expressions!)
 
 **Lesson Slides:**

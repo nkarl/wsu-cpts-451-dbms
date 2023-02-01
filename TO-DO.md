@@ -251,16 +251,13 @@
 -   Textbook (Database Management Systems) -- Chapter 25.8
 
 **Lesson Slides:**
--   Week 9 - SQL Views and Indexes
+-   [[Week-9-CptS451_8_SQL_Views.pdf|Week 9 - SQL Views and Indexes]]
 
 **Watch:**
 -   SQL Views and Indexes I and II
 
 **Assignment:**
 -   Project Milestone--2
-
-### Attachments
--   [Week-9-CptS451_8_SQL_Views.pdf](https://wsu.instructure.com/courses/1623110/files/95846198/preview)
 
 
 ## Week 10

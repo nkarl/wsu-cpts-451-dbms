@@ -127,6 +127,24 @@ Order of operations:
 
 ##### INTERSECT
 
+- postgres
+```sql
+(SELECT ename FROM Emp, Dept
+ WHERE  Emp.dno=Dept.dno AND dname='Purchasing')
+INTERSECT
+(SELECT ename FROM Emp, Dept
+ WHERE  Emp.dno=Dept.dno AND dname='HR');
+```
+
+- standard SQL
+```sql
+SELECT distinct E1.ename
+FROM            Emp AS E1, Emp AS E2
+WHERE           E1.dno=888
+			AND E2.dno=111
+			AND E1.ssn=E2.ssn;
+```
+
 ##### EXCEPT
 
 ##### Important Cases

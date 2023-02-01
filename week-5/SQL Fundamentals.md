@@ -107,6 +107,34 @@ Order of operations:
 
 ##### EXCEPT
 
+##### Important cases
+###### R intersects (S unions T)
+$$R\cap (S\cup T)$$
+
+- postgres is straightforward
+```sql
+SELECT R.A FROM R
+INTERSECT
+( (SELECT S.A FROM S)
+  UNION
+  (SELECT T.A FROM T)
+);
+```
+
+- or
+```sql
+(SELECT R.A FROM R, S WHERE R.A=S.A)
+UNION
+(SELECT R.A FROM R, T WHERE R.A=T.A);
+```
+
+- or, in standard SQL
+```sql
+SELECT R.A
+FROM R, S, T -- produces an empty projection if one table is empty
+WHERE R.A=S.A OR R.A=T.A;
+```
+
 
 ### Aggregation & Grouping
 

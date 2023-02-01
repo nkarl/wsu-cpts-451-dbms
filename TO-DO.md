@@ -155,7 +155,7 @@
 
 **Watch:**
 -   [x] SQL: Query Language (I) SELECT
--   [ ] SQL: Query Language (I) Set Operations: UNION INTERSECT EXCEPT
+-   [x] SQL: Query Language (I) Set Operations: UNION INTERSECT EXCEPT
 - **Rewatch & Review**
 	- [ ] query examples to really grasp their practical use
 	- [ ] set operations (*write them down*, both the supported and unsupported expressions!)

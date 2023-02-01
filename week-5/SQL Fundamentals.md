@@ -216,6 +216,7 @@ WHERE    Emp.dno=Dept.dno
 GROUP BY Emp.dno, dname;
 ```
 
+
 ## II. Data Manipulation Language
 ---
 - INSERT

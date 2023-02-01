@@ -38,7 +38,7 @@ WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 >
 > There are two way to JOIN:
 > - JOINs are *implicit* using SELECT-FROM-WHERE
-> 	- tables are theta-joined by the WHERE conditions
+> 	- tables are joined by the WHERE conditions
 > - *explicit* via *join expressions*
 
 ```sql

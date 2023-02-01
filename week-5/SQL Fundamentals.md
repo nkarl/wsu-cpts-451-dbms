@@ -36,6 +36,20 @@ WHERE                       `qualification`
 			- a constant, or
 			- an arithmetic or string expression
 
+> [!note] the **AS** keyword
+> - Sometimes, we want to rename an attribute or relation/table, when the attribute name is not descriptive, or especially when we need to query from the same table one or more times.
+> ```sql
+> SELECT ename, mgr AS manager
+> FROM   Emp, Dept
+> WHERE  Emp.dno = Dept.dno AND manager='Alice';
+> ```
+> - We can also add a new attribute as a column in the projected relation.
+> ```sql
+> SELECT ename, dno, 'temporary' AS status
+> FROM   Emp
+> WHERE  sal<50000;
+> ```
+
 #### Examples
 We have the following table definitions (relations):
 - Sailors(sid: `integer`, sname: `string`, rating: `integer`, age: `real`)

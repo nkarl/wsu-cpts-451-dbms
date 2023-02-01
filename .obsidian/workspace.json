@@ -175,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -192,7 +192,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4941b7c5d42fc36c",
+  "active": "1936b24819d10f6b",
   "lastOpenFiles": [
     "TO-DO.md",
     "week-5/SQL Fundamentals.md",

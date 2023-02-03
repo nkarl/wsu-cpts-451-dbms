@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "30c84fdd84b0e4f2",
+        "id": "88da45d3b54cfb09",
         "type": "tabs",
         "children": [
           {
-            "id": "539804bac7ee7f30",
+            "id": "b91e1847c5623411",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -19,32 +19,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "8da6c37db29b4e3f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course Schedule.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "02cad9c5b96f4286",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-6/Nested and JOIN Queries.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -93,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,17 +165,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "539804bac7ee7f30",
+  "active": "b91e1847c5623411",
   "lastOpenFiles": [
-    "week-6/Nested and JOIN Queries.md",
-    "week-4/Relational Algebra.md",
     "TO-DO.md",
     "Course Schedule.md",
+    "week-2/Relational Model.md",
+    "week-3/CptS451_HW2_CharlesNguyen.pdf",
+    "week-3/HW2.md",
+    "week-6/Nested and JOIN Queries.md",
+    "week-4/Relational Algebra.md",
     "week-5/SQL Fundamentals.md",
     "week-5/SQL Most Common Queries.md",
-    "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf",
-    "week-1/HW1_ER.png",
-    "week-3/HW1_ER.jpg",
-    "week-1/HW1.md"
+    "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf"
   ]
 }

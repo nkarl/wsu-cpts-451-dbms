@@ -133,8 +133,7 @@
 - [x] [[week-4-CptS451_5_RelationalAlgebra.pdf|Relational Algebra]]
 
 **Assignments:**
-- [ ] HOMEWORK #2: Relational Model & ER2 Relational Translation
-- [ ] MDN Svelte Tutorial
+- [x] HOMEWORK #2: Relational Model & ER2 Relational Translation
 
 
 ## Week 5
@@ -150,9 +149,6 @@
 	- [ ] 5.5 Aggregation
 	- [x] 5.6 NULL value
 	- [ ] 5.7 complex integrity constraints
-	- [ ] **active database**
-		- [ ] *active database*
-		- [ ] *triggers*
 
 **Watch:**
 -   [x] SQL: Query Language (I) SELECT
@@ -188,24 +184,22 @@
 -   [[Week-6-CptS451_6_SQL_part2.pdf | Week-6 - SQL part II]]
 
 **Assignments:**
-> [!important] Project Milestone 1
->- **Schema**
->	- [ ] ER diagram
->	- [ ] DDL statements
->		- CREATE TABLE and such
->- **Application source code**
->	- [x] Set up Dockerized PostgreSQL database
->		- [x] Set up Docker container for database
->		- [x] Import data into database
->	- [x] Set up `Server API`
->		- [x] Successfully send test response to client
->		- [x] Successfully make query request to database
->		- [x] Successfully make query request to database and send data back to client as reponse
->	- [ ] Set up `Client App`
->		- [ ] Set up React app
->		- [ ] Create page compoments
->		- [ ] Adjust the layout with CSS to match requirements
-
+- Schema
+	- [ ] ER diagram design
+	- [ ] DDL statements
+		- CREATE TABLE and such
+- Application source code
+	- [x] Set up Dockerized PostgreSQL database
+		- [x] Set up Docker container for database
+		- [x] Import data into database
+	- [x] Set up `Server API`
+		- [x] Successfully send test response to client
+		- [x] Successfully make query request to database
+		- [x] Successfully make query request to database and send data back to client as reponse
+	- [ ] Set up `Client App`
+		- [ ] Set up React app
+		- [ ] Create page compoments
+		- [ ] Adjust the layout with CSS to match requirements
 -   [Sample Midterm](https://wsu.instructure.com/courses/1623110/files/95846167/preview)  (Please go over the sample midterm questions before you watch the "Sample Midterm Discussion" video.)
 
 

@@ -203,8 +203,6 @@
 		- [ ] Adjust the layout with CSS to match requirements
 		- [ ] Hook the client to the server endpoint
 
--   [Sample Midterm](https://wsu.instructure.com/courses/1623110/files/95846167/preview)  (Please go over the sample midterm questions before you watch the "Sample Midterm Discussion" video.)
-
 
 ## Week 7
 ---
@@ -219,7 +217,8 @@
 -   Midterm review (same video from Week-6)
 
 **Assignments:**
--   Midterm--1
+-   [Sample Midterm](https://wsu.instructure.com/courses/1623110/files/95846167/preview)  (Please go over the sample midterm questions before you watch the "Sample Midterm Discussion" video.)
+-   *Midterm--1*
 
 
 ## Week 8

@@ -3,9 +3,10 @@
   "showLineNumber": true,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
+    "includeName": true,
     "pageSize": "Letter",
-    "landscape": false,
+    "landscape": true,
     "margin": "0",
-    "downscalePercent": 100
+    "downscalePercent": 90
   }
 }

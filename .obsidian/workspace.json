@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b91e1847c5623411",
+            "id": "717f0b3ef7ad7791",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,8 +20,19 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "a72e90fa9458d051",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf"
               }
             }
           },
@@ -136,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,17 +177,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b91e1847c5623411",
+  "active": "a72e90fa9458d051",
   "lastOpenFiles": [
+    "cpts-451-project-docs/milestone 1/CharlesNguyen_relations_v1.md",
+    "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.md",
+    "cpts-451-project-docs/milestone 1/Untitled.md",
     "TO-DO.md",
-    "Course Schedule.md",
-    "week-2/Relational Model.md",
-    "week-3/CptS451_HW2_CharlesNguyen.pdf",
-    "week-3/HW2.md",
-    "week-6/Nested and JOIN Queries.md",
-    "week-4/Relational Algebra.md",
-    "week-5/SQL Fundamentals.md",
-    "week-5/SQL Most Common Queries.md",
-    "books/Raghu Ramakrishnan - Database Management Systems Ramakrishnan (2018, McGraw-Hill Education) - libgen.li.pdf"
+    "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
+    "cpts-451-project-docs/milestone 1/ER.md",
+    "cpts-451-project-docs/milestone 1/CptS451_milstone_1_ER.drawio.png",
+    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectMilestone1.pdf",
+    "cpts-451-project-docs/Cs451_milestone_1_ER.drawio.png",
+    "week-1/week-1-CptS451_2_ERModel.pdf"
   ]
 }

@@ -5,9 +5,9 @@
 <h3>Online</h3>
 <p>Dr. Sakire Arslan Ay</p>
 <br>
-<h1>Homework-2</h2>
+<h1>Homework-2</h1>
 <br>
-<h1>ER to Relational Translation</h2>
+<h1>ER to Relational Translation</h1>
 <br>
 <p>Name: CHARLES NGUYEN</p>
 <p>Student Number: 011606177</p>

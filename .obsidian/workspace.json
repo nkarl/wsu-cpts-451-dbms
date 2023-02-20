@@ -20,19 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "a72e90fa9458d051",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
+                "file": "TO-DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf"
+                "file": "TO-DO.md"
               }
             }
           },
@@ -147,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
+                "file": "TO-DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,17 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a72e90fa9458d051",
+  "active": "717f0b3ef7ad7791",
   "lastOpenFiles": [
+    "week-4/CptS451_HW2_CharlesNguyen.pdf",
+    "week-1/CptS451_HW1_CharlesNguyen.pdf",
+    "week-1/HW1.md",
+    "week-1/Homework1 – ER Model.pdf",
+    "TO-DO.md",
+    "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
     "cpts-451-project-docs/milestone 1/CharlesNguyen_relations_v1.md",
     "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.md",
     "cpts-451-project-docs/milestone 1/Untitled.md",
-    "TO-DO.md",
-    "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
-    "cpts-451-project-docs/milestone 1/ER.md",
-    "cpts-451-project-docs/milestone 1/CptS451_milstone_1_ER.drawio.png",
-    "cpts-451-project-docs/milestone 1/CptS451Online_ProjectMilestone1.pdf",
-    "cpts-451-project-docs/Cs451_milestone_1_ER.drawio.png",
-    "week-1/week-1-CptS451_2_ERModel.pdf"
+    "cpts-451-project-docs/milestone 1/ER.md"
   ]
 }

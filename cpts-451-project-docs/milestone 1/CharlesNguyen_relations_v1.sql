@@ -1,8 +1,8 @@
 CREATE DATABASE YelpData;
 CREATE TABLE IF NOT EXISTS Business (
-    business_name   TEXT,
+    business_name   TEXT NOT NULL,
     business_id     TEXT PRIMARY KEY,
-    isOpen          BOOLEAN,
+    isOpen          BOOLEAN NOT NULL,
     category        TEXT[],
     address         TEXT,
     city            TEXT,
@@ -11,23 +11,25 @@ CREATE TABLE IF NOT EXISTS Business (
 
 CREATE TABLE IF NOT EXISTS YelpUser (
     user_id         TEXT PRIMARY KEY,
-    review_count    INTEGER
+    review_count    INTEGER DEFAULT 0 NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS Review (
-    review_id       TEXT PRIMARY KEY,
+    review_id       TEXT,
     user_id         TEXT,
     business_id     TEXT,
-    rating          FLOAT,
-    FOREIGN KEY (business_id) REFERENCES Business (business_id),
-    FOREIGN KEY (user_id) REFERENCES YelpUser (user_id)
+    rating          FLOAT NOT NULL,
+    PRIMARY KEY (review_id, user_id, business_id)
+    FOREIGN KEY (business_id)   REFERENCES Business (business_id),
+    FOREIGN KEY (user_id)       REFERENCES YelpUser (user_id)
 );
 
 CREATE TABLE CheckIn (
-    business_id     TEXT PRIMARY KEY,
+    business_id     TEXT,
     day             TEXT,
     hour            TIME,
     num_checkins    INTEGER
-    FOREIGN KEY business_id REFERENCES Business (business_id)
+    PRIMARY KEY (business_id)
+    FOREIGN KEY (business_id)   REFERENCES Business (business_id)
 );
 

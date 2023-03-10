@@ -145,10 +145,7 @@
 -   Textbook (Database Management Systems) -- Chapter 5
 	- [x] 5.2 Form of a basic SQL query
 	- [x] 5.3 Set operators: UNION, INTERSECT, EXCEPT
-	- [ ] 5.4 Nested queries
-	- [ ] 5.5 Aggregation
 	- [x] 5.6 NULL value
-	- [ ] 5.7 complex integrity constraints
 
 **Watch:**
 -   [x] SQL: Query Language (I) SELECT
@@ -163,7 +160,7 @@
 - [[Week-5-CptS451_6_SQL_part1.pdf | Week-5 - SQL part I]]
 
 **Assignments:**
-- [ ]   Homework 3-- Relational Algebra
+- [x]   Homework 3-- Relational Algebra
 
 
 ## Week 6
@@ -174,6 +171,10 @@
 
 **Readings:**
 -   Textbook (Database Management Systems) -- Chapter 5
+	- [ ] 5.4 Nested queries
+	- [ ] 5.5 Aggregation
+	- [x] 5.6 NULL value
+	- [ ] 5.7 complex integrity constraints
 
 **Watch:**
 -   [ ] SQL: Query Language (II)

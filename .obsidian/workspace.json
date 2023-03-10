@@ -20,8 +20,67 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "09db1c2d7a4de743",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-4/Relational Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e66bd81558224acf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "week-5/Homework3-RelationalAlgebra.pdf"
+              }
+            }
+          },
+          {
+            "id": "073fe41900447036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-5/HW3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e003ff914ce5d37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-5/SQL Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3590a0020bb12512",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "week-6/Nested and JOIN Queries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-5/HW3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TO-DO.md"
+                "file": "week-5/HW3.md"
               }
             }
           },
@@ -136,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TO-DO.md",
+                "file": "week-5/HW3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,17 +225,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "717f0b3ef7ad7791",
+  "active": "073fe41900447036",
   "lastOpenFiles": [
-    "week-4/CptS451_HW2_CharlesNguyen.pdf",
-    "week-1/CptS451_HW1_CharlesNguyen.pdf",
-    "week-1/HW1.md",
-    "week-1/Homework1 – ER Model.pdf",
+    "week-5/Homework3-RelationalAlgebra.pdf",
+    "week-5/HW3.md",
+    "week-4/Relational Algebra.md",
+    "week-4/HW2.md",
+    "week-5/SQL Fundamentals.md",
+    "week-6/Nested and JOIN Queries.md",
+    "week-6/Week-6-CptS451_6_SQL_part2.pdf",
     "TO-DO.md",
+    "week-4/HW2Solution.pdf",
+    "week-5/HW3Solution.pdf",
+    "week-1/week-1-CptS451_0_CourseDetails.pdf",
+    "week-1/CptS451_HW1_CharlesNguyen.pdf",
+    "week-1/Homework1 – ER Model.pdf",
     "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
-    "cpts-451-project-docs/milestone 1/CharlesNguyen_relations_v1.md",
     "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.md",
-    "cpts-451-project-docs/milestone 1/Untitled.md",
-    "cpts-451-project-docs/milestone 1/ER.md"
+    "week-4/CptS451_HW2_CharlesNguyen.pdf",
+    "week-1/HW1.md",
+    "cpts-451-project-docs/milestone 1/CharlesNguyen_relations_v1.md",
+    "cpts-451-project-docs/milestone 1/Untitled.md"
   ]
 }

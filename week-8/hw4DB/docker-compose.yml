@@ -1,0 +1,19 @@
+version: "3.1"
+
+services:
+  data:
+    container_name: "451-HW4"
+    image: postgres
+    environment:
+      POSTGRES_DB: HW4DB
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/data
+    working_dir: /data
+
+volumes:
+  data:
+    name: "data"

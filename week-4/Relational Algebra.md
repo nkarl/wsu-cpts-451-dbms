@@ -127,7 +127,6 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 >**Intermediate Step:**
 > - Cartesian Product, then
 > - *SELECT* * *WHERE R.Name = S.Name*
-> - *COMBINE* R.Name WITH S.Name
 >
 
 | Dept    | Name | Name | Name Addr |

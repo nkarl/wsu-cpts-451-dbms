@@ -19,9 +19,9 @@
 
 ### SELECT
 ```sql
-SELECT [DISTINCT: optional] `select-list`
-FROM                        `from-list`
-WHERE                       `qualification`
+SELECT [DISTINCT: optional] 'select---list'
+FROM                        'from-----list'
+WHERE                       'qualification'
 ```
 
 - **from-list** in FROM: *a list of table names*

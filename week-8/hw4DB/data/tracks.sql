@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS Tracks; 
 
 CREATE TABLE Tracks (
-	major  VARCHAR(7),
+	major       VARCHAR(7),
 	trackcode   VARCHAR(10),
-	title  VARCHAR(30),
+	title       VARCHAR(30),
 	PRIMARY KEY(major,trackcode) 
 );
 

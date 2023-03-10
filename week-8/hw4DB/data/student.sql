@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS Student; 
 
 CREATE TABLE Student (
-	sID  	CHAR(8),
-	sName  VARCHAR(30),
-	major 	VARCHAR(10),
-	trackcode VARCHAR(10),
+	sID  	    CHAR(8),
+	sName       VARCHAR(30),
+	major 	    VARCHAR(10),
+	trackcode   VARCHAR(10),
 	PRIMARY KEY(sID),
 	FOREIGN KEY (major,trackcode) REFERENCES Tracks(major,trackcode)
 );

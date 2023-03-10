@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS Enroll; 
 
 CREATE TABLE Enroll (
-	courseno     VARCHAR(7),
-	sID  	CHAR(8),
-	grade 	FLOAT NOT NULL,
+	courseno    VARCHAR(7),
+	sID  	    CHAR(8),
+	grade 	    FLOAT NOT NULL,
 	PRIMARY KEY (courseNo, sID),	
 	FOREIGN KEY (courseNo) REFERENCES Course(courseNo),
 	FOREIGN KEY (sID) REFERENCES Student(sID)

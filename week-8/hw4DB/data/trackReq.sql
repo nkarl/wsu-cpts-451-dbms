@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS TrackRequirements; 
 
 CREATE TABLE TrackRequirements (
-	major  VARCHAR(7),
+	major       VARCHAR(7),
 	trackcode   VARCHAR(10),
-	courseNo  VARCHAR(7),
+	courseNo    VARCHAR(7),
 	PRIMARY KEY (major,trackcode,courseNo),
 	FOREIGN KEY (major,trackcode) REFERENCES Tracks(major,trackcode),
 	FOREIGN KEY (courseNo) REFERENCES Course(courseNo)

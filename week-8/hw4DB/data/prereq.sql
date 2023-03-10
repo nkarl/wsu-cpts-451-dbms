@@ -1,8 +1,8 @@
 DROP TABLE IF EXISTS Prereq;
 
 CREATE TABLE Prereq (
-	courseNo  VARCHAR(7),
-	preCourseNo  VARCHAR(7),
+	courseNo    VARCHAR(7),
+	preCourseNo VARCHAR(7),
 	PRIMARY KEY (courseNo, preCourseNo),	
 	FOREIGN KEY (courseNo) REFERENCES Course(courseNo),
 	FOREIGN KEY (preCourseNo) REFERENCES Course(courseNo)

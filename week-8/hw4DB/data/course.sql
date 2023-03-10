@@ -1,10 +1,10 @@
 DROP TABLE IF EXISTS Course;
 
 CREATE TABLE Course (
-	courseNo  VARCHAR(7),
-	credits   INTEGER NOT NULL,
-    enroll_limit INTEGER,
-    classroom VARCHAR(10),
+	courseNo        VARCHAR(7),
+	credits         INTEGER NOT NULL,
+    enroll_limit    INTEGER,
+    classroom       VARCHAR(10),
 	PRIMARY KEY(courseNo)
 );																  
 

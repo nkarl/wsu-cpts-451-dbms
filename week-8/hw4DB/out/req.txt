@@ -1,0 +1,14 @@
+ major | trackcode | courseno 
+-------+-----------+----------
+ CptS  | SE        | CptS121
+ CptS  | SE        | CptS122
+ CptS  | SE        | CptS223
+ CptS  | SE        | CptS260
+ CptS  | SE        | CptS322
+ CptS  | SE        | CptS355
+ CptS  | SE        | CptS421
+ CptS  | SE        | CptS423
+ CptS  | SE        | CptS317
+ CptS  | SE        | CptS360
+(10 rows)
+

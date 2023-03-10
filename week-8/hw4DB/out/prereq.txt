@@ -1,0 +1,14 @@
+ courseno | precourseno 
+----------+-------------
+ CptS122  | CptS121
+ CptS223  | CptS122
+ CptS322  | CptS223
+ CptS323  | CptS322
+ CptS355  | CptS223
+ CptS355  | MATH171
+ CptS421  | CptS322
+ CptS421  | CptS323
+ CptS423  | CptS421
+ CptS423  | CptS422
+(10 rows)
+

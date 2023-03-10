@@ -1,0 +1,10 @@
+ major | trackcode |           title            
+-------+-----------+----------------------------
+ CptS  | SE        | Software Engineering Track
+ CptS  | SYS       | Systems Track
+ CptS  | G         | General Track
+ EE    | CE        | Computer Engineering Track
+ EE    | ME        | Microelectronics Track
+ EE    | POW       | Power Track
+(6 rows)
+

@@ -1,0 +1,14 @@
+   sid    | sname | major | trackcode 
+----------+-------+-------+-----------
+ 12584789 | Jack  | CptS  | SE
+ 12584489 | Aaron | ME    | 
+ 12584189 | Macy  | CE    | 
+ 12583889 | John  | MATH  | 
+ 12583589 | Alice | CptS  | SYS
+ 12583289 | Tom   | CHE   | 
+ 12582989 | Amir  | CHE   | 
+ 12582689 | Nick  | CHE   | 
+ 12582389 | Ali   | CptS  | SE
+ 12582089 | Jack  | ME    | 
+(10 rows)
+

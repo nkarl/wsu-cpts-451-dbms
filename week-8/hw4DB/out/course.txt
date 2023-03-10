@@ -1,0 +1,14 @@
+ courseno | credits | enroll_limit | classroom 
+----------+---------+--------------+-----------
+ CptS121  |       4 |           24 | Sloan175
+ CptS122  |       4 |           25 | Sloan175
+ CptS223  |       3 |           25 | Sloan150
+ CptS260  |       3 |            3 | Sloan150
+ CptS322  |       3 |           20 | Sloan169
+ CptS323  |       3 |           19 | Sloan169
+ CptS355  |       3 |           22 | Sloan223
+ CptS421  |       3 |           15 | Sloan223
+ CptS423  |       3 |           15 | Sloan221
+ CptS360  |       3 |           22 | Sloan175
+(10 rows)
+

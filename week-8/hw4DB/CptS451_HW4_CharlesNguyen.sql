@@ -122,28 +122,28 @@ WHERE C2.enroll_limit<C2.count;
 
 
 -- 7
--- SELECT  LOW.sid,
-        -- S.sname,
-        -- LOW.courseno,
-        -- LOW.grade
--- FROM    Student S,
-        -- (SELECT DISTINCT    PR.sid,
-                            -- P.courseno,
-                            -- PR.precourseno,
-                            -- PR.grade
-            -- FROM    Prereq P,
-                    -- (SELECT DISTINCT    enroll.sid,
-                                        -- prereq.precourseno,
-                                        -- enroll.grade
-                        -- FROM    enroll,
-                                -- prereq
-                        -- WHERE   enroll.courseno=prereq.precourseno) AS PR
-            -- WHERE   P.precourseno=PR.precourseno
-                    -- AND PR.grade<2) AS LOW
--- WHERE   S.sid=LOW.sid
--- ORDER BY    S.sname,
-            -- LOW.courseno
--- ;
+SELECT  LOW.sid,
+        S.sname,
+        LOW.courseno,
+        LOW.grade
+FROM    Student S,
+        (SELECT DISTINCT    PR.sid,
+                            P.courseno,
+                            PR.precourseno,
+                            PR.grade
+            FROM    Prereq P,
+                    (SELECT DISTINCT    enroll.sid,
+                                        prereq.precourseno,
+                                        enroll.grade
+                        FROM    enroll,
+                                prereq
+                        WHERE   enroll.courseno=prereq.precourseno) AS PR
+            WHERE   P.precourseno=PR.precourseno
+                    AND PR.grade<2) AS LOW
+WHERE   S.sid=LOW.sid
+ORDER BY    S.sname,
+            LOW.courseno
+;
 SELECT DISTINCT PR.sname,
                 PR.sid,
                 Prereq.courseno
@@ -164,11 +164,16 @@ WHERE Prereq.precourseno=PR.precourseno
 -- 8
 SELECT DISTINCT Rolls.courseno,
                 passing*100/total AS passrate
-FROM    (SELECT courseno, count(*) AS passing
-            FROM enroll WHERE grade>=2 GROUP BY courseno) AS Passed,
-        (SELECT courseno, COUNT(*) AS Total
-            FROM enroll WHERE courseno LIKE 'CptS%'
-            GROUP BY courseno) AS Rolls
+FROM    (SELECT courseno,
+                count(*) AS passing
+            FROM enroll
+            WHERE grade>=2
+            GROUP BY courseno)  AS Passed,
+        (SELECT courseno,
+                COUNT(*) AS Total
+            FROM enroll
+            WHERE courseno LIKE 'CptS%'
+            GROUP BY courseno)  AS Rolls
 WHERE   Passed.courseno=Rolls.courseno
 ORDER BY Rolls.courseno
 ;

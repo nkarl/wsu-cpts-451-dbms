@@ -158,7 +158,7 @@ FROM    Prereq,
                 FROM    enroll
                 WHERE   enroll.grade < 2) AS R
         WHERE   S.sid=R.sid
-                AND S.major LIKE 'CptS%') PR
+                AND S.major LIKE 'CptS%') AS PR
 WHERE Prereq.precourseno=PR.precourseno
 ;
 

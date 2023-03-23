@@ -1,0 +1,19 @@
+version: "3.1"
+
+services:
+  db:
+    container_name: "test_db"
+    image: postgres
+    environment:
+      POSTGRES_DB: business_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/data
+    working_dir: /data
+
+volumes:
+  db:
+    name: "db"

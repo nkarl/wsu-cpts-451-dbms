@@ -1,0 +1,9 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/nkarl/test.api
+[submodule "app"]
+	path = app
+	url = https://github.com/nkarl/test.app
+[submodule "db"]
+	path = db
+	url = https://github.com/nkarl/test.db

@@ -27,60 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week-4/Relational Algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e66bd81558224acf",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "week-5/Homework3-RelationalAlgebra.pdf"
-              }
-            }
-          },
-          {
-            "id": "073fe41900447036",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-5/HW3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e003ff914ce5d37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-5/SQL Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3590a0020bb12512",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-6/Nested and JOIN Queries.md",
+                "file": "cpts-451-project/CheckList.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-5/HW3.md",
+                "file": "cpts-451-project/CheckList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-5/HW3.md"
+                "file": "cpts-451-project/CheckList.md"
               }
             }
           },
@@ -195,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-5/HW3.md",
+                "file": "cpts-451-project/CheckList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,14 +179,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "073fe41900447036",
+  "active": "09db1c2d7a4de743",
   "lastOpenFiles": [
-    "week-5/Homework3-RelationalAlgebra.pdf",
-    "week-5/HW3.md",
     "week-4/Relational Algebra.md",
+    "week-6/Nested and JOIN Queries.md",
+    "week-5/HW3.md",
+    "week-5/Homework3-RelationalAlgebra.pdf",
     "week-4/HW2.md",
     "week-5/SQL Fundamentals.md",
-    "week-6/Nested and JOIN Queries.md",
     "week-6/Week-6-CptS451_6_SQL_part2.pdf",
     "TO-DO.md",
     "week-4/HW2Solution.pdf",

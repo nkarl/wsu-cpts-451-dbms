@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -181,6 +182,8 @@
   },
   "active": "09db1c2d7a4de743",
   "lastOpenFiles": [
+    "TO-DO.md",
+    "cpts-451-project/CheckList.md",
     "week-4/Relational Algebra.md",
     "week-6/Nested and JOIN Queries.md",
     "week-5/HW3.md",
@@ -188,7 +191,6 @@
     "week-4/HW2.md",
     "week-5/SQL Fundamentals.md",
     "week-6/Week-6-CptS451_6_SQL_part2.pdf",
-    "TO-DO.md",
     "week-4/HW2Solution.pdf",
     "week-5/HW3Solution.pdf",
     "week-1/week-1-CptS451_0_CourseDetails.pdf",

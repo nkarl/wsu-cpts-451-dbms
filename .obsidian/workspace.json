@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "88da45d3b54cfb09",
+        "id": "22e7a8e7aca27a97",
         "type": "tabs",
         "children": [
           {
-            "id": "717f0b3ef7ad7791",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TO-DO.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "09db1c2d7a4de743",
+            "id": "0ff3b21c22ba977d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpts-451-project/CheckList.md",
+                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "62f48e1011136fe2",
@@ -101,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpts-451-project/CheckList.md",
+                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpts-451-project/CheckList.md"
+                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md"
               }
             }
           },
@@ -150,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpts-451-project/CheckList.md",
+                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,25 +164,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09db1c2d7a4de743",
+  "active": "0ff3b21c22ba977d",
   "lastOpenFiles": [
-    "TO-DO.md",
+    "cpts-451-project-docs/ms-2/CheckList.md",
+    "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
+    "cpts-451-project/database/test.parseAndInsert.py.a916c06a0eba700675b1ef176af3740f.py",
+    "cpts-451-project/database/parseAndInsert_Sample(1).py",
+    "cpts-451-project/parseAndInsert_Sample(1).py",
+    "cpts-451-project/database/Yelp-CptS451/test/user.JSON",
+    "cpts-451-project/database/Yelp-CptS451/test/review.JSON",
+    "cpts-451-project/database/Yelp-CptS451/test/checkin.JSON",
+    "cpts-451-project/database/Yelp-CptS451/test/business.JSON",
+    "cpts-451-project/database/Yelp-CptS451/test",
+    "cpts-451-project/scripts/mi-02/create-database.ps1",
+    "cpts-451-project/scripts/mi-02.test/get-database-table.ps1",
     "cpts-451-project/CheckList.md",
+    "cpts-451-project-docs/ms-1/ER.md",
+    "cpts-451-project/README.md",
+    "TO-DO.md",
     "week-4/Relational Algebra.md",
     "week-6/Nested and JOIN Queries.md",
     "week-5/HW3.md",
-    "week-5/Homework3-RelationalAlgebra.pdf",
     "week-4/HW2.md",
     "week-5/SQL Fundamentals.md",
-    "week-6/Week-6-CptS451_6_SQL_part2.pdf",
-    "week-4/HW2Solution.pdf",
-    "week-5/HW3Solution.pdf",
-    "week-1/week-1-CptS451_0_CourseDetails.pdf",
-    "week-1/CptS451_HW1_CharlesNguyen.pdf",
-    "week-1/Homework1 – ER Model.pdf",
-    "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.pdf",
     "cpts-451-project-docs/milestone 1/CharlesNguyen_ER_v1.md",
-    "week-4/CptS451_HW2_CharlesNguyen.pdf",
     "week-1/HW1.md",
     "cpts-451-project-docs/milestone 1/CharlesNguyen_relations_v1.md",
     "cpts-451-project-docs/milestone 1/Untitled.md"

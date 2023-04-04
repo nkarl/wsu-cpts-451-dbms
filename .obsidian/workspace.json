@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
+                "file": "cpts-451-project/CheckList.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
+                "file": "cpts-451-project/CheckList.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md"
+                "file": "cpts-451-project/CheckList.md"
               }
             }
           },
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
+                "file": "cpts-451-project/CheckList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,10 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ff3b21c22ba977d",
+  "active": "9a74168999c6127c",
   "lastOpenFiles": [
     "cpts-451-project-docs/ms-2/CheckList.md",
     "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
+    "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.pdf",
     "cpts-451-project/database/test.parseAndInsert.py.a916c06a0eba700675b1ef176af3740f.py",
     "cpts-451-project/database/parseAndInsert_Sample(1).py",
     "cpts-451-project/parseAndInsert_Sample(1).py",
@@ -177,7 +178,6 @@
     "cpts-451-project/database/Yelp-CptS451/test/business.JSON",
     "cpts-451-project/database/Yelp-CptS451/test",
     "cpts-451-project/scripts/mi-02/create-database.ps1",
-    "cpts-451-project/scripts/mi-02.test/get-database-table.ps1",
     "cpts-451-project/CheckList.md",
     "cpts-451-project-docs/ms-1/ER.md",
     "cpts-451-project/README.md",

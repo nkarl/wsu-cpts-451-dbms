@@ -17,15 +17,15 @@
 		- Successful businesses which have been serving the community for a long time and which have loyal customers.
 
 - Review
-	- [ ] database schema
+	- [x] database schema
 		- business
 		- checkin
 		- review
 		- user (possibly needed for analysis)
-	- [ ] parser code
+	- [x] parser code
 - Revise
-	- [ ] database schema
-	- [ ] parser code
+	- [x] database schema
+	- [x] parser code
 
 ## Review
 ### Data

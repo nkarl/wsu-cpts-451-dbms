@@ -1,0 +1,15 @@
+ business_count 
+----------------
+          11481
+(1 row)
+
+ review_count 
+--------------
+       416479
+(1 row)
+
+ checkin_count 
+---------------
+         11083
+(1 row)
+

@@ -1,3 +1,5 @@
+#indexing #clustered-index #primary-index #secondary-index #hash-indexing #tree-indexing #B-plus-tree #heap-file-with-unclustered-B-plus-tree #heap-file-w-unclustered-hash
+
 ## I. Chapter 8, Storage & Indexing Overview
 ---
 - [x] 8.1: cost of I/O

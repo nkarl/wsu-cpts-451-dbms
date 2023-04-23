@@ -1,13 +1,14 @@
 #Relational-model
 
-> [!tip]
-> 1. **Requirements Analysis**
-> 2. **Conceptual DB Design**
-> *3. **Logical DB Design**: conversion into a schema
-> 	- pick a type of DBMS, most popularly relational DBMS*
-> 4. **Schema Refinement**
-> 5. **Physical DB Design**
->6. **Application/Security Design**
+> [!tip] DB Design Program
+> 1. Requirements Analysis
+> 2. Conceptual DB Design
+> 3. **Logical DB Design:** *conversion into a schema*
+> 	- *decide on a type of DBMS*
+> 		- *relational DBMS are popular*
+> 1. Schema Refinement
+> 2. Physical DB Design
+>6. Application/Security Design
 
 
 ## I. Model

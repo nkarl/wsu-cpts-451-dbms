@@ -1,12 +1,13 @@
 #ER-model 
 
-> [!tip]
-> 1. **Requirements Analysis**
-> *2. **Conceptual DB Design**: high-level description of data and constraints, typically using ER modeling*
-> 3. **Logical DB Design**
-> 4. **Schema Refinement**
-> 5. **Physical DB Design**
-> 6. **Application/Security Design**
+> [!tip] DB Design Program
+> 1. Requirements Analysis
+> 2. **Conceptual DB Design:** *high-level description* of data and *constraints*
+> 	- typically using ER modeling
+> 1. Logical DB Design
+> 2. Schema Refinement
+> 3. Physical DB Design
+> 4. Application/Security Design
 
 
 ## I. Data Modeling

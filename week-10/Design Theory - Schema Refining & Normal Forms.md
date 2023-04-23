@@ -1,4 +1,4 @@
-#design-theory #schema-refinement #functional-dependencies #normal-form #1NF #2NF #3NF #BCNF
+#design-theory #schema-refinement #functional-dependencies #normal-form #1NF #2NF #3NF #BCNF #normalization #loss-join #dependency-preserving
 
 > [!tip] DB Design Program
 > 1. Requirement Analysis
@@ -34,6 +34,10 @@ There are few problems caused by redundancies:
 
 # II. Functional Dependencies
 
+## Decomposition
+
+- Lossless-Join
+- Dependency-Preserving
 
 # III. Normalization & Normal Forms
 

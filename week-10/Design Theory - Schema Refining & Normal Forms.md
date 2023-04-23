@@ -22,6 +22,7 @@ There are few problems caused by redundancies:
 - anomalies on DELETE
 	- it may not be possible to remove some data without losing some other unrelated data
 
+## Solution
 - Design by decomposition
 	- We start with "mega" relations, break them down into smaller (and better) relations with the same information.
 	- Automatic decomposition
@@ -36,3 +37,12 @@ There are few problems caused by redundancies:
 
 # III. Normalization & Normal Forms
 
+## Boyce-Codd Normal Form (BCNF)
+
+**The most important form to our theory database design in this course**.
+
+> [!info] Definition
+> A relation R is in BCNF if,
+> - whenever some dependency $X \rightarrow B$ is _non-trivial_, then
+> - X is a _key_ or _superkey_, i.e.
+> 	- $X^+$ = {all attributes}

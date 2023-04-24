@@ -39,11 +39,35 @@ There are few problems caused by redundancies:
 - Lossless-Join
 - Dependency-Preserving
 
+
 # III. Normalization & Normal Forms
 
-## Boyce-Codd Normal Form (BCNF)
+| Normal Form | Description                                                                   |
+| ----------- | ----------------------------------------------------------------------------- |
+| 1NF         | - Eliminate *repeating groups* in individual tables.                          |
+|             | - Create *separate table for each set* of related data.                       |
+|             | - Identify each set of related data *with a primary key*.                     | 
+| 2NF         | - Create separate *tables for sets of values that apply to multiple records*. |
+|             | - Relate these tables *with a foreign key*.                                   |
+| 3NF         | - Eliminate *fields that do not depend* on the key.                           |
+| BCNF        | - Is a *slightly stronger* version of 3NF                                     |
+|             |                                                                               |
 
-**The most important form to our theory database design in this course**.
+| Constraint                                                                                                                                      | 1NF | 2NF | 3NF | BCNF |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- | ---- |
+| Unique rows (no duplicate records)                                                                                                              | OK | OK | OK | OK  |
+| Scalar columns (columns can not contain relations or composite values)                                                                          | OK | OK | OK | OK  |
+| Every non-prime attributes has a **full** *functional depd.* on a candidate key (attributes depend on the complete primary key)                 |     | OK | OK | OK  |
+| Every non-trivial *functional depd.* either begins with a superkey or ends with a *prime attribute* (attributes depend only on the primary key) |     |     | OK | OK  |
+| Every non-trivial *functional depd.* either begins with a superkey or ends with *an elementary prime attribute* (stricter form of 3NF)          |     |     |     | OK  |
+|                                                                                                                                                 |     |     |     |      |
+
+### Database Normalization
+<iframe class="my-wiki-iframe" src="https://en.m.wikipedia.org/wiki/Database_normalization" />
+
+### Boyce-Codd Normal Form (BCNF)
+
+For this course, BCNF is **the focus**.
 
 > [!info] Definition
 > A relation R is in BCNF if,

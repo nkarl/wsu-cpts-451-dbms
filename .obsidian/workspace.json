@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2591f2ac468ce730",
+        "id": "7dcf87b3f5c4e2d8",
         "type": "tabs",
         "children": [
           {
-            "id": "3289c6722111c34f",
+            "id": "0e3a62d90c23ad1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +20,19 @@
             }
           },
           {
-            "id": "22043bc1aa15763e",
+            "id": "c9067e050952c974",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week-10/Design Theory - Schema Refining & Normal Forms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd52ffb1a373dbf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "week-12/HW5.md",
+                "file": "week-14/HW6.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-12/HW5.md",
+                "file": "week-14/HW6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-12/HW5.md"
+                "file": "week-14/HW6.md"
               }
             }
           },
@@ -159,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-12/HW5.md",
+                "file": "week-14/HW6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,21 +177,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd52ffb1a373dbf2",
+  "active": "c9067e050952c974",
   "lastOpenFiles": [
+    "week-14/CptS451_HW6_CharlesNguyen.pdf",
+    "week-12/Storage & Indexing.md",
+    "week-14/HW6.md",
+    "week-12/HW5.md",
+    "week-10/Design Theory - Schema Refining & Normal Forms.md",
+    "week-2/Relational Model.md",
+    "week-1/HW1.md",
     "week-12/HW5.pdf",
     "week-12/CptS451_HW5_CharlesNguyen.pdf",
-    "week-10/Design Theory - Schema Refining & Normal Forms.md",
-    "week-12/HW5.md",
     "cpts-451-project/database/mySalesData.csv",
     "cpts-451-project/client-app/vite.config.js.timestamp-1682273122287.mjs",
-    "week-2/Relational Model.md",
     "week-1/ER Model for Relational DB.md",
     "week-4/Relational Algebra.md",
     "week-4/HW2Solution.pdf",
     "week-4/Homework2 - ER2Relational.pdf",
-    "week-1/HW1.md",
-    "week-12/Storage & Indexing.md",
     "week-12/Week-12 and13-CptS451_10_Storage_and_Indexing.pdf",
     "week-12/Homework5 - NormalForms.pdf",
     "cpts-451-project/CheckList.md",
@@ -211,7 +201,6 @@
     "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.md",
     "cpts-451-project-docs/ms-2/CharlesNguyen_Proposal.pdf",
     "cpts-451-project/database/test.parseAndInsert.py.a916c06a0eba700675b1ef176af3740f.py",
-    "cpts-451-project/database/parseAndInsert_Sample(1).py",
     "cpts-451-project-docs/ms-1/ER.md",
     "cpts-451-project/README.md",
     "TO-DO.md",

@@ -37,10 +37,40 @@
 #### Heap files with unclustered hash index
 	
 #### I/O cost comparison
-| File Type                  | Scan        | Equality Search   | Range Search                       | Insert            | Delete    |
-| -------------------------- | ----------- | ----------------- | ---------------------------------- | ----------------- | --------- |
-| **Heap**                   | BD          | 0.5BD             | BD                                 | 2D                | Search+D  |
-| **Sorted**                 | BD          | D$log_2$B         | D$log_2$B+ \#matching pages        | Search+BD         | Search+BD |
-| **Clustered**              | 1.5BD       | D$log_F1.5$B      | $Dlog_F1.5$B+\#matching pages      | Search+D          | Search+D  |
-| **Unclustered tree index** | BD(R+0.15)  | D(1+$log_F0.15$B) | D($log_F0.15$B+\#matching records) | D(3+$log_F0.15$B) | Search+2D |
-| **Unclustered hash index** | BD(R+0.125) | 2D                | BD                                 | 4D                | Search+2D |
+
+- $B$ is the *number of data pages fully packed with records*.
+- $R$ is the *number of records per page*.
+- D is the *average I/O time on a disk page*.
+- C is the *average time to process a record*.
+	- for example, to compare a field value to a selection constant.
+
+| File Type             | Scan          | Equal. Search     | Range Search                | Insert            | Delete |
+| --------------------- | ------------- | ----------------- | --------------------------- | ----------------- | ------ |
+| Heap                  | $BD$          | $0.5BD$           | $BD$                        | $2D$              | $S+D$  |
+| Sorted                | $BD$          | $Dlog_2B$         | $Dlog_2B+B_{matched}$       | $S+BD$            | $S+BD$ |
+| Clustered Tree Idx.   | $1.5BD$       | $D log_F1.5B$     | $Dlog_F1.5B +B_{matched}$  | $S+D$             | $S+D$  |
+| Unclustered Tree Idx. | $BD(R+0.15)$  | $D(1+log_F0.15B)$ | $D(log_F0.15B+R_{matched})$ | $D(3+log_F0.15B)$ | $S+2D$ |
+| Unclustered Hash Idx. | $BD(R+0.125)$ | $2D$              | $BD$                        | $4D$              | $S+2D$ |
+
+
+| File Type          | Good                                                                             | Bad                           |
+| ------------------ | -------------------------------------------------------------------------------- | ----------------------------- |
+| Heap               | *efficient storage*                                                              | unordered                     |
+|                    | *fast* scan                                                                      | *slow* search                 |
+|                    | *fast* insert                                                                    | *slow* delete                 |
+|                    |                                                                                  |                               |
+| Sorted             | *efficient storage*                                                              |                               |
+|                    | (*faster search than clustered* on sequential retrieval of large amount of rec.) | *slow* insert                 |
+|                    |                                                                                  |                               |
+| Clustered          | *efficient storage*                                                              | space overhead (but worth it) |
+|                    | *fast* search                                                                    |                               |
+|                    |                                                                                  |                               |
+| Unclustered T.Idx. | *fast* search                                                                    | *slow* scan                   |
+|                    | *fast* insert                                                                    | *slow* range-search           |
+|                    | *fast* delete                                                                    |                               |
+|                    |                                                                                  |                               |
+| Unclustered H.Idx. | *fast* search                                                                    | *slow* scan                   |
+|                    | *fast* insert                                                                    | ~~range-search~~              |
+|                    | *fast* delete                                                                    |                               |
+|                    | *faster eq. search than hash*                                                    |                               |
+|                    |                                                                                  |                               |

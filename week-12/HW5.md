@@ -44,7 +44,7 @@ SELECT month, discount FROM mysales;
 SELECT COUNT(*) FROM mysales_monthly_discount;
 ```
 
-<br >
+<div style="page-break-after:always;" > </div>
 
 #### Question 2: BCNF Decomposition
 
@@ -101,6 +101,7 @@ Applying transivity.
 		- $\{D,E\}^+ = \{A,B,C,D,E,F\}$
 		$\{D,E\}$ is the key.
 
+<div style="page-break-after:always;" ></div>
 
 ##### Part 2.
 $$

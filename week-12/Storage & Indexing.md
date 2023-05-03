@@ -5,12 +5,12 @@
 - [x] 8.1: cost of I/O
 
 - 8.2 **File organizations & Indexing** (as a speedup method)
-	- [ ] 8.2.1 Clustered Indexes
-	- [ ] 8.2.2 Primary & Secondary Indexes
+	- [x] 8.2.1 Clustered Indexes
+	- [x] 8.2.2 Primary & Secondary Indexes
  
 - 8.3 Index data structures
-	- [ ] Hash-based
-	- [ ] Tree-based
+	- [x] Hash-based
+	- [x] Tree-based
 
 ### Comparing file organizations
 - Randomly ordered (heap file)

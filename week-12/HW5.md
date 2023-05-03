@@ -93,13 +93,12 @@ Applying transivity.
 |     |     |       |       |     |     |     |
 
 - $\{A\}^+ = \{A,B,C\}$ 
-	- Add E
-		- $\{A,E\}^+ = \{A,B,C,E\}$ 
-		$\{A,E\}$ is the key.
+- $\{A,D\}^+ = \{A,B,C,D\}$ 
+- $\{A,D,E\}^+ = \{A,B,C,D,E\}$ 
+- $\{A,D,E,F\}^+ = \{A,B,C,D,E,F\}$ is *key*
+  
 - $\{D\}^+ = \{A,B,C,D,F\}$
-	- Add E
-		- $\{D,E\}^+ = \{A,B,C,D,E,F\}$
-		$\{D,E\}$ is the key.
+- $\{D,E\}^+ = \{A,B,C,D,E,F\}$ is *key*
 
 <div style="page-break-after:always;" ></div>
 
@@ -143,5 +142,8 @@ Applying transivity.
 | D   | A   | **B** | **C** | *D* |
 |     |     |       |       |     |
 
-- $\{A,B,C\}^+ = \{A,B,C,D\}$ *key*, in BCNF
-- $\{D\}^+ = \{D,A\}$ *not in BCNF*
+- $\{A,B,C\}^+ = \{A,B,C,D\}$ is *key*, in BCNF
+
+- $\{D\}^+ = \{A,D\}$ *not in BCNF*
+- $\{B,C,D\}^+ = \{A,B,C,D\}$ is *key*
+

@@ -65,10 +65,10 @@ $$
 	- (2) $\{D\}^+ = \{D,A,B,C,F\}$
 		- D is not a key
 		- not in BCNF
-		- compute R2(A,B,C,D,F)
+		- compute $R2(A,B,C,D,F)$
 			- D is the key
 
-B, C, E are not on the LHS, safely ignored.
+B, C, E, F are not on the LHS, safely ignored.
 
 |     | A   | B   | C   | D   | E   | F   |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ Applying reflexivity.
 | D   | A   |     |     | *D* |     | F   |
 |     |     |     |     |     |     |     |
 
-Applying transivity.
+Applying transitivity.
 
 |     | A   | B     | C     | D   | E   | F   |
 | --- | --- | ----- | ----- | --- | --- | --- |
@@ -133,14 +133,14 @@ Applying reflexivity.
 
 Applying transivity.
 
-|     | A   | B     | C     | D   | 
-| --- | --- | ----- | ----- | --- |
-| A   | *A* |       |       |     |
-| ABC | *A* | *B*   | *C*   | D   |
-| B   |     | *B*   |       |     |
-| C   |     |       | *C*   |     |
-| D   | A   | **B** | **C** | *D* |
-|     |     |       |       |     |
+|     | A   | B     | C     | D   |     |
+| --- | --- | ----- | ----- | --- | --- |
+| A   | *A* |       |       |     |     |
+| ABC | *A* | *B*   | *C*   | D   |     |
+| B   |     | *B*   |       |     |     |
+| C   |     |       | *C*   |     |     |
+| D   | A   | **B** | **C** | *D* |     |
+|     |     |       |       |     |     |
 
 - $\{A,B,C\}^+ = \{A,B,C,D\}$ is *key*, in BCNF
 

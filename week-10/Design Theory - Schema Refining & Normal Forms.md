@@ -75,7 +75,13 @@ There are few **problems caused by redundancies**:
 
 <iframe class="my-wiki-iframe" src="https://en.m.wikipedia.org/wiki/Database_normalization" />
 
-### Boyce-Codd Normal Form (BCNF)
+### 1NF
+
+### 2NF
+
+### 3NF
+
+### BCNF (Boyce-Codd Normal Form)
 
 For this course, BCNF is **the focus**.
 
@@ -84,3 +90,5 @@ For this course, BCNF is **the focus**.
 > - whenever some dependency $X \rightarrow B$ is _non-trivial_, then
 > - X is a _key_ or _superkey_, i.e.
 > 	- $X^+$ = {all attributes}
+
+### 4NF

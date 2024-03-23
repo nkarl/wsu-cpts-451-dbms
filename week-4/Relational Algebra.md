@@ -56,7 +56,7 @@ More formally,
 #### Cartesian Products
 > [!info] Cartesian Product $\times$
 > $$\text{R}\times\text{S}$$
-> Pairs each tuple **r** in **R** with each tuple **s** in **S**.
+> Pairs each tuple $r$ in **R** with each tuple $s$ in **S**.
 > - Schema of result is the attributes of R and then S, *in order*.
 > - If attributes *A* exists both in R and S then use `R.A` and `S.A`.
 
@@ -103,7 +103,7 @@ $$R\underbrace{\bowtie}_{R.A>S.C\quad\textbf{AND}\quad R.B\neq S.D}S$$
 - Equi-Join: Conditions only use the equality operator
 $$R\underbrace{\bowtie}_{R.B=S.D}S$$
 
- ##### Natural-Join
+##### Natural-Join
 - **Connects two relations** by:
 	- *equating attributes of the same name* (equi-join), and
 	- *projecting out one copy of each* of equated attributes.
@@ -138,7 +138,7 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 | Physics | Jack     | Tom      | Moscow    |     |
 | Physics | Jack     | Mary     | Colfax    |     |
 | EECS    | Tom      | Jack     | Pullman   |     |
-| EECS    | **Tom**  | **Tom**  | Moscow    |     |
+| EECS    | **Tom*   | **Tom**  | Moscow    |     |
 | EECS    | Tom      | Mary     | Colfax    |     |
 
 - *SELECT* *WHERE R.Name = S.Name*
@@ -154,6 +154,7 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 
 #### Renaming
 - **Renaming** of *relations* and *attributes* $\boldsymbol{\rho}$
+- implemented in the `AS` keyword
 
 ### EXTENDED Relational Algebra (Bag Semantics)
 - [[#Grouping / Aggregation]]

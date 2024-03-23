@@ -131,7 +131,7 @@ Order of operations:
 
 
 ### INTERSECT
-- postgres
+- PostgreSQL
 ```sql
 (SELECT ename FROM Emp, Dept
  WHERE  Emp.dno=Dept.dno AND dname='Purchasing')
@@ -185,7 +185,7 @@ WHERE R.A=S.A OR R.A=T.A;
 
 ## IV. Aggregation & Grouping
 ---
-#### Aggregation
+#### Aggregation/Reduction
 - MIN, MAX, SUM, COUNT, AVG
 - output relation with a single attribute with a single row
 ```sql

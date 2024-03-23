@@ -27,9 +27,9 @@ WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 ### Applied Cases
 #### nested in FROM
 
-#### to aggregate in multiple stages
+#### to AGGREGATE in multiple stages
 
-#### joining subqueries
+#### JOIN-ing sub-queries
 
 
 ## II. JOIN
@@ -38,10 +38,10 @@ WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 
 > [!important]
 >
-> There are two way to JOIN:
-> - JOINs are *implicit* using SELECT-FROM-WHERE
+> JOIN can be done in two ways:
+> - *implicit* using SELECT-FROM-WHERE
 > 	- tables are joined by the WHERE conditions
-> - *explicit* via *join expressions*
+> - *explicit* via JOIN *expressions*
 
 ```sql
 --syntax

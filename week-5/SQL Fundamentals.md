@@ -24,12 +24,12 @@ FROM                        'from-----list'
 WHERE                       'qualification'
 ```
 
-- **from-list** in FROM: *a list of table names*
+- **from-list** in `FROM`: *a list of table names*
 	- can be suffixed by a *range variable*, which is useful when the same table name repeats in the list
-- **select-list** in SELECT: *a list of expressions involving column names* (of tables named in the from-list)
+- **select-list** in `SELECT`: *a list of expressions involving column names* (of tables named in the from-list)
 	- column name can be prefixed by a *range variable*
-- **qualification** in WHERE: *boolean combination of conditions* of the form
-	- *expression* `OP` *expression*, where
+- **qualification** in `WHERE`: *boolean combination of conditions* of the form
+	- `*expression* <OP> *expression*`, where
 		- `OP`: one of the operators $\{\lt, \leq, =, <>, \geq, \gt\}$
 		- *expression*:
 			- a column name, or
@@ -60,9 +60,31 @@ WHERE                       'qualification'
 
 #### Examples
 We have the following table definitions (relations):
-- Sailors(sid: `integer`, sname: `string`, rating: `integer`, age: `real`)
-- Boats(bid: `integer`, bname: `string`, color: `string`)
-- Reserves(sid: `integer`, bid: `integer`, day: `date`)
+- Sailors(`sid: integer`, `sname: string`, `rating: integer`, `age: real`)
+```sql
+CREATE TABLE Sailors (
+	sid integer, -- student id
+	sname string,
+	raiting integer,
+	age real
+);
+```
+- Boats(`bid: integer`, `bname: string`, `color: string`)
+```sql
+CREATE TABLE Boats (
+	bid intger, -- boat id
+	bname string,
+	color string
+);
+```
+- Reserves(`sid: integer`, `bid: integer`, `day: date`)
+```sql
+CREATE TABLE Reserves (
+	sid integer,
+	bid integer,
+	day date
+);
+```
 
 *An Instance **S3** of Sailors*
 
@@ -128,9 +150,11 @@ Order of operations:
 > Uses *set semantics*, i.e. no duplicate rows.
 
 ### UNION
-
+Combine <u>all results</u> from two query blocks into a single result, ignoring any duplicates.
 
 ### INTERSECT
+Combine <u>only rows</u> that the two query blocks have in common, ignoring any duplicates.
+
 - PostgreSQL
 ```sql
 (SELECT ename FROM Emp, Dept
@@ -151,14 +175,16 @@ WHERE           E1.dno=888
 
 
 ### EXCEPT
-- standard SQL is not possible without sub-queries
+For two query blocks _`A`_ and _`B`_, return all results from _`A`_ <u>which are not also present in</u> _`B`_, ignoring any duplicates.
+
+Standard SQL is not possible without sub-queries.
 
 
 ### Special Cases
-#### R intersects (S unions T)
+#### R `intersects` (S `unions` T)
 $$R\cap (S\cup T)$$
 
-- postgres is straightforward
+- PostgreSQL is straightforward
 ```sql
 SELECT R.A FROM R
 INTERSECT

@@ -41,7 +41,7 @@ WHERE  E1.ename='Jack' AND E1.dno=E2.dno;
 > JOIN can be done in two ways:
 > - *implicit* using SELECT-FROM-WHERE
 > 	- tables are joined by the WHERE conditions
-> - *explicit* via JOIN *expressions*
+> - *explicit* using JOIN-ON *expressions*
 
 ```sql
 --syntax

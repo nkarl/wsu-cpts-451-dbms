@@ -65,6 +65,7 @@ We have the following table definitions (relations):
 - Reserves(sid: `integer`, bid: `integer`, day: `date`)
 
 *An Instance **S3** of Sailors*
+
 | sid | sname   | rating | age  |
 | --- | ------- | ------ | ---- |
 | 22  | Dustin  | 7      | 45.0 |
@@ -79,6 +80,7 @@ We have the following table definitions (relations):
 | 95  | Bob     | 3      | 63.5 |
 
 *An Instance **R2** of Reserves*
+
 | sid | bid | day      |
 | --- | --- | -------- |
 | 22  | 101 | 10/10/98 |
@@ -93,6 +95,7 @@ We have the following table definitions (relations):
 | 74  | 103 | 9/8/98   |
 
 *An Instance **B1** of Boats*
+
 | bid | bname     | color |
 | --- | --------- | ----- |
 | 101 | Interlake | blue  |

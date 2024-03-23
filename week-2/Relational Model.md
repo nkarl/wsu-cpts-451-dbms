@@ -22,6 +22,7 @@
 	- **Row**: ***tuple/entity***
 
 Example: relation: Employee
+
 | **ssno**    | **name**        | **salary** |
 | ----------- | --------------- | ---------- |
 | 111-11-1111 | John Yates      | 80,000     |

@@ -61,12 +61,14 @@ More formally,
 > - If attributes *A* exists both in R and S then use `R.A` and `S.A`.
 
 `Emp(name, dept)`
+
 | Name | Dept    |
 | ---- | ------- |
 | Jack | physics |
 | Tom  | EECS    | 
 
 `Contact(name, addr)`
+
 | Name | Addr    |
 | ---- | ------- |
 | Jack | Pullman |
@@ -74,6 +76,7 @@ More formally,
 | Mary | Colfax  |
 
 `Emp` $\times$ `Contact`
+
 | Emp.Name | Dept    | Contact.Name | Addr    |
 | -------- | ------- | ------------ | ------- |
 | Jack     | physics | Jack         | Pullman |
@@ -85,7 +88,7 @@ More formally,
 
 #### Joins
 > [!info] Join $\bowtie$
-> Strictly speaking, #join is an extension of the Cartesian product. It is *Cartesian product composed with one or more conditions*.
+> Strictly speaking, #join is an extension of the Cartesian product. It is *Cartesian product and then choosing of only the records filtered with one or more conditions*.
 > 
 > $$\text{R}\underbrace{\bowtie}_{Condition}\text{S} = \underbrace{\sigma}_C(\text{R}\times\text{S})$$
 > Take the product $R\times S$, and then apply $\sigma_C$ (conditional projection) to the result.
@@ -97,7 +100,7 @@ $$R\underbrace{\bowtie}_{R.A>S.C}S$$
 $$R\underbrace{\bowtie}_{R.A>S.C\quad\textbf{AND}\quad R.B\neq S.D}S$$
 
 ##### Equi-Join
-- Equi-Join: **C** only uses the equality operator
+- Equi-Join: Conditions only use the equality operator
 $$R\underbrace{\bowtie}_{R.B=S.D}S$$
 
  ##### Natural-Join
@@ -110,36 +113,40 @@ $$R\underbrace{\bowtie}_{R.B=S.D}S$$
  
 $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{... }(R.A_k=S.A_k)}S)$$
 
-`Emp(name, dept)`
+###### 1.a. `Emp(name, dept)`
+
 | Dept    | Name |
 | ------- | ---- |
 | Physics | Jack |
 | EECS    | Tom  |
 
-`Contact(name, addr)`
+###### 1.b. `Contact(name, addr)`
+
 | Name | Addr    |
 | ---- | ------- |
 | Jack | Pullman |
 | Tom  | Moscow  |
 | Mary | Colfax  |
 
->
->**Intermediate Step:**
-> - Cartesian Product, then
-> - *SELECT* * *WHERE R.Name = S.Name*
->
+###### 2.1. Operation
 
-| Dept    | Name | Name | Name Addr |
-| ------- | ---- | ---- | --------- |
-| Physics | *Jack* | *Jack* | Pullman   |
-| Physics | Jack | Tom  | Moscow    |
-| Physics | Jack | Mary | Colfax    |
-| EECS    | Tom  | Jack | Pullman   |
-| EECS    | *Tom*  | *Tom*  | Moscow    |
-| EECS    | Tom  | Mary | Colfax    | 
+- Cartesian Product, then
 
+| Dept    | Name     | Name     | Name Addr |     |
+| ------- | -------- | -------- | --------- | --- |
+| Physics | **Jack** | **Jack** | Pullman   |     |
+| Physics | Jack     | Tom      | Moscow    |     |
+| Physics | Jack     | Mary     | Colfax    |     |
+| EECS    | Tom      | Jack     | Pullman   |     |
+| EECS    | **Tom**  | **Tom**  | Moscow    |     |
+| EECS    | Tom      | Mary     | Colfax    |     |
+
+- *SELECT* *WHERE R.Name = S.Name*
+
+###### 3. Result  `(Emp) JOIN (Contact)`
 
 `Emp` $\bowtie$ `Contact`
+
 | Dept    | Name | Addr    |
 | ------- | ---- | ------- |
 | Physics | Jack | Pullman |
@@ -155,17 +162,17 @@ $$R\bowtie S = \underbrace{\Pi}_L(R\underbrace{\bowtie}_{(R.A_1=S.A_1)\textbf{..
 #### Grouping / Aggregation
 - Duplicate-Elimination $\delta$ (page 41)
 - Sorting $\tau$ (page 42)
-	- sorts the projection lexically on the list of attributes
+	- sorts the projection lexicographically on the list of attributes
 	- for example, given a list $L = \{A_1, A_2, \dots A_2\}$, sort on $A_1$ first, then $A_2$, and so on. 
 - **Grouping & Aggregation** $\boldsymbol{\gamma}$
-	- *Aggregation:* applies to an attribute; calculates value for entire column
+	- ***Aggregation/Reduction:*** applies to an attribute; calculates value for entire column
 		- COUNT
 		- SUM
 		- MAX
 		- MIN
 		- AVG
-	- *Grouping:* allows tuples in a relation *to be considered as groups, and aggregate only within such groups* (page 44)
-	- *Grouping & Aggregation* $\gamma$ together as a function (page 45)
+	- ***Grouping:*** allows tuples in a relation *to be considered as groups, and aggregate only within such groups* (page 44)
+	- ***Grouping & Aggregation*** $\gamma$ together as a function (page 45)
 		- $\gamma_{L, \theta(A)}(R)$
 			- `do group` R according to attribute list $L$
 			- Within each group, `do aggregate` (one of the five aggregation functions) $\theta(A)$

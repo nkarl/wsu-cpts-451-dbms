@@ -11,15 +11,26 @@
             "id": "4f1d05cf9ab7bfe7",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "week-10/Week-10and11-CptS451_9_DesignTheory.pdf"
+              }
+            }
+          },
+          {
+            "id": "53b4eee712d1b8a8",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "week-6/Nested and JOIN Queries.md",
+                "file": "week-10/Design Theory - Schema Refining & Normal Forms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week-6/Nested and JOIN Queries.md",
+                "file": "week-10/Design Theory - Schema Refining & Normal Forms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week-6/Nested and JOIN Queries.md",
+                "file": "week-10/Design Theory - Schema Refining & Normal Forms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week-6/Nested and JOIN Queries.md"
+                "file": "week-10/Design Theory - Schema Refining & Normal Forms.md"
               }
             }
           }
@@ -159,8 +170,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4f1d05cf9ab7bfe7",
+  "active": "53b4eee712d1b8a8",
   "lastOpenFiles": [
+    "week-10/Week-10and11-CptS451_9_DesignTheory.pdf",
+    "week-10/Design Theory - Schema Refining & Normal Forms.md",
+    "week-6/Nested and JOIN Queries.md",
     "week-5/SQL Fundamentals.md",
     "week-12/HW/Homework5 - NormalForms.pdf",
     "week-12/HW/HW5.md",
@@ -173,13 +187,10 @@
     "week-14/HW6.md",
     "Course Schedule.md",
     "TO-DO.md",
-    "week-10/Design Theory - Schema Refining & Normal Forms.md",
-    "week-10/Week-10and11-CptS451_9_DesignTheory.pdf",
     "week-5/SQL Most Common Queries.md",
     "week-4/Relational Algebra.md",
     "week-4/Relational Algebra Extended.md",
     "week-4/week-4-CptS451_5_RelationalAlgebra.pdf",
-    "week-6/Nested and JOIN Queries.md",
     "week-8/Week-8-CptS451_7_SQL_ConstraintsandTriggers.pdf",
     "week-8/HW",
     "week-12/Storage & Indexing.md",

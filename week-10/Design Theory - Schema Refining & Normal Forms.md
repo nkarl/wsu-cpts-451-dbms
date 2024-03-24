@@ -53,16 +53,16 @@ There are few **problems caused by redundancies**:
 
 - https://www.wikiwand.com/en/Database_normalization
 
-| Normal Form | Description                                                                   |     |
-| ----------- | ----------------------------------------------------------------------------- | --- |
-| 1NF         | - Eliminate *repeating groups* in individual tables.                          |     |
-|             | - Create *separate table for each set* of related data.                       |     |
-|             | - Identify each set of related data *with a primary key*.                     |     |
-| 2NF         | - Create separate *tables for sets of values that apply to multiple records*. |     |
-|             | - Relate these tables *with a foreign key*.                                   |     |
-| 3NF         | - Eliminate *fields that do not depend* on the key.                           |     |
-| BCNF        | - Is a *slightly stronger* version of 3NF                                     |     |
-|             |                                                                               |     |
+| Normal Form | Description                                                                   |
+| ----------- | ----------------------------------------------------------------------------- |
+| 1NF         | - Eliminate *repeating groups* in individual tables.                          |
+|             | - Create *separate table for each set* of related data.                       |
+|             | - Identify each set of related data *with a primary key*.                     |
+| 2NF         | - Create separate *tables for sets of values that apply to multiple records*. |
+|             | - Relate these tables *with a foreign key*.                                   |
+| 3NF         | - Eliminate *fields that do not depend* on the key.                           |
+| BCNF        | - Is a *slightly stronger* version of 3NF                                     |
+|             |                                                                               |
 
 | Constraint                                                                                                                                                                                                                                                                                  | 1NF | 2NF | 3NF | BCNF |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- | ---- |

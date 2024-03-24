@@ -80,6 +80,17 @@ Database normalization is the process of structuring a relational database in ac
 1. **reduce data redundancy**, and
 2. **improve data integrity**.
 
+### Keys
+
+```mermaid
+graph
+Key["<span style=font-weight:800>Key</span>"] -.- single["single-attribute"] --> prime[<span style=font-weight:800>Primary Key</span>]
+Key -.- multi["multi-attributes"] --> super[<span style=font-weight:800>Super Key</span>]
+super -.- all["all attributes"] --> trivial
+super -.- some["some attributes"] --> nontrivial[<span style=font-weight:700>non-trivial</span>]
+nontrivial -.- exhaustive["irreducible/<br>contains no smaller keys"] --> candidate[<span style=font-weight:800>Candidate Key</span>]
+```
+
 ### 1NF
 
 1. atomic data points
@@ -92,15 +103,15 @@ Database normalization is the process of structuring a relational database in ac
 2. any non-prime attribute $A_i$ must depend fully on the Candidate Key.
 	- case 1: has a ***single***-attribute UID, ie a **Primary Key**.
 		- every non-prime attribute $A_i$ must depend on the primary key.
-	- case 2: has a ***multi***-attribute UID, ie a **Candidate Key**.
-		- every non-prime attribute $A_i$ *that are not part of the Candidate Key* must depend fully on the UID.
+	- case 2: has a ***multi***-attribute UID, ie a **superkey**.
+		- every non-prime attribute $A_i$ *that are not part of the superkey* must depend fully on the UID.
 		- In other words, each non-prime (regular) attribute must depend on <strong><u>all</u></strong> attributes in the UID.
 	- In other words, no partial dependency is allowed.
 
 ### 3NF
 
 1. is 2NF.
-2. non-key attributes must not *transitively* depend on the primary key. 
+2. non-key attributes must not be *transitively* dependent on the **primary key**. 
 
 #### Transitive Dependency
 
@@ -136,12 +147,12 @@ For this course, BCNF is **the focus**.
 
 #### Triviality vs Non-Triviality
 
-A superkey is trivial when it covers all attributes.
+A superkey is trivial when it covers all attributes (ie the set of all attributes).
 
 It follows that any non-trivial superkeys are keys that cover a subset of the trivial superkey.
 
 #### Candidate Key
 
-A Candidate Key is a minimal superkey, ie a superkey that does not contain a smaller key. A superkey is any set of attributes that uniquely identifies each tuple of relation, ie a UID.
+A Candidate Key is a **minimal superkey**, ie a superkey that does not contain a smaller key. A superkey is any set of attributes that uniquely identifies each tuple of relation, ie a UID.
 
 ### 4NF

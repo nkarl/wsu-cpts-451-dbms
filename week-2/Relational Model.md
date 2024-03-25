@@ -17,8 +17,8 @@
 - **Table**: ***relation***
 	- **Table header**: ***relation schema***
 	- **Column header**: ***attribute***
-		- has a *domain*
-		- is *atomic*
+		- has a *domain* (data type)
+		- is *atomic* (not multi-valued)
 	- **Row**: ***tuple/entity***
 
 Example: relation: Employee

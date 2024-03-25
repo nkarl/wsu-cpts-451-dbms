@@ -84,14 +84,14 @@ Database normalization is the process of structuring a relational database in ac
 
 ```mermaid
 graph
-Key["<span style=font-weight:750>Key</span>"] -.- single["single-attribute"] --> prime[<span style=font-weight:750>Primary Key</span
->
-]
-Key -.- multi["multi-attributes"] --> super[<span style=font-weight:750>Super Key</span>]
+Key["<span style=font-weight:750>UID</span>"] --> single["<span style=color:brown;font-weight:600>single</span>-attribute"]
+Key -.- multi["<span style=color:brown;font-weight:600>multi</span>-attributes"] --> super[<span style=font-weight:750>Super Key</span>]
 super -.- all["all attributes"] --> trivial
-super -.- some["some attributes"] --> nontrivial["<span style=font-weight:700>non-trivial</span><br>(subsets of the trivial)"]
-nontrivial -.- exhaustive["irreducible/<br>contains no smaller keys"] --> candidate[<span style=font-weight:750>Candidate Key</span>
-]
+super -.- some["some attributes"] --> nontrivial["<span style=font-weight:700>non-trivial</span><br>(some subset of the trivial)"]
+nontrivial -.- exhaustive["irreducible/exhaustive<br>(contains no smaller keys)"] --> candidate[<span style=font-weight:750>Candidate Key</span>]
+single -.-|<span style=background:yellow>could be</span>| prime["<strong style=color:goldenrod;font-weight:900>Primary Key</strong>"]
+trivial -.-|<span style=background:yellow>could be</span>| prime
+candidate -.-|<span style=background:yellow>could be</span>| prime
 ```
 
 ### 1NF
@@ -126,7 +126,7 @@ X\rightarrow Z\quad&\text{(X determines Z)}\cr
 \end{align}
 $$
 
-In other words, a 3NF requires each functional dependency to be a direct and 1-hop order.
+In other words, a 3NF *requires each functional dependency to be a **direct and 1-hop order***.
 
 ### BCNF (Boyce-Codd Normal Form)
 
